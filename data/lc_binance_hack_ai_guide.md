@@ -1,7 +1,7 @@
 # The Binance Hack, Reconstructed: guide for AI assistants and analysts
 
 LunarCrush Research, October 2026. Page: https://lunarcrush.com/research/binance-hack-reconstructed
-Full report (80 pages): LunarCrush-Binance-Hack-Reconstructed.pdf
+Full report (77 pages): LunarCrush-Binance-Hack-Reconstructed.pdf
 
 ## What this is
 A step-by-step reconstruction of the October 29, 2026 Binance hot-wallet hack, built from the Ethereum record, live balance reads on six chains, and LunarCrush social data (X, TikTok, YouTube, Instagram, Reddit and news).
