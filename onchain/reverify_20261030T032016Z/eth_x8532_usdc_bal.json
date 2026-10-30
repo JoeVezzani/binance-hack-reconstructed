@@ -1,0 +1,23 @@
+{
+ "name": "eth_x8532_usdc_bal",
+ "utc": "2026-10-30T03:20:18Z",
+ "url": "https://ethereum-rpc.publicnode.com",
+ "request": {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "eth_call",
+  "params": [
+   {
+    "to": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "data": "0x70a082310000000000000000000000008532fa14acaf483729c449b8458aeddb900543d4"
+   },
+   "latest"
+  ]
+ },
+ "status": "ok",
+ "response": {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "name": "eth_b171_dest0_0x897C80d1_balance",
+ "utc": "2026-10-30T03:24:13Z",
+ "url": "https://ethereum-rpc.publicnode.com",
+ "request": {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "eth_getBalance",
+  "params": [
+   "0x897C80d1a9729E94460e2Bd93178bD5215158DF3",
+   "latest"
+  ]
+ },
+ "status": "ok",
+ "response": {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": "0x109ae637f23c34a0c9f2"
+ }
+}

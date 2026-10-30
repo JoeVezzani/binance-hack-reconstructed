@@ -1,0 +1,26 @@
+{
+ "delegation_7702": {
+  "hash": "0xad99264d5532ae0dd04b2004eebda05f25657e70dacb764f7ac8d4ccd051298b",
+  "found": false
+ },
+ "sweep_binance14": {
+  "hash": "0x53bd38b816c23e74134786c29a8c18d792777998a3b9326047b583100e88e2f3",
+  "found": false
+ },
+ "binance16_outflow": {
+  "hash": "0x51f263fa50966df6bbd7f8c6e6e99e3791c94444f7c4343b2fef1ee2d62fd39f",
+  "found": false
+ },
+ "usdc_780m": {
+  "hash": "0xdc102dd89dded5a83f1008906883ffb7c81ff3b7d7965d8c7277d170b5e17481",
+  "found": false
+ },
+ "eth_move_195k": {
+  "hash": "0x551d7961652e6d9835b11988908adf86ebe480badb4ce2d7d52193b2b1b02c76",
+  "found": false
+ },
+ "revocation": {
+  "hash": "0xafbf94c92a8d749988411669fa14d4f8866d9b4420b4ebd299f28e958dac7209",
+  "found": false
+ }
+}

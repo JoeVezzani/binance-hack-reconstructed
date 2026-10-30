@@ -1,0 +1,177 @@
+{
+ "key": "flow",
+ "headline": "About $2.66B is frozen or recovered; about $2.83B sits unfrozen in traced addresses",
+ "dek": "LunarCrush followed the funds across Ethereum, Bitcoin, Tron, XRP Ledger, Solana and Arbitrum and re-read every balance live between 03:20 and 03:27 UTC on Oct 30. Prices are CoinGecko spot at 03:22 UTC; stablecoins at face value.",
+ "key_numbers": [
+  {
+   "value": "$2.66B",
+   "label": "$2.63B frozen at the token contracts and $30.2M recovered on Arbitrum"
+  },
+  {
+   "value": "$2.83B",
+   "label": "unfrozen in traced addresses, including $16.3M of Aave collateral net of debt; BTC, XRP and SOL legs attributed to Binance by Whale Alert"
+  },
+  {
+   "value": "20:05 UTC",
+   "label": "first transfer to a new wallet, XRP Ledger, 16 min before the Ethereum delegation"
+  }
+ ],
+ "narrative": [
+  "The first wallet to empty was not on Ethereum. At 20:05:00 UTC the XRP Ledger account Whale Alert labels as Binance sent 185,017,485 XRP to a new account, rK21t6nG; by 20:09:20 four more accounts sent it 14.7M, 13.1M, 12.0M and 8.7M XRP. Each of the five senders now holds between 10 and 13 XRP. At 20:10:18 a Solana wallet sent 965,455 SOL to a new address.",
+  "At 20:20:06 one Bitcoin block (973,732) carried fifteen transactions moving 18,270.2 BTC from one address to one new address, which split it in the same block; four of them, 16,690 BTC, are the ones Whale Alert posted as leaving Binance. The Ethereum delegation followed at 20:20:59, 612.7M USDT reached a new Tron address at 20:22:45, and the Ethereum sweep landed at 20:24:23. The XRP, Solana, Tron and Bitcoin legs carry Whale Alert's 'Binance' label; Binance has confirmed none of them.",
+  "Ethereum holds the largest frozen balance. The main receiver, 0x5227…2f8c, still holds 1,175,464,713 USDT, 823,000,000 USDC, 27,824,040 USD1 and 12,574 XAUt; each token contract's blacklist check returns true for it and false for a control address. A hop from 0x9749…c762 through 0x811f…e84c parked 174,999,872 USDT at 0xAa24…54a0, also blacklisted.",
+  "A third address, 0x8d53…639a, supplied 60M USDT to Aave v3 and borrowed 19,763 WETH three minutes before Tether froze it (per Marc Zeller; its aUSDT and debt balances confirm the position). Aave's USDT reserve is frozen, which blocks new supply and borrowing but not withdrawals, so the 60.0M aUSDT remains withdrawable within the position's health-factor limits against 19,762.7 WETH of debt. The ledger counts only the net, about $16.3M, as unfrozen; the borrowed WETH is inside the traced ETH.",
+  "On Arbitrum, 0x3E2b…32d5 received 8,426 ETH and 74.56M ARB from the main receiver's address at 21:35 to 21:38. At 00:18:20 both left in L1-originated transactions, about $30.2M, which @zachxbt reported as the Arbitrum Security Council's recovery. Binance's own 'verified frozen' figures were $2.54B at 23:22 and around $3B at 00:52.",
+  "What escaped on Ethereum became ETH. In the hour after the sweep, 0x9749 sent about 323.6M USDT to four unverified contracts, and 122,310 ETH later left it for 0xc887…286a, which holds 137,602 ETH and has never sent a transaction. The other 15,292 ETH there came from 0x7f9d…15e3, which still holds 29,934 wBETH.",
+  "Address 0x77ed…c3eb swapped about 50M USDT on Uniswap v3 and v4 and sent 41,398 ETH to 0x7Aa4…bfd1, which forwarded 57,892 ETH to 0xCcBE…a263 at 21:11:59. It moved to 0xb171…c8c3 at 21:16:47 and to 0x897C…8df3 at 21:35:59, where it has stayed; Whale Alert's 21:41 post of '57,891 ETH from Binance Hack 2026' matches that hop. 0x897C also received 20,523 ETH from 0x42CD…7810, funded from the 0x811f…e84c hop, and holds 78,415 ETH with no outgoing transaction.",
+  "The 195,460 ETH that left the main receiver at 20:39 sits at 0x8532…43d4, which holds 197,460 ETH (2,000 arrived separately) and has never sent a transaction. The main receiver holds 16,501 ETH and was still converting long-tail tokens into ETH at 03:17 UTC. About 430,000 ETH and 29,934 wBETH sit downstream of the sweep, none of it freezable.",
+  "Bitcoin is the largest unfrozen position, and none of it has moved since 20:48. All 18,270.2 BTC came from the one sending address; the new address split it in the same block, with one more split at 20:48:14. The tree ends in 19 addresses: seventeen holding exactly 1,000 BTC, one 832.5 and one 437.7. None has spent an output. No exchange-labeled address appears in it; the 650 and 656 BTC Whale Alert showed reaching Coinbase Institutional at 22:28 and 22:59 came from outside it.",
+  "The XRP account rK21t6nG holds 233,461,943 XRP and has sent no transaction. @heyibinance thanked Ripple for freezing 'approximately 200 million', but the account carries no freeze flag and native XRP has no issuer freeze, so it counts as unfrozen. The Solana address AffzFDKZ holds 970,545 SOL, 965,455 of it from the 20:10 transfer; its 82 later transactions are small inbound deposits and token-account creations.",
+  "On Tron, TG5iBMQP received 612,729,468 USDT at 20:22:45 and sent 300M to TPBkSjkC at 20:45:51 and 20:56:09; the remaining 312,729,468 USDT is blacklisted in place. TPBkSjkC sent the 300M on in eighteen transfers between 20:46 and 21:16: 199M to contract TSUUVjys, 33M to a contract named PoolManager (TVjuTE3V), 2M to contract TFGDbUyP, 10,000 to TXJgMdjV and 65,990,000 to TCzBTkqn, which still holds it, blacklisted. TPBkSjkC is blacklisted and empty. Of 612.7M on Tron, 378.7M is frozen and about 234M reached contracts first.",
+  "Frozen, verified at each token contract: about $2.63B (USDT 1.73B across four addresses on two chains, USDC 823M, USD1 27.8M, XAUt $50M). Recovered: $30.2M on Arbitrum. About $2.66B in all. Unfrozen in traced addresses: about $2.83B, made up of BTC $1.41B at $77,253, ETH $950M at $2,210, XRP $287M, SOL $93M, wBETH $73M at $2,447 and Aave collateral net of debt, $16.3M. Gross traced, about $5.49B, sits inside the range of gross estimates posted that night, from $5.3B (Coinglass, via Investing.com) to about $5.9B (@KobeissiLetter's 22:59 running total).",
+  "About $2.58B of stablecoins is blacklisted where it sits. At least $608M of USDT reached swap contracts before an issuer reached it (323.6M from 0x9749, about 50M from 0x77ed, about 234M on Tron), and 19,763 WETH was borrowed against Aave collateral. The BTC, ETH, XRP and SOL, about $2.74B, can move without an issuer's permission; none of it had moved on from where it landed."
+ ],
+ "table": {
+  "title": "Every position we read live, 03:20 to 03:27 UTC Oct 30 (CoinGecko spot at 03:22 UTC)",
+  "columns": [
+   "Chain / address",
+   "Asset and amount",
+   "USD",
+   "Status"
+  ],
+  "rows": [
+   [
+    "Bitcoin, 19 fresh addresses",
+    "18,270.2 BTC (17 × 1,000 + 832.5 + 437.7)",
+    "$1,411M",
+    "Held, unfrozen, no output spent; Whale Alert attribution"
+   ],
+   [
+    "Ethereum 0x5227…2f8c",
+    "1,175.5M USDT + 823M USDC",
+    "$1,998M",
+    "Frozen (blacklists read from contracts)"
+   ],
+   [
+    "Ethereum 0x8532…43d4",
+    "197,460 ETH",
+    "$436M",
+    "Never sent a transaction"
+   ],
+   [
+    "Tron TG5iBMQP",
+    "312.7M USDT",
+    "$313M",
+    "Frozen (blacklisted); Whale Alert attribution"
+   ],
+   [
+    "Ethereum 0xc887…286a",
+    "137,602 ETH",
+    "$304M",
+    "Never sent a transaction"
+   ],
+   [
+    "XRP Ledger rK21t6nG",
+    "233.5M XRP",
+    "$287M",
+    "No outgoing transaction; Whale Alert attribution"
+   ],
+   [
+    "Ethereum 0xAa24…54a0",
+    "175.0M USDT",
+    "$175M",
+    "Frozen (blacklisted)"
+   ],
+   [
+    "Ethereum 0x897C…8df3",
+    "78,415 ETH (57,892 via 0xCcBE…a263)",
+    "$173M",
+    "Never sent a transaction"
+   ],
+   [
+    "Solana AffzFDKZ",
+    "970,545 SOL (965,455 received)",
+    "$93M",
+    "No outgoing SOL; Whale Alert attribution"
+   ],
+   [
+    "Ethereum 0x7f9d…15e3",
+    "29,934 wBETH",
+    "$73M",
+    "Unfrozen; also forwarded 15,292 ETH"
+   ],
+   [
+    "Tron TCzBTkqn",
+    "66.0M USDT",
+    "$66M",
+    "Frozen (blacklisted); Whale Alert attribution"
+   ],
+   [
+    "Ethereum 0x5227…2f8c",
+    "12,574 XAUt + 27.8M USD1",
+    "$78M",
+    "Frozen (isBlocked / frozen read from contracts)"
+   ],
+   [
+    "Ethereum 0x5227…2f8c",
+    "16,501 ETH",
+    "$36M",
+    "Unfrozen, still swapping tokens to ETH"
+   ],
+   [
+    "Arbitrum 0x3E2b…32d5",
+    "8,426 ETH + 74.56M ARB moved out 00:18",
+    "$30M",
+    "Recovered per @zachxbt (Arbitrum Security Council)"
+   ],
+   [
+    "Ethereum 0x8d53…639a (Aave)",
+    "60.0M aUSDT vs 19,763 WETH debt",
+    "$60M gross, $16.3M net",
+    "Unfrozen; reserve freeze blocks new supply and borrowing, not withdrawals"
+   ]
+  ]
+ },
+ "callouts": [
+  {
+   "title": "Blacklists hold $2.58B in place",
+   "body": "USDT, USDC and USD1 worth about $2.58B at face value sit at addresses their token contracts report frozen, on Ethereum and Tron. At least $608M of USDT reached swap contracts first, about 234M of it on Tron within forty minutes."
+  },
+  {
+   "title": "The spendable half is parked",
+   "body": "BTC, ETH, XRP and SOL hold about $2.74B no issuer can freeze. At the read, no Bitcoin parcel had spent an output, the three largest ETH holders had never sent a transaction, and the XRP account had sent nothing."
+  }
+ ],
+ "receipts": [
+  {
+   "who": "@whale_alert",
+   "utc": "20:06",
+   "interactions": "59K",
+   "quote": "185,017,485 $XRP (235,816,974 USD) transferred from #Binance to unknown new wallet"
+  },
+  {
+   "who": "@whale_alert",
+   "utc": "21:41",
+   "interactions": "55K",
+   "quote": "57,891 $ETH (132,615,686 USD) transferred from Binance Hack 2026 to unknown new wallet"
+  },
+  {
+   "who": "@WazzCrypto",
+   "utc": "21:09",
+   "interactions": "92K",
+   "quote": "Freezable but not frozen: about $880M. Ethereum 175M USDT ... Approved a swap. Most urgent. ... Tron 75M USDT ... Swapping on SunSwap."
+  },
+  {
+   "who": "@EmberCN",
+   "utc": "00:02",
+   "interactions": "19K",
+   "quote": "The largest stolen asset is 18,270 BTC ($1.44B), which the hacker has not yet moved. The other alts are being sold into ETH; the hacker already holds 467K ETH. [translated from Chinese]"
+  }
+ ],
+ "watch": [
+  "The seventeen 1,000-BTC addresses, 0x8532's 197,460 ETH and 0x897C's 78,415 ETH: any outbound transaction.",
+  "Tether destroying the blacklisted USDT and reissuing it to Binance, its usual path, would turn about $1.73B from frozen to recovered.",
+  "Binance's account of the XRP, Solana and Tron legs: a confirmed unauthorized 20:05 XRP move extends the compromise beyond Ethereum."
+ ],
+ "caveat": ""
+}

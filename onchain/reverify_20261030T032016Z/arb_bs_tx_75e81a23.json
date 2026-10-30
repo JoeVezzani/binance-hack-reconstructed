@@ -1,0 +1,210 @@
+{
+ "name": "arb_bs_tx_75e81a23",
+ "utc": "2026-10-30T03:24:19Z",
+ "url": "https://arbitrum.blockscout.com/api/v2/transactions/0x75e81a231a86e26a61e22dd2e6521504873a71a7ac1b2143c06e52796ceeedb6",
+ "request": null,
+ "status": "ok",
+ "response": {
+  "priority_fee": null,
+  "raw_input": "0xa9059cbb0000000000000000000000000000000000000000000000000000000000000da00000000000000000000000000000000000000000003daca7238ebd9fc1e80000",
+  "is_pending_update": false,
+  "result": "success",
+  "hash": "0x75e81a231a86e26a61e22dd2e6521504873a71a7ac1b2143c06e52796ceeedb6",
+  "max_fee_per_gas": null,
+  "revert_reason": null,
+  "confirmation_duration": [
+   0,
+   253.0
+  ],
+  "transaction_burnt_fee": null,
+  "type": 101,
+  "token_transfers_overflow": false,
+  "confirmations": 44636,
+  "position": 1,
+  "max_priority_fee_per_gas": null,
+  "transaction_tag": null,
+  "created_contract": null,
+  "value": "0",
+  "from": {
+   "ens_domain_name": null,
+   "hash": "0x3E2bf1ac6bf0934BBba6456C341c2EcbCED632d5",
+   "implementations": [
+    {
+     "address_hash": "0x63c0c19a282a1B52b07dD5a65b58948A07DAE32B",
+     "name": "EIP7702StatelessDeleGator"
+    }
+   ],
+   "is_contract": true,
+   "is_scam": false,
+   "is_verified": true,
+   "metadata": null,
+   "name": null,
+   "private_tags": [],
+   "proxy_type": "eip7702",
+   "public_tags": [],
+   "reputation": "ok",
+   "watchlist_names": []
+  },
+  "gas_used": "58893",
+  "status": "ok",
+  "to": {
+   "ens_domain_name": null,
+   "hash": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+   "implementations": [
+    {
+     "address_hash": "0xd47D14a315394ddf063174f2286Ab4Eb7C507fa0",
+     "name": "L2ArbitrumToken"
+    }
+   ],
+   "is_contract": true,
+   "is_scam": false,
+   "is_verified": true,
+   "metadata": {
+    "tags": [
+     {
+      "meta": {
+       "projectName": "Arbitrum",
+       "tagUrl": "https://scout-app.kleros.io/single-tags/0x1dfc22057a9113ae2106385964a33202a9ef5e4c8215f771301b8d61d543a3ba",
+       "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmaaztTXu26RUV1LpF9y6G57967q8wvdy1ffzA545GDc46/arb.png\",\"token_symbol\":\"ARB\",\"token_name\":\"Arbitrum\",\"decimals\":18}",
+       "tooltipDescription": "Arbitrum's official ARB Token contract on Arbitrum One",
+       "tooltipUrl": "https://arbitrum.foundation/"
+      },
+      "name": "ARB Token",
+      "ordinal": 10,
+      "slug": "arb-token-42161",
+      "tagType": "name"
+     }
+    ]
+   },
+   "name": "TransparentUpgradeableProxy",
+   "private_tags": [],
+   "proxy_type": "eip1967",
+   "public_tags": [],
+   "reputation": "ok",
+   "watchlist_names": []
+  },
+  "authorization_list": [],
+  "method": "transfer",
+  "fee": {
+   "type": "actual",
+   "value": "1177860000000"
+  },
+  "arbitrum": {
+   "batch_data_container": "in_blob4844",
+   "batch_number": 1365954,
+   "commitment_transaction": {
+    "hash": "0x7fe970008a48c20fe8a10fdb70e7ca3beb1de6ada99d99be75ed906925563a86",
+    "status": "finalized",
+    "timestamp": "2026-10-30T00:22:35.000000Z"
+   },
+   "confirmation_transaction": {
+    "hash": null,
+    "status": null,
+    "timestamp": null
+   },
+   "contains_message": null,
+   "gas_used_for_l1": "0",
+   "gas_used_for_l2": "58893",
+   "message_related_info": {},
+   "network_fee": "1177860000000",
+   "poster_fee": "0",
+   "status": "Sent to base"
+  },
+  "gas_limit": "1000000",
+  "gas_price": "20000000",
+  "decoded_input": {
+   "method_call": "transfer(address to, uint256 amount)",
+   "method_id": "a9059cbb",
+   "parameters": [
+    {
+     "name": "to",
+     "type": "address",
+     "value": "0x0000000000000000000000000000000000000DA0"
+    },
+    {
+     "name": "amount",
+     "type": "uint256",
+     "value": "74559805200000000000000000"
+    }
+   ]
+  },
+  "fhe_operations_count": 0,
+  "token_transfers": [
+   {
+    "block_hash": "0x51da9a782d12aa2c15ea95159daddea84cc311c6f21e8e8746b9223cbdbeeab6",
+    "block_number": 519514683,
+    "from": {
+     "ens_domain_name": null,
+     "hash": "0x3E2bf1ac6bf0934BBba6456C341c2EcbCED632d5",
+     "implementations": [
+      {
+       "address_hash": "0x63c0c19a282a1B52b07dD5a65b58948A07DAE32B",
+       "name": "EIP7702StatelessDeleGator"
+      }
+     ],
+     "is_contract": true,
+     "is_scam": false,
+     "is_verified": true,
+     "metadata": null,
+     "name": null,
+     "private_tags": [],
+     "proxy_type": "eip7702",
+     "public_tags": [],
+     "reputation": "ok",
+     "watchlist_names": []
+    },
+    "log_index": 0,
+    "method": null,
+    "timestamp": null,
+    "to": {
+     "ens_domain_name": null,
+     "hash": "0x0000000000000000000000000000000000000DA0",
+     "implementations": [],
+     "is_contract": false,
+     "is_scam": false,
+     "is_verified": false,
+     "metadata": null,
+     "name": null,
+     "private_tags": [],
+     "proxy_type": null,
+     "public_tags": [],
+     "reputation": "ok",
+     "watchlist_names": []
+    },
+    "token": {
+     "address_hash": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+     "circulating_market_cap": "1050868466.3957264",
+     "circulating_supply": null,
+     "decimals": "18",
+     "exchange_rate": "0.152434",
+     "holders_count": "2400909",
+     "icon_url": "https://assets.coingecko.com/coins/images/16547/small/arb.jpg?1721358242",
+     "name": "Arbitrum",
+     "reputation": "ok",
+     "symbol": "ARB",
+     "total_supply": "9999998977610261816650915825",
+     "type": "ERC-20",
+     "volume_24h": "212814567.94598463"
+    },
+    "token_type": "ERC-20",
+    "total": {
+     "decimals": "18",
+     "value": "74559805200000000000000000"
+    },
+    "transaction_hash": "0x75e81a231a86e26a61e22dd2e6521504873a71a7ac1b2143c06e52796ceeedb6",
+    "type": "token_transfer"
+   }
+  ],
+  "base_fee_per_gas": "20000000",
+  "timestamp": "2026-10-30T00:18:20.000000Z",
+  "nonce": 2,
+  "historic_exchange_rate": null,
+  "transaction_types": [
+   "contract_call",
+   "token_transfer"
+  ],
+  "exchange_rate": "2210.82",
+  "block_number": 519514683,
+  "has_error_in_internal_transactions": null
+ }
+}

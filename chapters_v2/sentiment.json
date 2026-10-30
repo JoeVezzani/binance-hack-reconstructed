@@ -1,0 +1,140 @@
+{
+ "key": "sentiment",
+ "headline": "Binance sentiment fell to 53 at 21:00, from a prior-week average of 80",
+ "dek": "Sentiment fell hard for Binance, Tether and Bybit and barely moved for BNB or Bitcoin. In the sampled posts the crowd split close to evenly; official reassurance kept the score above 50.",
+ "key_numbers": [
+  {
+   "value": "53",
+   "label": "Binance sentiment low, 21:00 UTC"
+  },
+  {
+   "value": "79",
+   "label": "BNB sentiment, unchanged through event"
+  },
+  {
+   "value": "50%",
+   "label": "positive share, sampled crowd excluding officials"
+  }
+ ],
+ "narrative": [
+  "Opinion on Binance dropped fast but did not collapse. Sentiment is the engagement-weighted share of non-neutral engagement that was positive, 0 to 100. Binance averaged 80 across the 162 baseline hours and never fell below 76 in the prior week. It read 67 at 20:00, 53 at 21:00 (the week's lowest hourly reading), then 58, 61 and 57. Oct 29 UTC scored 63 for the day, against post-event lows of 48 for Bybit in Feb 2025, 32 for Binance in Nov 2022 and 29 for FTX.",
+  "The tilt was broad and shallow. In the 686 sampled posts, 275 scored below neutral on the 1 to 5 post scale and carried 17.2M engagements, 31 percent of sampled engagement; only 78 scored below 2.8, with 3.9M. The most negative high-reach posts restated tracker estimates: @Kalshi_Crypto's 21:43 \"over $5.6B stolen\" (138K) scored 2.14. \"Largest hack\" carried a sentiment of 13 on X across 403 posts; \"user funds are safe\" carried 89 across 1,636 posts and 7.3M engagements.",
+  "Official posts supplied much of the positive weight. In the sample, official accounts (Binance, @cz_binance, @heyibinance, Tether's CEO) drew 10.4M positive-scored engagements and no negative ones; CZ's 21:15 post (3.2M) scored 3.27. Elon Musk's two sampled posts added 3.0M positive, including \"Everyday is Zeroday\". Without them the crowd split almost exactly even: 17.4M positive, 17.2M negative, a 50 percent share. Small accounts leaned negative, 3.4M against 1.6M.",
+  "Distrust was targeted. Tether fell from a prior-week 83 to 59 at 22:00 and USDC from 85 to 71 by 00:00. Bybit fell from 75 to 47 at 22:00 as \"bybit hack\" posts rose from 19 to 163.",
+  "The crowd separated the exchange from its token and from other exchanges. BNB stayed between 78 and 81 every event hour; Bitcoin moved from 69 to a low of 66 and the crypto category from 74 to 71. Kraken rose from 81 to about 91 and OKX from 77 to 80.",
+  "By network, Reddit was most negative at 51 over 24 hours, against 67 on X and TikTok, 70 on YouTube and 76 on Instagram; news scored 61 on 12 posts. Sampled Reddit posts averaged 2.86 on the 1 to 5 scale against 2.99 on X. For three full hours after the low, Binance sentiment held between 57 and 61."
+ ],
+ "table": {
+  "title": "Sentiment before and during the event, by topic",
+  "columns": [
+   "Topic",
+   "Prior-week avg",
+   "Event-hours avg (20:00 to 00:00)",
+   "Event low (UTC hour)"
+  ],
+  "rows": [
+   [
+    "Binance",
+    "80",
+    "59",
+    "53 (21:00)"
+   ],
+   [
+    "Tether (USDT)",
+    "83",
+    "65",
+    "59 (22:00)"
+   ],
+   [
+    "USDC",
+    "85",
+    "77",
+    "71 (00:00)"
+   ],
+   [
+    "Bybit",
+    "75",
+    "54",
+    "47 (22:00)"
+   ],
+   [
+    "Ethereum",
+    "75",
+    "71",
+    "68 (21:00)"
+   ],
+   [
+    "Bitcoin",
+    "69",
+    "68",
+    "66 (21:00)"
+   ],
+   [
+    "BNB",
+    "79",
+    "79",
+    "78 (00:00)"
+   ],
+   [
+    "Crypto (all)",
+    "74",
+    "72",
+    "71 (00:00)"
+   ],
+   [
+    "Kraken",
+    "81",
+    "91",
+    "90 (22:00)"
+   ]
+  ]
+ },
+ "callouts": [
+  {
+   "title": "Reassurance is carrying the score",
+   "body": "Official accounts supplied 10.4M positive-scored engagements in the sampled posts and no negative ones; without them and Elon Musk's two posts, the sampled crowd split about evenly. Binance's 53 to 61 band rests partly on its own messaging."
+  },
+  {
+   "title": "BNB's own score did not move",
+   "body": "BNB's sentiment stayed between 78 and 81 in event hours, against a prior-week 79, while the Binance topic fell to 53. BNB's price fell about 6 percent from 20:15 to 20:50, per CoinMarketCap via CryptoTicker."
+  }
+ ],
+ "receipts": [
+  {
+   "who": "@cz_binance",
+   "utc": "21:15",
+   "interactions": "3.2M",
+   "quote": "It does look like a hack on Binance. Appreciate the quick freeze from Tether (~$971m) and Circle (~$823m)."
+  },
+  {
+   "who": "@KillaXBT",
+   "utc": "20:49",
+   "interactions": "238K",
+   "quote": "It's just fud. @Binance are good."
+  },
+  {
+   "who": "@Kalshi_Crypto",
+   "utc": "21:43",
+   "interactions": "138K",
+   "quote": "BREAKING: Binance hacked with over $5.6B stolen"
+  },
+  {
+   "who": "@inno_sol",
+   "utc": "21:10",
+   "interactions": "177K",
+   "quote": "im confused ... is Binance SAFE or HACKED??"
+  },
+  {
+   "who": "@nikitabier",
+   "utc": "22:00",
+   "interactions": "732K",
+   "quote": "The largest crypto exchange in the world just experienced the largest robbery in human history..."
+  }
+ ],
+ "watch": [
+  "Binance hourly sentiment against the 53 low: a new low after withdrawals reopen means the crowd is turning on Binance.",
+  "Tether's score, 65 at 00:00 from 83: whether freezes keep reading as rescue or start reading as control risk.",
+  "Negative replies and quotes on official posts would weaken the support under the score."
+ ],
+ "caveat": ""
+}

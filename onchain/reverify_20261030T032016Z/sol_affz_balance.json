@@ -1,0 +1,25 @@
+{
+ "name": "sol_affz_balance",
+ "utc": "2026-10-30T03:22:00Z",
+ "url": "https://api.mainnet-beta.solana.com",
+ "request": {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "getBalance",
+  "params": [
+   "AffzFDKZbyMiU11zmVBoAqD25ugpr7xoWWyRyGigBEaU"
+  ]
+ },
+ "status": "ok",
+ "response": {
+  "jsonrpc": "2.0",
+  "result": {
+   "context": {
+    "apiVersion": "4.3.2",
+    "slot": 463131598
+   },
+   "value": 970545252998811
+  },
+  "id": 1
+ }
+}

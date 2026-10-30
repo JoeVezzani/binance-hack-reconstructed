@@ -1,0 +1,1235 @@
+{
+ "test_funder": {
+  "hash": "0xFD41dA53D1175b29D40599A0e63545067F58f408",
+  "internal": [
+   [
+    "2026-10-29T01:15:35",
+    "TornadoCash_Eth_01",
+    0.0979387044329
+   ]
+  ],
+  "txs": [
+   [
+    "2026-10-29T13:57:11",
+    "0xFD41dA53",
+    "0x837810E3",
+    0.001
+   ],
+   [
+    "2026-10-29T13:57:59",
+    "0xFD41dA53",
+    "0x9C29BA2D",
+    0.002
+   ],
+   [
+    "2026-10-29T13:59:35",
+    "0xFD41dA53",
+    "0x881D4023",
+    0.005
+   ],
+   [
+    "2026-10-29T14:02:47",
+    "0xFD41dA53",
+    "0x881D4023",
+    0.001
+   ],
+   [
+    "2026-10-29T14:04:23",
+    "0xFD41dA53",
+    "0xdAC17F95",
+    0.0
+   ],
+   [
+    "2026-10-29T14:05:35",
+    "0xFD41dA53",
+    "0xA0b86991",
+    0.0
+   ],
+   [
+    "2026-10-29T14:06:11",
+    "0xFD41dA53",
+    "0xdAC17F95",
+    0.0
+   ],
+   [
+    "2026-10-29T14:06:35",
+    "0xFD41dA53",
+    "0xA0b86991",
+    0.0
+   ],
+   [
+    "2026-10-29T16:13:59",
+    "0xFD41dA53",
+    "0xdAC17F95",
+    0.0
+   ]
+  ]
+ },
+ "receiver": {
+  "hash": "0x5227f603C1eE34CE3C06eFe6477003BDfCCB2f8c",
+  "name": null,
+  "balance_eth": 10708.310150200638,
+  "txs": [
+   {
+    "t": "",
+    "from": "0x5227f603",
+    "to": "0x68b34658",
+    "to_name": "SwapRouter02",
+    "method": "multicall",
+    "val": 0.0,
+    "status": null
+   },
+   {
+    "t": "",
+    "from": "0xec61339a",
+    "to": "0x5227f603",
+    "to_name": null,
+    "method": null,
+    "val": 0.0,
+    "status": null
+   },
+   {
+    "t": "2026-10-30T01:52:11",
+    "from": "0x5227f603",
+    "to": "0x68b34658",
+    "to_name": "SwapRouter02",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:52:23",
+    "from": "0x5227f603",
+    "to": "0x68b34658",
+    "to_name": "SwapRouter02",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:52:35",
+    "from": "0x5227f603",
+    "to": "0x1b81D678",
+    "to_name": "SwapRouter",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:52:35",
+    "from": "0x5227f603",
+    "to": "0x8207c1Ff",
+    "to_name": "Origin Token",
+    "method": "approve",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:52:47",
+    "from": "0x5227f603",
+    "to": "0x68b34658",
+    "to_name": "SwapRouter02",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:52:59",
+    "from": "0x5227f603",
+    "to": "0x7a250d56",
+    "to_name": "UniswapV2Router02",
+    "method": "swapExactTokensForETHSupportingFeeOnTransferTokens",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:53:11",
+    "from": "0x5227f603",
+    "to": "0x68b34658",
+    "to_name": "SwapRouter02",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:53:23",
+    "from": "0x5227f603",
+    "to": "0x68b34658",
+    "to_name": "SwapRouter02",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:53:23",
+    "from": "0x5227f603",
+    "to": "0x1b81D678",
+    "to_name": "SwapRouter",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:53:47",
+    "from": "0x5227f603",
+    "to": "0x68b34658",
+    "to_name": "SwapRouter02",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:53:59",
+    "from": "0x5227f603",
+    "to": "0xB8c77482",
+    "to_name": "BNB",
+    "method": "approve",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:54:11",
+    "from": "0x5227f603",
+    "to": "0x7a250d56",
+    "to_name": "UniswapV2Router02",
+    "method": "swapExactTokensForETHSupportingFeeOnTransferTokens",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:54:23",
+    "from": "0x5227f603",
+    "to": "0x68b34658",
+    "to_name": "SwapRouter02",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:54:35",
+    "from": "0x5227f603",
+    "to": "0x68b34658",
+    "to_name": "SwapRouter02",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:54:35",
+    "from": "0x5227f603",
+    "to": "0x68b34658",
+    "to_name": "SwapRouter02",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:55:23",
+    "from": "0x5227f603",
+    "to": "0x68b34658",
+    "to_name": "SwapRouter02",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:55:59",
+    "from": "0x5227f603",
+    "to": "0x1b81D678",
+    "to_name": "SwapRouter",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:55:59",
+    "from": "0x5227f603",
+    "to": "0x68b34658",
+    "to_name": "SwapRouter02",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:56:35",
+    "from": "0x5227f603",
+    "to": "0x68b34658",
+    "to_name": "SwapRouter02",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:57:11",
+    "from": "0x5227f603",
+    "to": "0x68b34658",
+    "to_name": "SwapRouter02",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:57:47",
+    "from": "0x5227f603",
+    "to": "0x1b81D678",
+    "to_name": "SwapRouter",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:58:11",
+    "from": "0x5227f603",
+    "to": "0x68b34658",
+    "to_name": "SwapRouter02",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:58:11",
+    "from": "0x5227f603",
+    "to": "0xBB0E17EF",
+    "to_name": "AXSToken",
+    "method": "approve",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:58:23",
+    "from": "0x5227f603",
+    "to": "0x7a250d56",
+    "to_name": "UniswapV2Router02",
+    "method": "swapExactTokensForETHSupportingFeeOnTransferTokens",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:58:35",
+    "from": "0x5227f603",
+    "to": "0xd9e1cE17",
+    "to_name": "UniswapV2Router02",
+    "method": "swapExactTokensForETHSupportingFeeOnTransferTokens",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:58:35",
+    "from": "0x5227f603",
+    "to": "0x1b81D678",
+    "to_name": "SwapRouter",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:58:47",
+    "from": "0x5227f603",
+    "to": "0x7a250d56",
+    "to_name": "UniswapV2Router02",
+    "method": "swapExactTokensForETHSupportingFeeOnTransferTokens",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:59:11",
+    "from": "0x5227f603",
+    "to": "0xd9e1cE17",
+    "to_name": "UniswapV2Router02",
+    "method": "swapExactTokensForETHSupportingFeeOnTransferTokens",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:59:11",
+    "from": "0x5227f603",
+    "to": "0x1b81D678",
+    "to_name": "SwapRouter",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:59:23",
+    "from": "0x5227f603",
+    "to": "0x68b34658",
+    "to_name": "SwapRouter02",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:59:47",
+    "from": "0x5227f603",
+    "to": "0xd9e1cE17",
+    "to_name": "UniswapV2Router02",
+    "method": "swapExactTokensForETHSupportingFeeOnTransferTokens",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T01:59:59",
+    "from": "0x5227f603",
+    "to": "0x1b81D678",
+    "to_name": "SwapRouter",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T02:00:11",
+    "from": "0x5227f603",
+    "to": "0x7a250d56",
+    "to_name": "UniswapV2Router02",
+    "method": "swapExactTokensForETHSupportingFeeOnTransferTokens",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T02:00:23",
+    "from": "0x5227f603",
+    "to": "0x1b81D678",
+    "to_name": "SwapRouter",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T02:00:23",
+    "from": "0x5227f603",
+    "to": "0xd9e1cE17",
+    "to_name": "UniswapV2Router02",
+    "method": "swapExactTokensForETHSupportingFeeOnTransferTokens",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T02:00:35",
+    "from": "0x5227f603",
+    "to": "0x68b34658",
+    "to_name": "SwapRouter02",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T02:00:47",
+    "from": "0x5227f603",
+    "to": "0x7a250d56",
+    "to_name": "UniswapV2Router02",
+    "method": "swapExactTokensForETHSupportingFeeOnTransferTokens",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T02:00:59",
+    "from": "0x5227f603",
+    "to": "0xd9e1cE17",
+    "to_name": "UniswapV2Router02",
+    "method": "swapExactTokensForETHSupportingFeeOnTransferTokens",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T02:01:11",
+    "from": "0x5227f603",
+    "to": "0xcccCCCcC",
+    "to_name": "CFG",
+    "method": "approve",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T02:01:23",
+    "from": "0x5227f603",
+    "to": "0x68b34658",
+    "to_name": "SwapRouter02",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T02:01:23",
+    "from": "0x5227f603",
+    "to": "0x1b81D678",
+    "to_name": "SwapRouter",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T02:01:35",
+    "from": "0x5227f603",
+    "to": "0xBB0E17EF",
+    "to_name": "AXSToken",
+    "method": "approve",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T02:01:35",
+    "from": "0x5227f603",
+    "to": "0x68b34658",
+    "to_name": "SwapRouter02",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T02:01:47",
+    "from": "0x5227f603",
+    "to": "0x7a250d56",
+    "to_name": "UniswapV2Router02",
+    "method": "swapExactTokensForETHSupportingFeeOnTransferTokens",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T02:01:59",
+    "from": "0x5227f603",
+    "to": "0x68b34658",
+    "to_name": "SwapRouter02",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T02:01:59",
+    "from": "0x5227f603",
+    "to": "0x68b34658",
+    "to_name": "SwapRouter02",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T02:02:11",
+    "from": "0x5227f603",
+    "to": "0x68b34658",
+    "to_name": "SwapRouter02",
+    "method": "multicall",
+    "val": 0.0,
+    "status": "ok"
+   },
+   {
+    "t": "2026-10-30T02:02:23",
+    "from": "0x5227f603",
+    "to": "0x7a250d56",
+    "to_name": "UniswapV2Router02",
+    "method": "swapExactTokensForETHSupportingFeeOnTransferTokens",
+    "val": 0.0,
+    "status": "ok"
+   }
+  ],
+  "token_out": [
+   {
+    "t": "2026-10-30T01:50:23",
+    "sym": "RED",
+    "amt": 11955.69,
+    "to": "0xcAa55Dd2",
+    "to_name": "PancakeV3Pool"
+   },
+   {
+    "t": "2026-10-30T01:50:23",
+    "sym": "WETH",
+    "amt": 212.51,
+    "to": "0x00000000",
+    "to_name": null
+   },
+   {
+    "t": "2026-10-30T01:50:35",
+    "sym": "1INCH",
+    "amt": 368994.34,
+    "to": "0xE931b032",
+    "to_name": "UniswapV3Pool"
+   },
+   {
+    "t": "2026-10-30T01:51:11",
+    "sym": "RED",
+    "amt": 11955.69,
+    "to": "0xcAa55Dd2",
+    "to_name": "PancakeV3Pool"
+   },
+   {
+    "t": "2026-10-30T01:51:23",
+    "sym": "1INCH",
+    "amt": 452281.16,
+    "to": "0xE931b032",
+    "to_name": "UniswapV3Pool"
+   },
+   {
+    "t": "2026-10-30T01:51:59",
+    "sym": "1INCH",
+    "amt": 551570.98,
+    "to": "0xE931b032",
+    "to_name": "UniswapV3Pool"
+   },
+   {
+    "t": "2026-10-30T01:52:11",
+    "sym": "QNT",
+    "amt": 655.56,
+    "to": "0x24EE2c6B",
+    "to_name": "UniswapV3Pool"
+   },
+   {
+    "t": "2026-10-30T01:52:11",
+    "sym": "RED",
+    "amt": 11955.69,
+    "to": "0xcAa55Dd2",
+    "to_name": "PancakeV3Pool"
+   },
+   {
+    "t": "2026-10-30T01:52:23",
+    "sym": "1INCH",
+    "amt": 1169583.96,
+    "to": "0xE931b032",
+    "to_name": "UniswapV3Pool"
+   },
+   {
+    "t": "2026-10-30T01:52:35",
+    "sym": "RED",
+    "amt": 11955.69,
+    "to": "0xcAa55Dd2",
+    "to_name": "PancakeV3Pool"
+   },
+   {
+    "t": "2026-10-30T01:52:47",
+    "sym": "QNT",
+    "amt": 170.92,
+    "to": "0x24EE2c6B",
+    "to_name": "UniswapV3Pool"
+   },
+   {
+    "t": "2026-10-30T01:52:59",
+    "sym": "OGN",
+    "amt": 59506.8,
+    "to": "0xce2Cc051",
+    "to_name": "JamUniswapV2Pair"
+   },
+   {
+    "t": "2026-10-30T01:53:11",
+    "sym": "1INCH",
+    "amt": 1337427.32,
+    "to": "0xE931b032",
+    "to_name": "UniswapV3Pool"
+   },
+   {
+    "t": "2026-10-30T01:53:23",
+    "sym": "QNT",
+    "amt": 583.25,
+    "to": "0x24EE2c6B",
+    "to_name": "UniswapV3Pool"
+   },
+   {
+    "t": "2026-10-30T01:53:23",
+    "sym": "RED",
+    "amt": 11955.69,
+    "to": "0xcAa55Dd2",
+    "to_name": "PancakeV3Pool"
+   },
+   {
+    "t": "2026-10-30T01:53:47",
+    "sym": "1INCH",
+    "amt": 3753465.38,
+    "to": "0xE931b032",
+    "to_name": "UniswapV3Pool"
+   },
+   {
+    "t": "2026-10-30T01:54:11",
+    "sym": "OGN",
+    "amt": 59506.8,
+    "to": "0xce2Cc051",
+    "to_name": "JamUniswapV2Pair"
+   },
+   {
+    "t": "2026-10-30T01:54:23",
+    "sym": "1INCH",
+    "amt": 4222648.55,
+    "to": "0xE931b032",
+    "to_name": "UniswapV3Pool"
+   },
+   {
+    "t": "2026-10-30T01:54:35",
+    "sym": "QNT",
+    "amt": 443.68,
+    "to": "0x24EE2c6B",
+    "to_name": "UniswapV3Pool"
+   },
+   {
+    "t": "2026-10-30T01:54:35",
+    "sym": "BNB",
+    "amt": 193.69,
+    "to": "0x9E7809C2",
+    "to_name": "UniswapV3Pool"
+   },
+   {
+    "t": "2026-10-30T01:55:23",
+    "sym": "1INCH",
+    "amt": 7037747.58,
+    "to": "0xE931b032",
+    "to_name": "UniswapV3Pool"
+   },
+   {
+    "t": "2026-10-30T01:55:59",
+    "sym": "RED",
+    "amt": 11836.13,
+    "to": "0xcAa55Dd2",
+    "to_name": "PancakeV3Pool"
+   },
+   {
+    "t": "2026-10-30T01:55:59",
+    "sym": "QNT",
+    "amt": 2819.38,
+    "to": "0xe310D7ac",
+    "to_name": "UniswapV3Pool"
+   },
+   {
+    "t": "2026-10-30T01:56:35",
+    "sym": "BNB",
+    "amt": 23.97,
+    "to": "0x9E7809C2",
+    "to_name": "UniswapV3Pool"
+   },
+   {
+    "t": "2026-10-30T01:57:11",
+    "sym": "QNT",
+    "amt": 2819.38,
+    "to": "0xe310D7ac",
+    "to_name": "UniswapV3Pool"
+   },
+   {
+    "t": "2026-10-30T01:57:47",
+    "sym": "RED",
+    "amt": 9223.48,
+    "to": "0xcAa55Dd2",
+    "to_name": "PancakeV3Pool"
+   },
+   {
+    "t": "2026-10-30T01:58:11",
+    "sym": "BNB",
+    "amt": 128.95,
+    "to": "0x9E7809C2",
+    "to_name": "UniswapV3Pool"
+   },
+   {
+    "t": "2026-10-30T01:58:23",
+    "sym": "OGN",
+    "amt": 46322.47,
+    "to": "0xce2Cc051",
+    "to_name": "JamUniswapV2Pair"
+   },
+   {
+    "t": "2026-10-30T01:58:35",
+    "sym": "AXS",
+    "amt": 1063.85,
+    "to": "0x0C365789",
+    "to_name": "UniswapV2Pair"
+   },
+   {
+    "t": "2026-10-30T01:58:35",
+    "sym": "RED",
+    "amt": 11468.09,
+    "to": "0xcAa55Dd2",
+    "to_name": "PancakeV3Pool"
+   },
+   {
+    "t": "2026-10-30T01:58:47",
+    "sym": "OGN",
+    "amt": 50625.68,
+    "to": "0xce2Cc051",
+    "to_name": "JamUniswapV2Pair"
+   },
+   {
+    "t": "2026-10-30T01:59:11",
+    "sym": "AXS",
+    "amt": 1328.9,
+    "to": "0x0C365789",
+    "to_name": "UniswapV2Pair"
+   },
+   {
+    "t": "2026-10-30T01:59:11",
+    "sym": "RED",
+    "amt": 14263.59,
+    "to": "0xcAa55Dd2",
+    "to_name": "PancakeV3Pool"
+   },
+   {
+    "t": "2026-10-30T01:59:23",
+    "sym": "BNB",
+    "amt": 104.23,
+    "to": "0x9E7809C2",
+    "to_name": "UniswapV3Pool"
+   },
+   {
+    "t": "2026-10-30T01:59:47",
+    "sym": "AXS",
+    "amt": 1689.88,
+    "to": "0x0C365789",
+    "to_name": "UniswapV2Pair"
+   },
+   {
+    "t": "2026-10-30T01:59:59",
+    "sym": "RED",
+    "amt": 8857.71,
+    "to": "0xcAa55Dd2",
+    "to_name": "PancakeV3Pool"
+   },
+   {
+    "t": "2026-10-30T02:00:11",
+    "sym": "OGN",
+    "amt": 40465.99,
+    "to": "0xce2Cc051",
+    "to_name": "JamUniswapV2Pair"
+   },
+   {
+    "t": "2026-10-30T02:00:23",
+    "sym": "RED",
+    "amt": 11047.53,
+    "to": "0xcAa55Dd2",
+    "to_name": "PancakeV3Pool"
+   },
+   {
+    "t": "2026-10-30T02:00:23",
+    "sym": "AXS",
+    "amt": 1743.86,
+    "to": "0x0C365789",
+    "to_name": "UniswapV2Pair"
+   },
+   {
+    "t": "2026-10-30T02:00:35",
+    "sym": "BNB",
+    "amt": 104.23,
+    "to": "0x9E7809C2",
+    "to_name": "UniswapV3Pool"
+   },
+   {
+    "t": "2026-10-30T02:00:47",
+    "sym": "OGN",
+    "amt": 50547.97,
+    "to": "0xce2Cc051",
+    "to_name": "JamUniswapV2Pair"
+   },
+   {
+    "t": "2026-10-30T02:00:59",
+    "sym": "AXS",
+    "amt": 1774.64,
+    "to": "0x0C365789",
+    "to_name": "UniswapV2Pair"
+   },
+   {
+    "t": "2026-10-30T02:01:23",
+    "sym": "BNB",
+    "amt": 112.72,
+    "to": "0x9E7809C2",
+    "to_name": "UniswapV3Pool"
+   },
+   {
+    "t": "2026-10-30T02:01:23",
+    "sym": "RED",
+    "amt": 5611.67,
+    "to": "0xcAa55Dd2",
+    "to_name": "PancakeV3Pool"
+   },
+   {
+    "t": "2026-10-30T02:01:35",
+    "sym": "CFG",
+    "amt": 17506.45,
+    "to": "0x08A10A8B",
+    "to_name": "UniswapV3Pool"
+   },
+   {
+    "t": "2026-10-30T02:01:47",
+    "sym": "OGN",
+    "amt": 40403.88,
+    "to": "0xce2Cc051",
+    "to_name": "JamUniswapV2Pair"
+   },
+   {
+    "t": "2026-10-30T02:01:59",
+    "sym": "BNB",
+    "amt": 88.09,
+    "to": "0x9E7809C2",
+    "to_name": "UniswapV3Pool"
+   },
+   {
+    "t": "2026-10-30T02:01:59",
+    "sym": "AXS",
+    "amt": 2197.09,
+    "to": "0x3019D4e3",
+    "to_name": "UniswapV3Pool"
+   },
+   {
+    "t": "2026-10-30T02:02:11",
+    "sym": "CFG",
+    "amt": 15110.46,
+    "to": "0x08A10A8B",
+    "to_name": "UniswapV3Pool"
+   },
+   {
+    "t": "2026-10-30T02:02:23",
+    "sym": "OGN",
+    "amt": 50470.38,
+    "to": "0xce2Cc051",
+    "to_name": "JamUniswapV2Pair"
+   }
+  ]
+ },
+ "later_sweeps": [
+  {
+   "t": "2026-10-29T20:41:23",
+   "hash": "0xdc102dd89dded5a83f1008906883ffb7c81ff3b7d7965d8c7277d170b5e17481",
+   "method": "callExecute",
+   "n_transfers": 1,
+   "overflow": false,
+   "fee_eth": 0.0004,
+   "transfers": [
+    [
+     "USDC",
+     780000000.0,
+     "0x5227f603"
+    ]
+   ]
+  },
+  {
+   "t": "2026-10-29T20:59:47",
+   "hash": "0x3b9625b33788daeba68420459ae15bf05c5b3639ccfb8e92067e84b560479ca7",
+   "method": "callExecute",
+   "n_transfers": 1,
+   "overflow": false,
+   "fee_eth": 0.0069,
+   "transfers": [
+    [
+     "USDC",
+     43000000.0,
+     "0x5227f603"
+    ]
+   ]
+  },
+  {
+   "t": "2026-10-29T21:04:23",
+   "hash": "0x31c4c9fe287d54fb9d3b79980477a8c793a11f774b98d0a9a92de1dad888a91d",
+   "method": "sweep",
+   "n_transfers": 10,
+   "overflow": true,
+   "fee_eth": 0.0565,
+   "transfers": [
+    [
+     "USDT",
+     3917639.77,
+     "0x5227f603"
+    ],
+    [
+     "XAUT",
+     2.27,
+     "0x5227f603"
+    ],
+    [
+     "UNI",
+     1991.05,
+     "0x5227f603"
+    ],
+    [
+     "USD1",
+     63238.12,
+     "0x5227f603"
+    ],
+    [
+     "ENA",
+     129263.23,
+     "0x5227f603"
+    ],
+    [
+     "PEPE",
+     13704179722.45,
+     "0x5227f603"
+    ],
+    [
+     "LINK",
+     487.09,
+     "0x5227f603"
+    ],
+    [
+     "AAVE",
+     99.39,
+     "0x5227f603"
+    ],
+    [
+     "PAXG",
+     8.19,
+     "0x5227f603"
+    ],
+    [
+     "ZAMA",
+     316635.09,
+     "0x5227f603"
+    ]
+   ]
+  },
+  {
+   "t": "2026-10-29T21:44:11",
+   "hash": "0x55ba4dabc41b468e580751373ad31acdee6f5ba398682df2c93e5a8340870556",
+   "method": "sweep",
+   "n_transfers": 10,
+   "overflow": true,
+   "fee_eth": 0.0328,
+   "transfers": [
+    [
+     "USDT",
+     200397771.82,
+     "0x5227f603"
+    ],
+    [
+     "UNI",
+     7008.43,
+     "0x5227f603"
+    ],
+    [
+     "ENA",
+     179196.63,
+     "0x5227f603"
+    ],
+    [
+     "PEPE",
+     430379447.06,
+     "0x5227f603"
+    ],
+    [
+     "LINK",
+     6590.78,
+     "0x5227f603"
+    ],
+    [
+     "AAVE",
+     81.56,
+     "0x5227f603"
+    ],
+    [
+     "ONDO",
+     6987.0,
+     "0x5227f603"
+    ],
+    [
+     "MORPHO",
+     171.71,
+     "0x5227f603"
+    ],
+    [
+     "PENDLE",
+     1600.78,
+     "0x5227f603"
+    ],
+    [
+     "QNT",
+     80.06,
+     "0x5227f603"
+    ]
+   ]
+  },
+  {
+   "t": "2026-10-29T22:39:35",
+   "hash": "0x4a4aed833556814c16fe176fc8abc70ce124eadc73da3bcdf42a67ef44f9ad6b",
+   "method": "sweep",
+   "n_transfers": 10,
+   "overflow": true,
+   "fee_eth": 0.0966,
+   "transfers": [
+    [
+     "POL",
+     11583666.83,
+     "0xA97bF783"
+    ],
+    [
+     "GRT",
+     49573130.67,
+     "0xA97bF783"
+    ],
+    [
+     "SKY",
+     15035753.16,
+     "0xA97bF783"
+    ],
+    [
+     "SENT",
+     43226345.98,
+     "0xA97bF783"
+    ],
+    [
+     "ENSO",
+     1435185.98,
+     "0xA97bF783"
+    ],
+    [
+     "XUSD",
+     819820.54,
+     "0xA97bF783"
+    ],
+    [
+     "STRK",
+     19533842.25,
+     "0xA97bF783"
+    ],
+    [
+     "FF",
+     8668785.75,
+     "0xA97bF783"
+    ],
+    [
+     "CAKE",
+     412039.69,
+     "0xA97bF783"
+    ],
+    [
+     "SYN",
+     4549096.93,
+     "0xA97bF783"
+    ]
+   ]
+  },
+  {
+   "t": "2026-10-29T23:36:47",
+   "hash": "0x5059928573a6e4ed48dda491648cf619c2368e81fc6cce3f9e97a779ad521f1f",
+   "method": "sweep",
+   "n_transfers": 0,
+   "overflow": false,
+   "fee_eth": 0.0003,
+   "transfers": []
+  },
+  {
+   "t": "2026-10-29T23:37:23",
+   "hash": "0xe016ae73ea9226464435b2b6203bbbb8e10d3c2d68f4facee2d708a47606af23",
+   "method": "sweep",
+   "n_transfers": 0,
+   "overflow": false,
+   "fee_eth": 0.0002,
+   "transfers": []
+  },
+  {
+   "t": "2026-10-29T23:37:47",
+   "hash": "0x833202076503f1c27852294262343011815038c07708d362f5bb0d8104bc7bda",
+   "method": "sweep",
+   "n_transfers": 0,
+   "overflow": false,
+   "fee_eth": 0.0002,
+   "transfers": []
+  },
+  {
+   "t": "2026-10-29T23:38:23",
+   "hash": "0x698dac6c9133842177ceba0e8ba7faa6b39bc99cbc12910d33e690aae1f139f3",
+   "method": "sweep",
+   "n_transfers": 0,
+   "overflow": false,
+   "fee_eth": 0.0002,
+   "transfers": []
+  },
+  {
+   "t": "2026-10-29T23:54:59",
+   "hash": "0xac08e5693512be1090898f1c42e86fc9f32c6f3a326c8ade5b93af26b831da19",
+   "method": "sweep",
+   "n_transfers": 0,
+   "overflow": false,
+   "fee_eth": 0.0001,
+   "transfers": []
+  },
+  {
+   "t": "2026-10-29T23:56:47",
+   "hash": "0x4395d51dc3f3c51230329efc3548f74edbced353ff3f795c517cc57fa650f89b",
+   "method": "sweep",
+   "n_transfers": 0,
+   "overflow": false,
+   "fee_eth": 0.0001,
+   "transfers": []
+  }
+ ],
+ "usdc_780m": {
+  "method": "callExecute",
+  "transfers": [
+   [
+    "0xEe7aE85f2Fe2239E27D9c1E23fFFe168D63b4055",
+    "ERC1967Proxy",
+    "0x5227f603C1eE34CE3C06eFe6477003BDfCCB2f8c",
+    "USDC",
+    780000000.0
+   ]
+  ]
+ },
+ "b14_inbound_during_hijack": {
+  "n": 533,
+  "pages": 11,
+  "by_symbol": {
+   "PEPE": 179803762938.15854,
+   "ENS": 1819.21,
+   "FET": 513403.3533815,
+   "PAXG": 20.95839774970631,
+   "WBTC": 0.15770103,
+   "COMP": 974.2851728357366,
+   "ZAMA": 362274.9842984569,
+   "HOT": 3720468.8696510736,
+   "AXL": 8467.05408,
+   "USDT": 205667021.10008094,
+   "DODO": 1999979.0,
+   "FF": 6872.224949,
+   "ENA": 1289366.2808474898,
+   "AXS": 2625.32456355856,
+   "SYRUP": 36385.32529671239,
+   "EIGEN": 231959.3758,
+   "KERNEL": 8162.5951,
+   "EDEN": 131213.17787397,
+   "CELR": 159177.444464,
+   "RED": 6312.0,
+   "TLM": 8459392.1739,
+   "CFG": 47509.12106204485,
+   "MORPHO": 342.23853699999995,
+   "PENDLE": 1600.78043199,
+   "SHELL": 44517.263736,
+   "WLFI": 420239.85836368246,
+   "CVC": 123960.41,
+   "EURI": 19206.0,
+   "IMX": 14363.13,
+   "UNI": 12490.060377977807,
+   "LINK": 7077.868416644874,
+   "QNT": 590.15216907,
+   "AEVO": 16442.47,
+   "BAT": 25140.039219015045,
+   "NEXO": 30285.2251642498,
+   "STRK": 289769.0,
+   "SHIB": 859055682.0464791,
+   "NEIRO": 97123276.302,
+   "AAVE": 180.95315,
+   "NIL": 150851.633,
+   "ONDO": 6987.0,
+   "XAUT": 2.272292,
+   "SPK": 259306.83821883408,
+   "USUAL": 10823.0,
+   "BICO": 1468846.0803440697,
+   "API3": 17078.24099,
+   "DAI": 466.62457363856896,
+   "USD1": 63238.12,
+   "ID": 30345.85,
+   "PROM": 67.261952,
+   "F": 128018.947506,
+   "DUSK": 28215.387852370786,
+   "RE": 1029.054054,
+   "RAD": 26716.99086176926,
+   "POL": 339092.52560056,
+   "SPELL": 14903329.16648855,
+   "LPT": 1518.00602441,
+   "RSR": 285857.3498721923,
+   "SYN": 36706.29,
+   "SAND": 2415.0,
+   "AGLD": 33678.38404898,
+   "METIS": 961.761,
+   "CTSI": 203213.91453928,
+   "GALA": 892669.0,
+   "OGN": 449334.30055286,
+   "TREE": 224795.96660474,
+   "AUDIO": 871789.9256,
+   "FLOKI": 56868308.5015384,
+   "T": 1839915.0,
+   "BLUR": 1409310.0,
+   "SXT": 556661.20553493,
+   "PORTAL": 135387.89,
+   "AUCTION": 59.569961542431784,
+   "EUL": 8697.88020186
+  }
+ }
+}

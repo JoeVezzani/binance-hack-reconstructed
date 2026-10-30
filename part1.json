@@ -1,0 +1,336 @@
+{
+ "cover": {
+  "kicker": "RECONSTRUCTION  ·  OCTOBER 28 TO 30, 2026",
+  "title": "The Binance Hack",
+  "subtitle": "Reconstructed, step by step",
+  "sub": "From the first Tornado Cash withdrawal to the revocation 40 hours later, rebuilt from the Ethereum record and 53,181 posts across X, TikTok, YouTube, Instagram, Reddit and news.",
+  "stats": [
+   [
+    "6h 29m",
+    "from the first rehearsal to the delegation"
+   ],
+   [
+    "1 of 50",
+    "signed authorizations took effect"
+   ],
+   [
+    "3h 49m",
+    "attacker code live on Binance 14"
+   ],
+   [
+    "8 min",
+    "from the sweep to the first public post"
+   ]
+  ]
+ },
+ "exec": {
+  "title": "A rehearsed attack, a four-hour open door, and a crowd that rebuilt it before Binance spoke",
+  "lead": "On the evening of October 29, a wallet funded only through Tornado Cash attached its own code to Binance 14, one of the exchange's main Ethereum hot wallets, and swept it in a single transaction. Every step had been rehearsed on mainnet that afternoon. The attacker's code then stayed on the wallet for 3 hours 49 minutes. Stablecoin issuers froze what they could inside the first hour. Binance said at 00:13 UTC that it would cover all losses, and at 00:52 that about $3 billion was frozen.",
+  "numbers": [
+   {
+    "value": "18h",
+    "label": "from the sweeper's deployment to the drain"
+   },
+   {
+    "value": "1 of 50",
+    "label": "authorizations signed by Binance 14's key took effect"
+   },
+   {
+    "value": "~$3B",
+    "label": "verified frozen, per Binance at 00:52 UTC"
+   }
+  ],
+  "findings": [
+   {
+    "title": "It was rehearsed in public",
+    "body": "The operator deployed its first sweeper at 02:28 UTC, then rehearsed twice on its own wallets: at 13:51, and at 16:20 the full sequence with the production contract. Delegate, sweep, leave 1 ETH, withdraw. All on mainnet, with the rehearsals starting 6 hours 29 minutes before the delegation."
+   },
+   {
+    "title": "Fifty authorizations, one signing key",
+    "body": "At 20:20:59 a single transaction delivered 50 EIP-7702 authorizations, every one signed by Binance 14's own key. The one matching the wallet's live nonce applied. Three minutes later one sweep moved 167,464 ETH and 63 tokens for $0.93 in gas."
+   },
+   {
+    "title": "The door stayed open for 3h 49m",
+    "body": "The attacker's code ran on Binance 14 until 00:10:35. In that window it pulled 823M USDC from a second wallet that trusted Binance 14, re-swept 200.4M USDT, and the wallet kept receiving transfers: 533 of them."
+   },
+   {
+    "title": "Issuers moved before the exchange",
+    "body": "Tether's $971M freeze was on the feed at 21:05. Binance's first word came at 21:15, from CZ and the company in the same minute. Tether, Circle and World Liberty froze in sequence; Binance also thanked Ripple, though no freeze shows on the traced XRP account; it put the verified total at $2.54B at 23:22 and about $3B at 00:52."
+   },
+   {
+    "title": "Social rebuilt every step",
+    "body": "The sweep was described publicly 8 minutes after it landed, and the contract and the fifty authorizations within the hour. The rehearsals were found at 21:31. The setup itself, visible on-chain for 18 hours, drew no post until the money was gone."
+   }
+  ]
+ },
+ "overview": {
+  "title": "The whole hack on one page",
+  "lead": "Six lanes, one clock. The left panel covers October 28 06:00 to October 29 20:00, when the setup ran; the right panel covers the five hours of the attack at about 9.5 times the scale.",
+  "acts": [
+   {
+    "n": "I",
+    "title": "The setup",
+    "when": "Oct 28 07:39 to Oct 29 18:20",
+    "line": "Mixer funding, two sweeper contracts, two rehearsals, the second a full run."
+   },
+   {
+    "n": "II",
+    "title": "The drain",
+    "when": "20:05 to 21:00",
+    "line": "Delegation, one sweep, 823M USDC through a trusted wallet."
+   },
+   {
+    "n": "III",
+    "title": "The open door",
+    "when": "20:21 to 00:10",
+    "line": "Re-sweeps, 533 incoming transfers, then revocation."
+   },
+   {
+    "n": "IV",
+    "title": "The response",
+    "when": "21:05 to 00:52",
+    "line": "Issuer freezes, Binance statements, withdrawals paused."
+   },
+   {
+    "n": "V",
+    "title": "The money",
+    "when": "read live 03:20 UTC Oct 30",
+    "line": "What is frozen, what is not, and where it sits."
+   },
+   {
+    "n": "VI",
+    "title": "The public record",
+    "when": "20:32 onward",
+    "line": "How posts reconstructed each step, and how fast."
+   }
+  ]
+ },
+ "acts": [
+  {
+   "key": "act1",
+   "n": "I",
+   "color": "blue",
+   "title": "The setup",
+   "headline": "Eighteen hours from the first contract to the drain, all on a public chain, with no post about any of it",
+   "dek": "Everything the attack needed was built and tested in the open on October 28 and 29: funding, two contracts and two rehearsals, the second a full run.",
+   "chart": "g_operator_v2",
+   "steps": [
+    {
+     "t": "Oct 28 07:39",
+     "title": "Funded through Tornado Cash",
+     "body": "Two 0.1 ETH withdrawals from the Tornado Cash pool reach the operator 0x7C86…5CA0, at 07:39 and 08:53; a third follows at 08:23 on Oct 29. Two sibling wallets, 0xFD41 and 0xe4F9, are funded the same way. About 1.49 ETH in total: the operation's entire budget.",
+     "seen": "@spreekaway, 20:32 Oct 29"
+    },
+    {
+     "t": "Oct 29 02:28",
+     "title": "Sweeper v1 deployed",
+     "body": "The operator deploys its first sweeper contract, 0x19be…f2bf. It has never been verified on any explorer.",
+     "seen": "@MetaFinancialAI, 21:31"
+    },
+    {
+     "t": "13:51",
+     "title": "Rehearsal one",
+     "body": "Two fresh wallets controlled by the operator are delegated to the sweeper with EIP-7702 transactions, seeded with a few dollars of USDT and USDC, and swept at 14:19 and 14:24.",
+     "seen": "@MetaFinancialAI, 21:31; @danupsher, 21:47"
+    },
+    {
+     "t": "15:59",
+     "title": "Sweeper v2 deployed",
+     "body": "The production contract, 0x63e8…6fAe. Only the operator can call it. Its sweep leaves exactly 1 ETH behind, and it has an execute passthrough and a withdraw function.",
+     "seen": "@0xQuit, 21:09; @blockaid_, 21:25"
+    },
+    {
+     "t": "16:20",
+     "title": "Rehearsal two, the full sequence",
+     "body": "A third test wallet is delegated, funded with 1.01 ETH, swept at 16:30 (0.01 ETH out, 1 ETH left) and emptied with a withdraw call at 16:47. The exact sequence used on Binance 14 three and a half hours later.",
+     "seen": "@MetaFinancialAI, 21:31"
+    },
+    {
+     "t": "18:20",
+     "title": "Funding for the real run",
+     "body": "0xe4F9 sends the operator 1.082 ETH.",
+     "seen": "no public post found"
+    }
+   ]
+  },
+  {
+   "key": "act2",
+   "n": "II",
+   "color": "red",
+   "title": "The drain",
+   "headline": "One delegation, one sweep: 167,464 ETH and 63 tokens left Binance 14 for $0.93 in gas",
+   "dek": "The attack on Ethereum took 3 minutes 24 seconds from delegation to sweep. Within 40 minutes a second wallet had released 823M USDC to the same address.",
+   "chart": "g_night_gantt",
+   "steps": [
+    {
+     "t": "20:05",
+     "title": "$331M of outflows on two other chains",
+     "body": "185,017,485 XRP ($236M) leaves Binance-labeled accounts for a new XRP Ledger account at 20:05, and 965,455 SOL ($95M) moves to a new Solana address at 20:10. Whale Alert labels the senders as Binance; Binance has not said whether these were its own transfers.",
+     "seen": "@hackenclub linked them, 20:51"
+    },
+    {
+     "t": "20:20:59",
+     "title": "The delegation",
+     "body": "One transaction from the operator to Binance 14 (0x28C6…1d60) carries 50 EIP-7702 authorizations. All 50 recover to Binance 14's own key. The one matching the wallet's live nonce, 18914809, applies; Binance 14's next transaction uses 18914810. The wallet now runs the attacker's code.",
+     "seen": "@odysseas_eth, 20:54; @0xQuit, 21:21"
+    },
+    {
+     "t": "20:24:23",
+     "title": "The sweep",
+     "body": "One call moves 167,464 ETH and 63 tokens to 0x5227…2f8c, later labeled Binance Hot Wallet Exploiter 2. The largest lines: 1.615B USDT, 62.6M RLUSD, 29,934 wBETH, 11,372 XAUt. Gas: 0.000414 ETH, about $0.93.",
+     "seen": "@spreekaway, 20:32 (+8 min)"
+    },
+    {
+     "t": "20:41:23",
+     "title": "780M USDC through a trusted wallet",
+     "body": "Using the execute passthrough, a call leaves Binance 14 to Hot Wallet 34 (0xEe7a…), a proxy that accepts Binance 14 as its owner. It releases 780M USDC to 0x5227.",
+     "seen": "@0xfoobar, 20:48; @kethcode, 22:08"
+    },
+    {
+     "t": "20:59:47",
+     "title": "43M USDC more",
+     "body": "The same route releases another 43M USDC.",
+     "seen": "no sampled post"
+    }
+   ]
+  },
+  {
+   "key": "act3",
+   "n": "III",
+   "color": "red",
+   "title": "The open door",
+   "headline": "For 3 hours 49 minutes the wallet ran the attacker's code and kept receiving funds",
+   "dek": "Each sweep left exactly 1 ETH, enough for Binance 14 to keep paying for its own transactions. It kept transacting, kept looking normal, and kept taking in transfers.",
+   "chart": "g_hijack_v2",
+   "steps": [
+    {
+     "t": "20:21 to 00:10",
+     "title": "Transfers keep arriving",
+     "body": "Blockscout records 533 incoming token transfers to Binance 14 while it is delegated, including 205.7M USDT, 180B PEPE and 859M SHIB. Its own transactions run from nonce 18914810 to 18914903: the key holder is still transacting throughout.",
+     "seen": "@uttam_singhk, 22:00"
+    },
+    {
+     "t": "21:04",
+     "title": "First re-sweep",
+     "body": "3.9M USDT plus dust.",
+     "seen": "@uttam_singhk on the mechanism, 22:00"
+    },
+    {
+     "t": "21:44",
+     "title": "Second re-sweep",
+     "body": "200.4M USDT, 6,591 LINK, 7,008 UNI and smaller lines.",
+     "seen": "@uttam_singhk, 22:00"
+    },
+    {
+     "t": "22:39",
+     "title": "The long tail",
+     "body": "A basket of smaller tokens, worth at least $7.5M on the ten largest lines the explorer lists, goes to a second receiver, 0xA97b….",
+     "seen": "no sampled post"
+    },
+    {
+     "t": "23:36",
+     "title": "Six empty sweeps",
+     "body": "Between 23:36 and 23:56 the operator calls sweep six more times. Nothing moves.",
+     "seen": "no sampled post"
+    },
+    {
+     "t": "00:10:35",
+     "title": "Revocation",
+     "body": "Binance 14 signs its own type-4 (EIP-7702) transaction pointing its delegation at the zero address, clearing the attacker's code 3 hours 49 minutes after it landed. Binance 14's own outgoing transfers between 00:47 and 01:53 fail.",
+     "seen": "ChainCatcher, 00:44"
+    }
+   ]
+  },
+  {
+   "key": "act4",
+   "n": "IV",
+   "color": "green",
+   "title": "The response",
+   "headline": "The issuers froze first; Binance's verified frozen total reached about $3 billion by 00:52",
+   "dek": "Tether's first freeze reached the feed ten minutes before any Binance account spoke. Over the next four hours, issuers froze in sequence and Binance moved from holding statements to a full pause.",
+   "chart": "g_freeze_ladder",
+   "steps": [
+    {
+     "t": "21:05",
+     "title": "Tether freezes $971M",
+     "body": "First reported by @TreeNewsFeed: 'Tether freezes $971M USDT in likely Binance hack, with no update from Binance still.'",
+     "seen": "1.99M engagements"
+    },
+    {
+     "t": "21:13",
+     "title": "Circle freezes 823M USDC",
+     "body": "Jeremy Allaire confirms more than 800M USDC frozen at 21:18, in coordination with law enforcement (per The Block).",
+     "seen": "@WatcherGuru, 21:13"
+    },
+    {
+     "t": "21:15",
+     "title": "CZ: 'It does look like a hack'",
+     "body": "'User funds are safe! It does look like a hack on Binance. Appreciate the quick freeze from Tether (~$971m) and Circle (~$823m).' The most-engaged post of the event. @binance posts three holding statements at 21:15, 21:16 and 21:24.",
+     "seen": "3.19M engagements"
+    },
+    {
+     "t": "21:25",
+     "title": "Tether raises its freeze to 1.567B USDT",
+     "body": "Paolo Ardoino: 'Tether froze more than 1.567B USDT related to a potential Binance exchange hack.'",
+     "seen": "1.03M engagements"
+    },
+    {
+     "t": "21:29",
+     "title": "'User funds are completely safe'",
+     "body": "@binance reposts its statement with one added sentence. It draws ten times the engagement of the versions without it.",
+     "seen": "904K engagements"
+    },
+    {
+     "t": "21:52",
+     "title": "Aave freezes its USDT market",
+     "body": "Aave freezes its USDT market, blocking new borrowing against it, per @WatcherGuru.",
+     "seen": "@WatcherGuru, 21:52 (222K)"
+    },
+    {
+     "t": "22:08",
+     "title": "Binance thanks Ripple; World Liberty freezes",
+     "body": "Yi He thanks Ripple for freezing 'approximately 200 million' (unit not stated; no freeze shows on the traced XRP account), and at 22:22 World Liberty Financial for $27M USD1 and 48M WLFI.",
+     "seen": "@heyibinance"
+    },
+    {
+     "t": "22:23",
+     "title": "'Will cover'",
+     "body": "CZ, replying to a net-loss estimate of about $1B: 'Loss might be a bit higher than that, but will cover.'",
+     "seen": "926K engagements"
+    },
+    {
+     "t": "22:32",
+     "title": "Some withdrawals processed",
+     "body": "Per CryptoTicker, some BTC, ETH and USDT withdrawals were being processed at 22:32; Binance's 22:33 notice said withdrawals would resume once the issue was resolved. Binance Alpha trading is suspended at 23:06.",
+     "seen": "CryptoTicker; @binance, 22:33 (351K)"
+    },
+    {
+     "t": "23:22",
+     "title": "$2.54B verified frozen",
+     "body": "Binance addresses 'differing figures circulating publicly' and puts the verified frozen total at $2.54B.",
+     "seen": "529K engagements"
+    },
+    {
+     "t": "00:13",
+     "title": "Full pause; about $3B frozen",
+     "body": "'Binance will cover all losses. As a precaution, all deposits and withdrawals are temporarily suspended.' At 00:52: 'The current verified total frozen amount is around $3 billion.'",
+     "seen": "378K and 156K engagements"
+    }
+   ]
+  },
+  {
+   "key": "act6",
+   "n": "VI",
+   "color": "violet",
+   "title": "The public record",
+   "headline": "Each step of the drain was public within about an hour; the setup waited 5 to 37 hours",
+   "dek": "Independent analysts reconstructed the attack from the chain in real time. The record they built is the spine of this report.",
+   "chart": "g_detect_lag",
+   "body": [
+    "The sweep was public in 8 minutes and the 780M USDC pull in 7. By 21:25, about an hour after the delegation, posts had the mechanism, the contract, the hardcoded operator and the fifty authorizations, and every one of those claims checks out against the chain.",
+    "The setup was a different story. The first sweeper sat on-chain for 19 hours before anyone wrote about it, and both rehearsals were found only after the money had moved. The same pattern, a mixer-funded address delegating test wallets to unverified code and sweeping them, was visible from 13:51.",
+    "What varied across posts was never the sequence. It was the total: reported outflow estimates ran from $2.53B at 20:39 to $5.57B by 21:12, and $5.7B by 21:58, depending on which chains and which freezes were counted."
+   ]
+  }
+ ]
+}

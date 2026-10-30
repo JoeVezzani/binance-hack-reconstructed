@@ -1,0 +1,25 @@
+{
+ "name": "sol_sender_balance",
+ "utc": "2026-10-30T03:22:05Z",
+ "url": "https://api.mainnet-beta.solana.com",
+ "request": {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "getBalance",
+  "params": [
+   "5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9"
+  ]
+ },
+ "status": "ok",
+ "response": {
+  "jsonrpc": "2.0",
+  "result": {
+   "context": {
+    "apiVersion": "4.3.2",
+    "slot": 463131622
+   },
+   "value": 4000206513
+  },
+  "id": 1
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "name": "xrp_sender_rDQSFBVK7Nrh2tTCmPPRjpjxdTZ2afhvFz_account_info",
+ "utc": "2026-10-30T03:21:58Z",
+ "url": "https://s1.ripple.com:51234/",
+ "request": {
+  "method": "account_info",
+  "params": [
+   {
+    "account": "rDQSFBVK7Nrh2tTCmPPRjpjxdTZ2afhvFz",
+    "ledger_index": "validated"
+   }
+  ]
+ },
+ "status": "ok",
+ "response": {
+  "result": {
+   "account_data": {
+    "Account": "rDQSFBVK7Nrh2tTCmPPRjpjxdTZ2afhvFz",
+    "Balance": "156961606",
+    "Flags": 0,
+    "LedgerEntryType": "AccountRoot",
+    "OwnerCount": 0,
+    "PreviousTxnID": "EDC65073608524EBF42FAB330C50F6601DB61B664E17A7BAA2FA8950E44BF24E",
+    "PreviousTxnLgrSeq": 107993189,
+    "Sequence": 101190037,
+    "index": "15959E55DFA23A3010E72C3677B40E6AB146F1BB00E61C4336F1879AA8B47EB2"
+   },
+   "ledger_hash": "9EF4D1545CFB3CB9DC70F66CDFBBAB68D298D09AA9058C1F457B88959D4DC8DA",
+   "ledger_index": 107993190,
+   "validated": true,
+   "account_flags": {
+    "defaultRipple": false,
+    "depositAuth": false,
+    "disableMasterKey": false,
+    "disallowIncomingXRP": false,
+    "globalFreeze": false,
+    "noFreeze": false,
+    "passwordSpent": false,
+    "requireAuthorization": false,
+    "requireDestinationTag": false,
+    "disallowIncomingNFTokenOffer": false,
+    "disallowIncomingCheck": false,
+    "disallowIncomingPayChan": false,
+    "disallowIncomingTrustline": false,
+    "allowTrustLineClawback": false,
+    "allowTrustLineLocking": false
+   },
+   "status": "success"
+  },
+  "warnings": [
+   {
+    "id": 2001,
+    "message": "This is a clio server. clio only serves validated data. If you want to talk to rippled, include 'ledger_index':'current' in your request"
+   }
+  ]
+ }
+}

@@ -1,0 +1,129 @@
+{
+ "key": "shock",
+ "headline": "Binance engagements hit 27.5x baseline by 00:00 UTC, three hours after new posts peaked",
+ "dek": "The sweep landed at 20:24 UTC. Within the hour the Binance topic ran at 17 times its normal engagement, and the audience kept growing after new posts began to fall.",
+ "key_numbers": [
+  {
+   "value": "27.5x",
+   "label": "Engagements vs baseline, 00:00 UTC hour"
+  },
+  {
+   "value": "21.6x",
+   "label": "New posts vs baseline, 21:00 peak"
+  },
+  {
+   "value": "95.1M",
+   "label": "Engagements, 20:00 to 00:59 UTC"
+  }
+ ],
+ "narrative": [
+  "Binance became a mass event inside one hour. In the 21:00 UTC hour, the first full hour after the 20:24 sweep, the topic drew 17.4M engagements (likes, reposts, comments and views-weighted engagement summed across networks), 17.2 times its baseline of 1.0M an hour, the mean of the 162 full hours before 20:00 UTC. The busiest hour of the previous week had drawn 1.7M. The 20:00 hour, with only 36 minutes of event time, already passed that at 1.73M.",
+  "Publishing peaked first. New posts hit 9,044 at 21:00, 21.6 times the baseline of 418 an hour, then fell every hour: 7,226, 5,964 and 4,893. Engagements moved the other way: 23.8M (23.6x) at 22:00, 24.3M (24.0x) at 23:00 and 27.8M (27.5x) at 00:00. Hourly engagement counts every post engaged that hour, including older ones. Posts receiving engagement rose from 22,014 to 37,092, and accounts with an engaged post from 13,449 to 22,735.",
+  "Much of that audience was new to the topic. The 21:00 hour brought 6,538 first-time posters, 22.3 times the baseline of 293, and 49 percent of active creators against about 5 percent normally. From 20:00 to 00:59 (five hourly buckets) the topic drew 95.1M engagements, 29,255 new posts and 22,330 first-time posters, an engagement total equal to 58 percent of the previous 162 hours combined. Against the same UTC hour on the prior six days, the 00:00 hour ran at 32.0x.",
+  "Authorship was front-loaded. Of the 55.4M engagements on the 686 sampled event-window posts, 43 percent went to posts published within 60 minutes of 20:24, half within 65 minutes and 81 percent within two hours; posts after the third hour took 3 percent. The steps in the minute curve are single posts: @spreekaway at +8 minutes (1.6M), @TreeNewsFeed's Tether freeze headline at +41 (2.0M), @cz_binance at +51 (3.2M) and @KobeissiLetter at +94 (2.2M).",
+  "Opinion moved less than attention. Sentiment, the engagement-weighted positive share of non-neutral engagement, fell from 80 to 67 in the 20:00 hour and 53 at 21:00, then recovered to 58, 61 and 57. Oct 29 UTC, with 3.6 event hours, closed at 87.2M engagements against 21.0M to 25.1M on each of Oct 24 to 28. At the cut, hourly engagement was still rising."
+ ],
+ "table": {
+  "title": "Binance topic by hour vs baseline (UTC)",
+  "columns": [
+   "Hour (UTC)",
+   "Engagements (x baseline)",
+   "New posts (x)",
+   "First-time posters (x)",
+   "Sentiment"
+  ],
+  "rows": [
+   [
+    "Baseline (mean/hour)",
+    "1.0M",
+    "418",
+    "293",
+    "80"
+   ],
+   [
+    "Oct 29 20:00",
+    "1.7M (1.7x)",
+    "2,128 (5.1x)",
+    "1,775 (6.0x)",
+    "67"
+   ],
+   [
+    "Oct 29 21:00",
+    "17.4M (17.2x)",
+    "9,044 (21.6x)",
+    "6,538 (22.3x)",
+    "53"
+   ],
+   [
+    "Oct 29 22:00",
+    "23.8M (23.6x)",
+    "7,226 (17.3x)",
+    "5,629 (19.2x)",
+    "58"
+   ],
+   [
+    "Oct 29 23:00",
+    "24.3M (24.0x)",
+    "5,964 (14.3x)",
+    "4,662 (15.9x)",
+    "61"
+   ],
+   [
+    "Oct 30 00:00",
+    "27.8M (27.5x)",
+    "4,893 (11.7x)",
+    "3,726 (12.7x)",
+    "57"
+   ],
+   [
+    "Oct 30 01:00 (partial)",
+    "29.4M (partial, not comparable)",
+    "717 (partial)",
+    "n/a (partial)",
+    "56"
+   ]
+  ]
+ },
+ "callouts": [
+  {
+   "title": "Publishing peaked, attention did not",
+   "body": "New posts halved from 9,044 at 21:00 to 4,893 at 00:00 while engagements rose from 17.2x to 27.5x baseline. A falling post count does not mean a story is fading. Hourly engagements had not turned by the cut."
+  },
+  {
+   "title": "The audience formed within one hour",
+   "body": "The first viral post came 8 minutes after the sweep. The next full hour ran at 17.2x baseline, with 49 percent of active creators posting about Binance for the first time. Later statements met an audience whose first impression had already formed."
+  }
+ ],
+ "receipts": [
+  {
+   "who": "@spreekaway",
+   "utc": "20:32",
+   "interactions": "1.6M",
+   "quote": "Entire Binance wallet drained into new EOA. Contract call was funded by Tornado Cash"
+  },
+  {
+   "who": "@TreeNewsFeed",
+   "utc": "21:05",
+   "interactions": "2.0M",
+   "quote": "[🌲] TETHER FREEZES $971M USDT IN LIKELY BINANCE HACK, WITH NO UPDATE FROM BINANCE STILL"
+  },
+  {
+   "who": "@cz_binance",
+   "utc": "21:15",
+   "interactions": "3.2M",
+   "quote": "It does look like a hack on Binance. Appreciate the quick freeze from Tether (~$971m) and Circle (~$823m)."
+  },
+  {
+   "who": "@KobeissiLetter",
+   "utc": "21:58",
+   "interactions": "2.2M",
+   "quote": "BREAKING: Binance has been hacked with wallets across the Ethereum, Bitcoin, and TRON networks seeing outflows of -$5.7 billion."
+  }
+ ],
+ "watch": [
+  "Hourly engagements through Asia hours (02:00 to 08:00 UTC): holding above 20x baseline (20M an hour) makes this a second-day story.",
+  "New posts per hour: a rebound above the 21:00 peak of 9,044 would mark a fresh wave of authors.",
+  "Hourly sentiment against its 53 floor: a break lower while engagements hold means opinion is hardening."
+ ],
+ "caveat": ""
+}

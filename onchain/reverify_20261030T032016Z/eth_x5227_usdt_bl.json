@@ -1,0 +1,23 @@
+{
+ "name": "eth_x5227_usdt_bl",
+ "utc": "2026-10-30T03:20:17Z",
+ "url": "https://ethereum-rpc.publicnode.com",
+ "request": {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "eth_call",
+  "params": [
+   {
+    "to": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "data": "0xe47d60600000000000000000000000005227f603c1ee34ce3c06efe6477003bdfccb2f8c"
+   },
+   "latest"
+  ]
+ },
+ "status": "ok",
+ "response": {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": "0x0000000000000000000000000000000000000000000000000000000000000001"
+ }
+}

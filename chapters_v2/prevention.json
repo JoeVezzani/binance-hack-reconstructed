@@ -1,0 +1,135 @@
+{
+ "key": "prevention",
+ "headline": "Five signals were public before or during the drain; the issuer freezes were what worked",
+ "dek": "Five signals were public before or during the drain. Preventing the first sweep required a transaction included in the 204-second window after the delegation; later action could have blocked part of the outflows that followed, given monitoring and signing access.",
+ "key_numbers": [
+  {
+   "value": "6h 29m",
+   "label": "first rehearsal to the Binance 14 delegation"
+  },
+  {
+   "value": "15 min",
+   "label": "from Whale Alert's 20:06 XRP post to the Ethereum delegation"
+  },
+  {
+   "value": "~$1.03B",
+   "label": "moved on explorer-visible lines after the 20:32 post"
+  }
+ ],
+ "narrative": [
+  "Signal one: the rehearsal, 6 hours 29 minutes before the delegation; the first contract had been on-chain since 02:28. From 13:51 UTC a fresh address funded only by Tornado Cash delegated two dust wallets to an unverified contract with a sweep(address, address[]) selector, seeded them with a few dollars of USDT and USDC, and swept them. At 16:20 it repeated the run with the second contract: hardcoded operator, leave-one-ether logic, a withdraw. None of it touched a Binance address.",
+  "The pattern (mixer-funded sponsor, type-4 delegation to unverified code, sweep selector, dust wallets) matches the drainer behavior wallet-security vendors describe in their 7702 write-ups. A rule for 'type-4 transaction sponsored by a Tornado-funded address, delegating to unverified code' fires at 13:51:35; the full pattern is complete by 14:24. It would not have named Binance as the target. It would have put 0x7C86 on a watchlist that hit again at 20:20:59.",
+  "Signal two: the cross-chain start. Whale Alert posted 185,017,485 XRP ($236M) leaving Binance for an 'unknown new wallet' at 20:06 and 965,455 SOL ($95M) to another new wallet at 20:11. The posts drew 59K and 45K engagements and passed as routine; in the sampled posts nobody linked them to anything until @hackenclub at 20:51. @ai_9684xtpa's Chinese-language summary at 00:00 put the first suspicious hot-wallet outflow at 04:10 Beijing, 20:10 UTC.",
+  "An exchange can run 'hot wallet to never-seen address, above $50M, on two chains, within ten minutes' against its own signing logs. On Whale Alert's post times that rule fires at 20:11, ten minutes before the Ethereum delegation; on an exchange's own logs, earlier. It also fires on routine cold-wallet rotations, so it is a review trigger, not a kill switch. Whether the XRP and SOL moves were the attacker's or Binance's own is unresolved; the transfers are on-chain, and only their attribution to Binance rests on Whale Alert's label.",
+  "Signal three: 3 minutes 24 seconds, seventeen blocks, between delegation (20:20:59) and sweep (20:24:23). A monitor that decodes type-4 transactions in new blocks and matches authorization signers against an exchange's own wallets fires at inclusion. No public account mentioned the delegation until @odysseas_eth at 20:54, thirty minutes after the sweep.",
+  "The window allowed a competing type-4 transaction from Binance 14 clearing the delegation, the kind Binance sent at 00:10, or moving balances out. Neither is guaranteed to land inside 17 blocks. A cleared delegation holds until another valid authorization is included on-chain; clearing the code does not invalidate authorizations already signed. An attacker can also put delegation and sweep in one transaction.",
+  "Signal four: the open delegation, where the later outflows can be counted. The 20:24 sweep took what Binance 14 held. Everything after moved through a delegation live until 00:10:35 and readable on-chain from inclusion (Etherscan showed a 'Delegate to' label). The 780M USDC at 20:41 and 43M at 20:59 moved because Hot Wallet 34 accepted calls from Binance 14; the 21:04 and 21:44 sweeps took value that arrived after the first sweep, including 200.4M USDT; the 22:39 sweep took long-tail tokens marked at about $7.5M on the ten largest lines the explorer lists.",
+  "The ledger: 780M + 43M + 3.9M + 200.4M + about 7.5M, about $1.03B on explorer-visible lines after @spreekaway's 20:32 post; about $255M of that after 20:41; about $208M plus unpriced lines after 21:15, fifty-one minutes after the sweep. A delegation cleared before 20:41 blocks all of it; cleared between 20:41 and 20:59, about $255M. Much of the USDT and USDC was later frozen, so not all of what moved is lost. Blockscout records 533 incoming token transfers to Binance 14 in the window.",
+  "Signal five: the mood of the day. Between 17:47 and 18:56 UTC, 84 to 153 minutes before the delegation, posts on X carried a wave of signing-attack news: 'Polymarket hacked, everyone withdraw now' (@TheNotoriousSKi, 144K), 'Polymarket frontend is injecting a malicious script to sell all your positions' (@aaalex, 188K), CZ on a Ledger supply-chain compromise in Singapore (435K) and, at 18:56, CZ describing 'an injection attack on the front end' (640K).",
+  "At 04:49 on Oct 28, CZ had listed four data leaks in one day. None of it named Binance's hot wallets, and front-end injection against retail users is a different class of attack from fifty authorization signatures on an exchange hot wallet.",
+  "The response that worked came from the issuers. @TreeNewsFeed reported Tether's $971M freeze at 21:05. Whale Alert then posted the freezes: 312.7M USDT on Tron at 21:10, 971M USDT on Ethereum at 21:11 and Circle's 823M USDC at 21:13, about $2.1B, all before Binance posted anything. Two more by 21:31 (66M and 175M USDT) took the feed's total to about $2.35B; Binance later put the verified frozen figure at $2.54B (23:22) and around $3B (00:52).",
+  "@odysseas_eth counted about 72 percent of the stablecoins that reached the sweep recipient frozen by 21:43 and, by the same count, 700M USDT already moved on. Yi He thanked Ripple for freezing 'approximately 200 million' and World Liberty for 27M USD1, and @zachxbt reported the Arbitrum Security Council recovering about $30M at midnight.",
+  "No freeze touches ETH or BTC. Whale Alert posted 195,460 ETH moving at 20:40 and about 16,690 BTC in four transfers between 20:30 and 20:33, and at 02:00 UTC the main receiver was converting long-tail tokens into ETH about once every twelve seconds; it was still swapping at 03:17 UTC. Freezes worked where the asset had an issuer and nowhere else."
+ ],
+ "table": {
+  "title": "What was visible, when, and what acting on it would have changed",
+  "columns": [
+   "Signal (UTC)",
+   "Where it was visible",
+   "Who saw it in public",
+   "What it would have changed"
+  ],
+  "rows": [
+   [
+    "13:51 rehearsal: Tornado-funded EOA delegates dust wallets to unverified sweeper",
+    "Ethereum mainnet, any 7702 monitor",
+    "Nobody until 21:31 (@MetaFinancialAI), after the fact",
+    "Hypothetical earliest trigger for a narrow rule; operator on a watchlist 6.5 hours early"
+   ],
+   [
+    "16:20 to 16:47 second rehearsal with the production contract",
+    "Ethereum mainnet",
+    "Nobody until 21:31 (@MetaFinancialAI)",
+    "Same, with the exact contract address known 4 hours early"
+   ],
+   [
+    "17:47 to 18:56 same-day signing-attack wave (Polymarket, Ledger, CZ's 'injection attack' post)",
+    "X, 640K engagements on CZ's post alone",
+    "Everyone; nobody tied it to hot-wallet signing",
+    "Context for the post-mortem"
+   ],
+   [
+    "20:05 XRP $236M and 20:10 SOL $95M to new wallets",
+    "Whale Alert public feed, posted 20:06 and 20:11 (59K, 45K engagements)",
+    "Posted by a bot; first human link at 20:51 (@hackenclub)",
+    "If the moves were the attacker's (unresolved), an exchange-side rule had about 10 minutes before the Ethereum delegation"
+   ],
+   [
+    "20:20:59 type-4 delegation, 50 signatures from Binance 14",
+    "Block 26300753; Etherscan label from 20:21",
+    "@odysseas_eth 20:54, 30 minutes after the sweep",
+    "204 seconds between inclusion and sweep; nobody public mentioned it for 30 minutes"
+   ],
+   [
+    "20:24 to 00:10 delegation left live; deposits keep arriving",
+    "Etherscan address page for Binance 14",
+    "@uttam_singhk 22:00 explained the mechanism",
+    "Delegation cleared before 20:41 blocks about $1.03B of later transfers; cleared by 20:59, about $255M"
+   ],
+   [
+    "21:05 to 21:13 Tether and Circle freezes",
+    "Reported at 21:05 by @TreeNewsFeed; Whale Alert freeze posts 21:10 to 21:13; issuer CEOs on X",
+    "Everyone; TreeNewsFeed 21:05 pre-empted Binance",
+    "About $2.35B frozen by 21:31; ETH and BTC untouched"
+   ]
+  ]
+ },
+ "callouts": [
+  {
+   "title": "Watch your own signatures",
+   "body": "Decode every type-4 transaction in new blocks and match authorization signers against your own wallets: that alert fires at the delegation, not the sweep. Pair it with a rule that a wallet carrying delegated code receives no new inbound routing until the code is cleared."
+  },
+  {
+   "title": "The rehearsal is the tell",
+   "body": "Mixer-funded fresh address, type-4 delegation to unverified code with a sweep selector, dust wallets seeded, swept and withdrawn: that pattern ran on mainnet from 13:51 UTC, and nobody published it until after the drain."
+  }
+ ],
+ "receipts": [
+  {
+   "who": "@whale_alert",
+   "utc": "20:06",
+   "interactions": "59K",
+   "quote": "185,017,485 $XRP (235,816,974 USD) transferred from #Binance to unknown new wallet"
+  },
+  {
+   "who": "@cz_binance",
+   "utc": "18:56",
+   "interactions": "640K",
+   "quote": "...it appears to be an injection attack on the front end. injecting incorrect tx, but showing a valid tx for the user to sign."
+  },
+  {
+   "who": "@MetaFinancialAI",
+   "utc": "21:31",
+   "interactions": "1.5K",
+   "quote": "THE REHEARSAL 02:28 UTC: the attacker deploys a sweeper contract... 13:51 to 16:47: they practise on their own fresh wallets. EIP 7702 delegation, then sweep."
+  },
+  {
+   "who": "@Aytunc",
+   "utc": "22:06",
+   "interactions": "9.7K",
+   "quote": "You only get a stack of pre-signed auths like that if the key or the signing system is compromised. They tested the setup on other addresses throughout Oct 29."
+  },
+  {
+   "who": "@hosseeb",
+   "utc": "21:33",
+   "interactions": "37K",
+   "quote": "All of crypto is getting pentested right now. If you are under-investing in AI security / pentesting, now is the time to fix that."
+  }
+ ],
+ "watch": [
+  "Whether Binance's post-mortem covers inbound routing to Binance 14 during the 3h49m window; the 200.4M USDT swept at 21:44 is the test.",
+  "Confirmation that the 20:05 XRP and 20:10 SOL outflows were the attacker's would date the compromise before the Ethereum delegation.",
+  "A published, backtested rehearsal-pattern alert that would have fired at 13:51; every transaction it needs is public."
+ ],
+ "caveat": ""
+}

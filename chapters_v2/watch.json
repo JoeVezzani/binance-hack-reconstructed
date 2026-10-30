@@ -1,0 +1,115 @@
+{
+ "key": "watch",
+ "headline": "New posts fell 46 percent from their peak while hourly engagements rose 60 percent",
+ "dek": "At the cut, 4.6 hours in, new posts about Binance are falling while engagement keeps rising. Five signals, each with a threshold, will show whether this becomes a fast fade, a trust crisis or a series of waves.",
+ "key_numbers": [
+  {
+   "value": "95.1M",
+   "label": "Engagements, 20:00 to 00:59 UTC"
+  },
+  {
+   "value": "-46%",
+   "label": "New posts, 21:00 to 00:00 UTC"
+  },
+  {
+   "value": "+60%",
+   "label": "Hourly engagements, same span"
+  }
+ ],
+ "narrative": [
+  "The curve has not turned. From 20:00 to 00:59 UTC (five hourly buckets) the Binance topic drew 95.1M engagements, 29,255 new posts and 22,330 first-time posters. Engagements rose every hour: 17.4M at 21:00, 23.8M at 22:00 (up 37 percent), 24.3M at 23:00 (up 2 percent) and 27.8M at 00:00 (up 14 percent).",
+  "Publishing and attention have split. New posts peaked at 9,044 at 21:00 and fell to 4,893 at 00:00, down 46 percent, while hourly engagements rose 60 percent and accounts with an engaged post grew from 13,449 to 22,735. The audience is still reading posts from the first two hours, such as CZ's 21:15 post (3.2M).",
+  "Past events give three scenarios. The Bybit path: after its February 2025 hack, daily engagements peaked the next day at 135.6M (8.5x baseline), fell to 46 percent of peak a day later and 19 percent four days after, stayed above 2x for 5 days, and sentiment recovered from 48 to 83 within a week. The FTX path: in November 2022 daily engagements rose nine straight days, from 1.3M to 78.9M, stayed above 2x for 10 days and took sentiment to 29.",
+  "The waves path, Binance's own November 2022 stress: spikes of 9.6M and 11.8M on Nov 8 and Nov 15, 8 days above 2x, a sentiment floor of 32. Deposits and withdrawals were suspended per Binance's 00:13 post (378K), and each reopening, freeze update or post-mortem is a new trigger. The frozen totals of $2.54B (23:22) and around $3B (00:52) each drew their own audience.",
+  "The signals: \"bank run\" posts rose only from 164 to 236 in 24h. \"Binance withdrawals\" went from 1 to 47. LunarCrush's news network carried 12 Binance posts in 24h, with 46.7K engagements. TikTok and YouTube carried 4.36M of 114.2M 24h engagements (3.8 percent), with median sampled posts at 118 and 139 minutes after onset against 79 on X. Hourly sentiment, 57 at 00:00 against a floor of 53, has not crossed Bybit's hourly floor of 44."
+ ],
+ "table": {
+  "title": "Watch list: five signals and their thresholds",
+  "columns": [
+   "Signal",
+   "Metric",
+   "Current value",
+   "Threshold",
+   "Why it matters"
+  ],
+  "rows": [
+   [
+    "Withdrawal reopening",
+    "'binance withdrawals' posts, 24h",
+    "47 (prior 24h: 1)",
+    "Above 470 with Binance sentiment under 50",
+    "Reopening complaints would shift the story from loss to access"
+   ],
+   [
+    "Bank run language",
+    "'bank run' posts, 24h",
+    "236 (prior 24h: 164)",
+    "Above 328 (double the pre-event day, 164)",
+    "The FTX script has not run; this is the first sign it would"
+   ],
+   [
+    "Newsroom catch-up",
+    "News-network posts on Binance, 24h",
+    "12 posts, 46.7K engagements",
+    "Above 100 posts",
+    "Wire and newsroom coverage would bring a second, broader audience"
+   ],
+   [
+    "Video share",
+    "TikTok + YouTube share of 24h engagements",
+    "3.8% (4.36M of 114.2M)",
+    "Above 7.6% (doubles)",
+    "Median video posts ran 39 to 60 minutes behind X and reach non-English audiences"
+   ],
+   [
+    "Sentiment floor",
+    "Binance hourly sentiment (0-100)",
+    "57 at 00:00; floor 53 at 21:00",
+    "Below 44 (Bybit's hourly floor)",
+    "Comparable trust crises reached 29 to 41"
+   ]
+  ]
+ },
+ "callouts": [
+  {
+   "title": "Read engagements, not post counts",
+   "body": "Post counts peaked at 21:00 and have fallen since. Engagements rose every hour to 27.8M. The turn to watch is the first full hour where engagements fall below the prior hour."
+  },
+  {
+   "title": "Every Binance update is a trigger",
+   "body": "With deposits and withdrawals suspended and a post-mortem promised, Binance controls the timing of the next waves. Its 23:22 frozen-figure post drew 529K engagements on its own."
+  }
+ ],
+ "receipts": [
+  {
+   "who": "@binance",
+   "utc": "00:13",
+   "interactions": "378K",
+   "quote": "Binance will cover all losses. As a precaution, all deposits and withdrawals are temporarily suspended..."
+  },
+  {
+   "who": "@heyibinance",
+   "utc": "00:04",
+   "interactions": "245K",
+   "quote": "We will share a full post-mortem once the investigation is complete."
+  },
+  {
+   "who": "@binance",
+   "utc": "00:52",
+   "interactions": "156K",
+   "quote": "Update: The current verified total frozen amount is around $3 billion."
+  },
+  {
+   "who": "@0xngmi",
+   "utc": "21:26",
+   "interactions": "621K",
+   "quote": "They'll cover it from balance sheet easily"
+  }
+ ],
+ "watch": [
+  "\"Bank run\" posts above 328 in 24h, double the pre-event day of 164, would start the FTX-style trust script.",
+  "Sentiment after withdrawals reopen: below 44, Bybit's hourly floor, marks the move into trust-crisis territory.",
+  "TikTok and YouTube share of 24h engagement, 3.8 percent: above 7.6 percent means the story has moved onto video."
+ ],
+ "caveat": ""
+}

@@ -1,0 +1,45 @@
+time_utc,end_utc,lane,event,detail,first_public
+2026-10-28T07:39:00Z,,Funding,Tornado Cash withdrawal to the operator,0.1 ETH from the Tornado Cash pool to 0x7C86…5CA0; another at 08:53 and a third at 08:23 Oct 29.,"@spreekaway, 20:32 Oct 29"
+2026-10-28T08:53:00Z,,Funding,Second Tornado Cash withdrawal,0.1 ETH to the operator.,
+2026-10-29T01:15:00Z,,Funding,Sibling wallet funded,0xFD41 receives 0.1 ETH from Tornado Cash.,
+2026-10-29T02:28:59Z,,Build and rehearse,Sweeper v1 deployed,"The first sweeper contract, 0x19bE…f2bf, never verified on any explorer.","@MetaFinancialAI, 21:31"
+2026-10-29T07:08:00Z,,Funding,Sibling wallet funded,0xe4F9 receives 0.1 ETH from Tornado Cash.,
+2026-10-29T08:23:00Z,,Funding,Third Tornado Cash withdrawal,0.1 ETH to the operator. About 1.49 ETH in total funded the operation.,
+2026-10-29T13:51:35Z,2026-10-29T14:24:11Z,Build and rehearse,Rehearsal one,"Two of the operator's own wallets delegated with EIP-7702, seeded with a few dollars of USDT and USDC, and swept.","@MetaFinancialAI, 21:31; @danupsher, 21:47"
+2026-10-29T14:54:00Z,,Funding,1 ETH pool withdrawal,0xe4F9 receives 0.994 ETH from the Tornado Cash 1 ETH pool.,
+2026-10-29T15:59:11Z,,Build and rehearse,Sweeper v2 deployed,"The production contract, 0x63e8…6fAe: operator-only, leaves exactly 1 ETH, with an execute passthrough and a withdraw.","@0xQuit, 21:09; @blockaid_, 21:25"
+2026-10-29T16:20:47Z,2026-10-29T16:47:23Z,Build and rehearse,"Rehearsal two, the full sequence","Delegate, fund with 1.01 ETH, sweep (1 ETH left), withdraw. The exact sequence used on Binance 14.","@MetaFinancialAI, 21:31"
+2026-10-29T18:20:47Z,,Funding,Gas for the real run,0xe4F9 sends the operator 1.082 ETH.,no post
+2026-10-29T20:05:00Z,,Other chains,"185,017,485 XRP ($236M) to a new account",XRP Ledger transfer from accounts Whale Alert labels Binance. Binance has not said whether it was its own.,"@hackenclub linked it, 20:51"
+2026-10-29T20:10:18Z,,Other chains,"965,455 SOL ($95M) to a new address",Solana transfer from a wallet Whale Alert labels Binance.,"@hackenclub linked it, 20:51"
+2026-10-29T20:20:59Z,,Attacker on Binance 14,The delegation,"One transaction carries 50 EIP-7702 authorizations, all signed by Binance 14's key. The one matching its live nonce (18914809) applies.","@odysseas_eth, 20:54; @0xQuit, 21:21"
+2026-10-29T20:24:23Z,,Attacker on Binance 14,The sweep,"167,464 ETH and 63 tokens to 0x5227…2f8c in one call, for about $0.93 in gas. Largest line: 1.615B USDT.","@spreekaway, 20:32 (+8 min)"
+2026-10-29T20:32:00Z,,Social,First 'hack' post,"@spreekaway, 39.5K followers: 'Unconfirmed, but possibly massive binance hack.' 1.6M engagements.",8 minutes after the sweep
+2026-10-29T20:41:23Z,,Attacker on Binance 14,780M USDC through a trusted wallet,Hot Wallet 34 accepts Binance 14 as its owner and releases 780M USDC to 0x5227.,"@0xfoobar, 20:48; @kethcode, 22:08"
+2026-10-29T20:50:00Z,,Market,"BNB evening low, $692.32",From $738.90 at 20:15 (CoinMarketCap via CryptoTicker).,
+2026-10-29T20:54:00Z,,Social,Mechanism explained,@odysseas_eth lays out the EIP-7702 sweeper and the 63-token sweep.,218K engagements
+2026-10-29T20:59:47Z,,Attacker on Binance 14,43M USDC more,The same route through Hot Wallet 34.,no sampled post
+2026-10-29T21:00:00Z,,Market,"BTC low, $78,763","From $80,327 at 20:15. About $628M of leveraged positions closed within the hour (CoinGlass via PANews).",
+2026-10-29T21:04:00Z,,Attacker on Binance 14,First re-sweep,3.9M USDT plus dust.,"@uttam_singhk, 22:00"
+2026-10-29T21:05:00Z,,Issuer freezes,Tether freezes $971M,"First reported by @TreeNewsFeed, ten minutes before any Binance account spoke.",1.99M engagements
+2026-10-29T21:09:00Z,,Social,Full reconstruction,@0xQuit has the deploy time and the four-step sequence right.,492K engagements
+2026-10-29T21:13:00Z,,Issuer freezes,Circle freezes 823M USDC,"Jeremy Allaire confirms more than 800M USDC frozen at 21:18, in coordination with law enforcement (per The Block).","@WatcherGuru, 21:13"
+2026-10-29T21:15:00Z,,Binance,CZ: 'It does look like a hack',"'User funds are safe!' The most-engaged post of the event. @binance posts holding statements at 21:15, 21:16 and 21:24.",3.19M engagements
+2026-10-29T21:25:00Z,,Issuer freezes,Tether raises its freeze to 1.567B USDT,Paolo Ardoino: 'Tether froze more than 1.567B USDT related to a potential Binance exchange hack.',1.03M engagements
+2026-10-29T21:29:00Z,,Binance,'User funds are completely safe',@binance reposts its statement with one added sentence; it draws ten times the engagement.,904K engagements
+2026-10-29T21:31:00Z,,Social,Rehearsals found,"@MetaFinancialAI posts the rehearsal timeline, 67 minutes after the sweep.",1.5K engagements
+2026-10-29T21:42:00Z,,Social,@WatcherGuru: '$5.6B stolen',An unconfirmed outflow estimate; reported figures ranged from $2.53B to $5.7B.,1.98M engagements
+2026-10-29T21:44:00Z,,Attacker on Binance 14,Second re-sweep,"200.4M USDT, 6,591 LINK, 7,008 UNI and smaller lines.","@uttam_singhk, 22:00"
+2026-10-29T21:52:00Z,,Issuer freezes,Aave freezes its USDT market,"Aave freezes its USDT market, blocking new borrowing against it, per @WatcherGuru.","@WatcherGuru, 21:52 (222K)"
+2026-10-29T22:08:00Z,,Binance,Binance thanks Ripple,Yi He thanks Ripple for freezing 'approximately 200 million' (unit not stated); no freeze shows on the traced XRP account.,@heyibinance
+2026-10-29T22:22:00Z,,Issuer freezes,World Liberty freezes,"$27M USD1 and 48M WLFI frozen, per Yi He.",@heyibinance
+2026-10-29T22:23:00Z,,Binance,'Will cover',"CZ: 'Loss might be a bit higher than that, but will cover.'",926K engagements
+2026-10-29T22:32:00Z,,Binance,Some withdrawals processed,"Per CryptoTicker, some BTC, ETH and USDT withdrawals were processed; Binance's 22:33 notice said withdrawals would resume once the issue was resolved.",per CryptoTicker
+2026-10-29T22:33:00Z,,Social,Musk: 'Everyday is Zeroday',A quote-post of @KobeissiLetter's $5.7B estimate.,2.10M engagements
+2026-10-29T22:39:00Z,,Attacker on Binance 14,The long tail,"Smaller tokens worth at least $7.5M on the ten lines shown, to a second receiver.",no sampled post
+2026-10-29T23:06:00Z,,Binance,Binance Alpha trading paused,Suspended as a security measure.,243K engagements
+2026-10-29T23:22:00Z,,Binance,$2.54B verified frozen,Binance addresses 'differing figures circulating publicly'.,529K engagements
+2026-10-29T23:36:00Z,2026-10-29T23:56:00Z,Attacker on Binance 14,Six empty sweeps,The operator calls sweep six more times. Nothing moves.,no post
+2026-10-30T00:10:35Z,,Binance,Binance 14 revokes the delegation,A type-4 transaction pointing the delegation at the zero address clears the attacker's code after 3h 49m.,"ChainCatcher, 00:44"
+2026-10-30T00:13:00Z,,Binance,Full pause; will cover all losses,"'As a precaution, all deposits and withdrawals are temporarily suspended.'",378K engagements
+2026-10-30T00:52:00Z,,Binance,About $3B verified frozen,'The current verified total frozen amount is around $3 billion.',156K engagements

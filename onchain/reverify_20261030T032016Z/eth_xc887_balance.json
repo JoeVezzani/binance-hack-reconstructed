@@ -1,0 +1,20 @@
+{
+ "name": "eth_xc887_balance",
+ "utc": "2026-10-30T03:20:18Z",
+ "url": "https://ethereum-rpc.publicnode.com",
+ "request": {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "eth_getBalance",
+  "params": [
+   "0xc887af690e0301cd4edbbce8f8d31b4ec65b286a",
+   "latest"
+  ]
+ },
+ "status": "ok",
+ "response": {
+  "jsonrpc": "2.0",
+  "result": "0x1d236b61195c4d7ba470",
+  "id": 1
+ }
+}

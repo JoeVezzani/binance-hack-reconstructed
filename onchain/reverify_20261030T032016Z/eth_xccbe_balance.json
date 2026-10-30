@@ -1,0 +1,20 @@
+{
+ "name": "eth_xccbe_balance",
+ "utc": "2026-10-30T03:20:26Z",
+ "url": "https://ethereum-rpc.publicnode.com",
+ "request": {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "eth_getBalance",
+  "params": [
+   "0xCcBEF95633ADB5Cd2b5038DB5a38d77E726cA263",
+   "latest"
+  ]
+ },
+ "status": "ok",
+ "response": {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": "0x6716702646ebb2"
+ }
+}

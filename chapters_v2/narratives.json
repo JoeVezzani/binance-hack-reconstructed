@@ -1,0 +1,158 @@
+{
+ "key": "narratives",
+ "headline": "The freeze outran the FTX script: freeze posts drew 21.2M engagements, insolvency talk 318K",
+ "dek": "Within an hour of the sweep, the crowd had four stories to pick from: a theft, a record, a rescue and a run. Three gathered reach in the first five hours; the run never left the margins.",
+ "key_numbers": [
+  {
+   "value": "21.2M",
+   "label": "freeze-post engagements, sampled posts"
+  },
+  {
+   "value": "318K",
+   "label": "insolvency and FTX-comparison engagements"
+  },
+  {
+   "value": "1 to 403",
+   "label": "\"largest hack\" posts, prior 24h vs 24h"
+  }
+ ],
+ "narrative": [
+  "The theft dominated; the second-biggest story was a rescue, not a panic. LunarCrush matched the 686 most-engaged event-window posts against a set of narrative themes (a post can match several). In the sampled posts, 525 using hack or drain language drew 43.4M engagements. Next came 188 posts on Tether and Circle freezing funds, with 21.2M, more than twice the 9.5M on \"funds are safe\" or SAFU posts. Freeze posts averaged about 113K each, the highest of any theme.",
+  "The freeze frame arrived before Binance spoke: @TreeNewsFeed's 21:05 headline that Tether had frozen $971M drew 2.0M, ten minutes before the first official post, and Tether CEO @paoloardoino's 21:25 post that Tether froze \"more than 1.567B USDT\" drew 1.03M.",
+  "The record frame rose late: 119 sampled posts using largest, biggest or record language drew 12.2M and peaked at 22:00, an hour after most themes. Its fuel was the dollar figure: @WatcherGuru's 21:42 \"over $5.6 billion stolen\" (1.98M) and @KobeissiLetter's 21:58 outflows of \"-$5.7 billion\" (2.22M), both on-chain tallies.",
+  "The keyword \"largest hack\" went from 1 post in the prior 24 hours to 403, with 5.4M engagements and an X sentiment of 13, the most negative phrase tracked. It would be the largest crypto hack on record only if confirmed; Binance had confirmed no loss figure by the cut.",
+  "The FTX script did not run. Insolvency and FTX-comparison posts numbered 16 in the sample, with 318K engagements, about 20K each. \"Bank run\" rose from 164 posts to 236 in 24 hours. The two most direct FTX comparisons, at 22:19 and 22:55, drew 20.5K and 47.5K. @0xngmi's 21:26 estimate that net loss after freezes was \"around ~1bn\", 0.69 percent of assets under custody, drew 621K, about seven times the top insolvency post (88K).",
+  "Two frames had volume without reach. \"Not your keys\" and self-custody posts numbered 72 in the sample but drew 288K, about 4K each, the lowest of any theme; the keyword rose from 286 to 946 posts with 428K engagements, roughly 450 per post against about 13,400 for \"largest hack\". Attribution drew 16 sampled posts and 805K. One 20:46 post speculating about a state-linked group drew 33.9K, and attribution keywords barely moved against \"binance hack\", which went from 1 to 4,152 posts.",
+  "The technical story came first and stayed specialist. The vector theme (EIP-7702 delegation, hot wallets) appeared at 20:32 in @spreekaway's first viral post and drew 7.6M across 105 sampled posts; \"hot wallet\" posts rose from 227 to 1,680, while \"EIP7702\" reached 27. Buy-the-dip posts numbered 22, with 626K, led by @GordonGekko's 22:00 thread (166K). At the cut, 4.6 hours in, the leading reading was a theft contained by issuers and covered by Binance; deposits and withdrawals stayed suspended per Binance's 00:13 post."
+ ],
+ "table": {
+  "title": "Narrative themes in the sampled posts, 20:14 UTC to cut",
+  "columns": [
+   "Theme",
+   "Sampled posts",
+   "Engagements",
+   "First seen (UTC)",
+   "Peak hour (UTC)"
+  ],
+  "rows": [
+   [
+    "Hack / drained",
+    "525",
+    "43.4M",
+    "20:32",
+    "21:00"
+   ],
+   [
+    "Freeze (Tether, Circle)",
+    "188",
+    "21.2M",
+    "20:56",
+    "21:00"
+   ],
+   [
+    "Largest hack ever",
+    "119",
+    "12.2M",
+    "20:41",
+    "22:00"
+   ],
+   [
+    "Funds safe / SAFU",
+    "165",
+    "9.5M",
+    "20:41",
+    "21:00"
+   ],
+   [
+    "Vector (EIP-7702, hot wallet)",
+    "105",
+    "7.6M",
+    "20:32",
+    "21:00"
+   ],
+   [
+    "Withdrawals / bank run",
+    "76",
+    "5.5M",
+    "20:38",
+    "22:00"
+   ],
+   [
+    "Attribution speculation",
+    "16",
+    "805K",
+    "20:46",
+    "21:00"
+   ],
+   [
+    "Buy the dip / bullish",
+    "22",
+    "626K",
+    "20:19 (pre-event)",
+    "21:00"
+   ],
+   [
+    "Insolvency / FTX comparison",
+    "16",
+    "318K",
+    "21:07",
+    "21:00"
+   ],
+   [
+    "Not your keys / self custody",
+    "72",
+    "288K",
+    "20:43",
+    "21:00 and 22:00"
+   ]
+  ]
+ },
+ "callouts": [
+  {
+   "title": "The run vocabulary barely moved",
+   "body": "\"Bank run\" posts rose from 164 to 236 in 24 hours, and insolvency posts drew 318K engagements in the sampled posts against 21.2M for freezes. Prolonged suspended withdrawals are the condition under which that frame grows."
+  },
+  {
+   "title": "The superlative outran the source",
+   "body": "The \"largest hack\" frame drew 12.2M engagements in the sampled posts, built on tracker estimates of $5.6B (per @WatcherGuru) and $5.7B (per @KobeissiLetter). Binance had confirmed no loss figure by the cut; @0xngmi put net exposure after freezes near $1B."
+  }
+ ],
+ "receipts": [
+  {
+   "who": "@TreeNewsFeed",
+   "utc": "21:05",
+   "interactions": "2.0M",
+   "quote": "TETHER FREEZES $971M USDT IN LIKELY BINANCE HACK, WITH NO UPDATE FROM BINANCE STILL"
+  },
+  {
+   "who": "@paoloardoino",
+   "utc": "21:25",
+   "interactions": "1.03M",
+   "quote": "Tether froze more than 1.567B USDT related to a potential Binance exchange hack."
+  },
+  {
+   "who": "@KobeissiLetter",
+   "utc": "21:58",
+   "interactions": "2.22M",
+   "quote": "BREAKING: Binance has been hacked with wallets across the Ethereum, Bitcoin, and TRON networks seeing outflows of -$5.7 billion."
+  },
+  {
+   "who": "@0xngmi",
+   "utc": "21:26",
+   "interactions": "621K",
+   "quote": "with USDT and USDC frozen the total loss now is around ~1bn, which is only 0.69% of their total assets under custody"
+  },
+  {
+   "who": "@GordonGekko",
+   "utc": "22:00",
+   "interactions": "166K",
+   "quote": "Here’s why the $5B Binance hack is actually Bullish for crypto: A thread"
+  }
+ ],
+ "watch": [
+  "\"Bank run\" posts while withdrawals stay suspended: above 328 per 24h, double the pre-event day of 164, would mean the FTX frame is waking.",
+  "\"Largest hack\" posts (403 in 24h) after Binance publishes a loss figure, and whether a lower confirmed number gets comparable reach.",
+  "An official attribution from investigators would open a new fork; in the event window attribution drew 16 sampled posts and 805K engagements."
+ ],
+ "caveat": ""
+}

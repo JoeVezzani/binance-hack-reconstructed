@@ -1,0 +1,152 @@
+{
+ "key": "market",
+ "headline": "Binance drew 81 percent of Bitcoin's 24h engagements while Bitcoin itself rose only 2.8x",
+ "dek": "For one night an exchange's conversation came close to Bitcoin's, the largest topic in crypto. Bitcoin's own conversation grew without changing tone, and BNB's sentiment did not move.",
+ "key_numbers": [
+  {
+   "value": "114M vs 141M",
+   "label": "Binance vs Bitcoin engagements, 24h"
+  },
+  {
+   "value": "+9.3M/h",
+   "label": "Bitcoin's added engagements at 00:00 UTC"
+  },
+  {
+   "value": "79",
+   "label": "BNB sentiment, before and during"
+  }
+ ],
+ "narrative": [
+  "The Binance story absorbed a large share of crypto's attention without changing how the rest of the market talked. In the 24 hours to the 01:00 UTC cut, Binance drew 114M engagements, 81 percent of Bitcoin's 141M and twice Ethereum's 55.9M; its median day over the past year is 20.6M. The general 'crypto' topic rose to 3.1 times baseline by 00:00 UTC (16.8M an hour against 5.4M).",
+  "Bitcoin's multiple looks small because its base is large. Its 2.8x peak at 00:00 on a 5.1M-an-hour baseline is 14.4M an hour, about 9.3M more every hour, against 26.8M more for Binance. Bitcoin climbed steadily (1.2x, 1.7x, 2.2x, 2.5x, 2.8x) and was still rising at the cut, with sentiment between 66 and 69 against a baseline of 69. Ethereum, where the reported 195K ETH sat unfrozen, rose to 7.5x (9.7M an hour), sentiment 68 to 73 against 75.",
+  "BNB holders did not turn. BNB's topic peaked at 5.5x at 22:00 (3.7M an hour against 676K) and its sentiment read 79 before the event and 78 to 81 in every event hour. Its new posts rose only 1.4 times, so most extra BNB engagement went to posts tagged BNB, led by CZ's. In Chinese, @giantcutie666 told 146K followers at 20:56 the funds came from a hot wallet and losses \"would not be large\" (our translation; 48.1K); @BenTodar's 21:28 post about selling out of crypto (47.6K) was the minority voice.",
+  "Per CoinMarketCap via CryptoTicker, BTC fell from $80,327 at 20:15 to $78,763 by 21:00 and to about $77.0K by 01:11; BNB fell from $738.90 at 20:15 to $692.32 by 20:50, about 6 percent, and was down 9.9 percent over 24 hours by 00:38. CoinGlass, via PANews, counted about $628M of liquidations in one hour. @WatcherGuru's 20:52 \"Crypto market crashing\" drew 532K.",
+  "The same hour carried US after-hours earnings, including Amazon and Intel (@amitisinvesting, 171K), Strategy's Q3 (@saylor at 20:05, 232K) and Coinbase's Q3. In the sampled posts, price and liquidations drew 2.4M engagements against 43.4M for hack and drained posts.",
+  "Outside crypto-native topics the event barely registered. Gold peaked at 1.1x at 20:00 and ran near 0.9x after, and $HOOD peaked at 1.2x at 20:00 before falling to 0.9x. $MSTR hit 7.3x at 21:00 but was already 6.1x at 20:00, the hour Saylor posted results; $COIN peaked at 2.9x on its earnings night; Hyperliquid, with a 12.2 percent price gain and 42.3M engagements, was already elevated at 20:00 UTC, before the event. Alphabet drew 378M engagements in 24 hours, more than three times Binance."
+ ],
+ "table": {
+  "title": "Top crypto topics by 24h engagements, with Binance",
+  "columns": [
+   "Topic",
+   "24h engagements",
+   "24h sentiment",
+   "24h price change",
+   "Event peak vs baseline (UTC)"
+  ],
+  "rows": [
+   [
+    "Bitcoin",
+    "141M",
+    "72",
+    "-4.9%",
+    "2.8x (00:00)"
+   ],
+   [
+    "Binance (exchange)",
+    "114M",
+    "67",
+    "n/a",
+    "27.5x (00:00)"
+   ],
+   [
+    "Ethereum",
+    "55.9M",
+    "74",
+    "-5.9%",
+    "7.5x (00:00)"
+   ],
+   [
+    "Hyperliquid (pre-elevated)",
+    "42.3M",
+    "90",
+    "+12.2%",
+    "7.4x (00:00); 6.5x at 20:00"
+   ],
+   [
+    "Solana",
+    "27.3M",
+    "82",
+    "-7.4%",
+    "1.8x (21:00)"
+   ],
+   [
+    "USDC",
+    "23.3M",
+    "80",
+    "0.0%",
+    "14.0x (00:00)"
+   ],
+   [
+    "XRP",
+    "15.3M",
+    "81",
+    "-7.8%",
+    "2.6x (21:00)"
+   ],
+   [
+    "Tether",
+    "9.2M",
+    "68",
+    "-0.1%",
+    "79.8x (22:00)"
+   ],
+   [
+    "Pump.fun",
+    "7.4M",
+    "76",
+    "−12.9%",
+    "not tracked"
+   ]
+  ]
+ },
+ "callouts": [
+  {
+   "title": "Read Bitcoin in absolute terms",
+   "body": "A 2.8x Bitcoin multiple added about 9.3M engagements an hour, more than the whole BNB topic at its peak. Bitcoin's conversation was still rising at the cut while sentiment held near 69: more attention, same tone."
+  }
+ ],
+ "receipts": [
+  {
+   "who": "@WatcherGuru",
+   "utc": "20:52",
+   "interactions": "532K",
+   "quote": "JUST IN: Crypto market crashing. $SOL falls under $96 $XRP falls under $1.25 $ETH falls under $2,250 $BTC falls under $78,500"
+  },
+  {
+   "who": "@amitisinvesting",
+   "utc": "21:05",
+   "interactions": "171K",
+   "quote": "today's after hours is the ugliest print of Q3 earnings so far amazon, that small $2.7T company, wicked down 12% within seconds of the print"
+  },
+  {
+   "who": "@saylor",
+   "utc": "20:05",
+   "interactions": "232K",
+   "quote": "Strategy announces Q3 2026 results: $21 billion operating income, our largest quarter ever"
+  },
+  {
+   "who": "@giantcutie666",
+   "utc": "20:56",
+   "interactions": "48.1K",
+   "quote": "币安被盗的是热钱包，损失不会很大的"
+  },
+  {
+   "who": "@BenTodar",
+   "utc": "21:28",
+   "interactions": "47.6K",
+   "quote": "If Binance can be hacked, then I seriously question how safe this entire industry really is."
+  },
+  {
+   "who": "@Cointelegraph",
+   "utc": "23:17",
+   "interactions": "51.9K",
+   "quote": "INSIGHT: After every major crypto hack, $BTC has gone on to new highs"
+  }
+ ],
+ "watch": [
+  "Bitcoin's hourly multiple, 2.8x and rising at 00:00: above 4x through European hours means spread past crypto-native accounts.",
+  "BNB sentiment, steady at 79: below 70 while deposits and withdrawals stay suspended would show holders turning.",
+  "Buy-the-dip posts (22 sampled, 626K) against \"bank run\" (164 to 236 in 24h): whichever grows first sets day two."
+ ],
+ "caveat": ""
+}

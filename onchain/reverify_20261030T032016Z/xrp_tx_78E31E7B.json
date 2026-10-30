@@ -1,0 +1,79 @@
+{
+ "name": "xrp_tx_78E31E7B",
+ "utc": "2026-10-30T03:21:57Z",
+ "url": "https://s1.ripple.com:51234/",
+ "request": {
+  "method": "tx",
+  "params": [
+   {
+    "transaction": "78E31E7BB06ADABE2322FDD0553533873C1D90664AEDE0C12DE06208F50BFA6A",
+    "binary": false
+   }
+  ]
+ },
+ "status": "ok",
+ "response": {
+  "result": {
+   "Account": "rDAE53VfMvftPB4ogpWGWvzkQxfht6JPxr",
+   "Amount": "185017485500000",
+   "Destination": "rK21t6nGLy4MNDqhvy3pGwcLFy25qgfzMx",
+   "Fee": "6000",
+   "LastLedgerSequence": 107986705,
+   "Sequence": 72035635,
+   "SigningPubKey": "036085B9E6A6C3628E94FB87914AD5CBABB1DD5FA510D50D742919DC5684A43900",
+   "TransactionType": "Payment",
+   "TxnSignature": "3045022100FA1902728305958FFA1DFE5F6296B7E4A595F1DD2EF0B4866FEEA415EA60154302206C895BCB77E2D270428AB950E80479B8108350BBF8C59A6F61DFA3F0148C4089",
+   "hash": "78E31E7BB06ADABE2322FDD0553533873C1D90664AEDE0C12DE06208F50BFA6A",
+   "DeliverMax": "185017485500000",
+   "ctid": "C66FBF0500670000",
+   "meta": {
+    "AffectedNodes": [
+     {
+      "CreatedNode": {
+       "LedgerEntryType": "AccountRoot",
+       "LedgerIndex": "9525D6DEF4464BDC4168B065E34BD232E63218D13A8F66A031A3054C125E46A9",
+       "NewFields": {
+        "Account": "rK21t6nGLy4MNDqhvy3pGwcLFy25qgfzMx",
+        "Balance": "185017485500000",
+        "Sequence": 107986693
+       }
+      }
+     },
+     {
+      "ModifiedNode": {
+       "FinalFields": {
+        "Account": "rDAE53VfMvftPB4ogpWGWvzkQxfht6JPxr",
+        "Balance": "10040969831463",
+        "Flags": 0,
+        "OwnerCount": 2,
+        "Sequence": 72035636
+       },
+       "LedgerEntryType": "AccountRoot",
+       "LedgerIndex": "9840CEB0F4EC2594DD96CC4CE410D5F3F73B674EFF6D286CA25B47CF2975E886",
+       "PreviousFields": {
+        "Balance": "195058455337463",
+        "Sequence": 72035635
+       },
+       "PreviousTxnID": "AE08D54F8E7B05473AD5A1E3BF2C1D76A818B119DFBD3396C9C9F7BC7EF55A59",
+       "PreviousTxnLgrSeq": 107986692
+      }
+     }
+    ],
+    "TransactionIndex": 103,
+    "TransactionResult": "tesSUCCESS",
+    "delivered_amount": "185017485500000"
+   },
+   "validated": true,
+   "date": 846619500,
+   "ledger_index": 107986693,
+   "inLedger": 107986693,
+   "status": "success"
+  },
+  "warnings": [
+   {
+    "id": 2001,
+    "message": "This is a clio server. clio only serves validated data. If you want to talk to rippled, include 'ledger_index':'current' in your request"
+   }
+  ]
+ }
+}

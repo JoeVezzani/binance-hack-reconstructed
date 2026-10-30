@@ -1,0 +1,204 @@
+{
+ "name": "arb_bs_x3e2b_token_transfers",
+ "utc": "2026-10-30T03:24:15Z",
+ "url": "https://arbitrum.blockscout.com/api/v2/addresses/0x3e2bf1ac6bf0934bbba6456c341c2ecbced632d5/token-transfers",
+ "request": null,
+ "status": "ok",
+ "response": {
+  "items": [
+   {
+    "block_hash": "0x0b87713e1ae817a852320f92ee5188122202d0bcad2211597e0288e1784d226a",
+    "block_number": 519521672,
+    "from": {
+     "ens_domain_name": null,
+     "hash": "0x3E2bf1ac6bf0934BBba6456C341c2EcbCED632d5",
+     "implementations": [
+      {
+       "address_hash": "0x63c0c19a282a1B52b07dD5a65b58948A07DAE32B",
+       "name": "EIP7702StatelessDeleGator"
+      }
+     ],
+     "is_contract": true,
+     "is_scam": false,
+     "is_verified": true,
+     "metadata": null,
+     "name": null,
+     "private_tags": [],
+     "proxy_type": "eip7702",
+     "public_tags": [],
+     "reputation": "ok",
+     "watchlist_names": []
+    },
+    "log_index": 154,
+    "method": "0x0cf79e0a",
+    "timestamp": "2026-10-30T00:47:31.000000Z",
+    "to": {
+     "ens_domain_name": null,
+     "hash": "0x000018e422Af4f596bb87283A4F67536EE850DA0",
+     "implementations": [],
+     "is_contract": false,
+     "is_scam": false,
+     "is_verified": false,
+     "metadata": null,
+     "name": null,
+     "private_tags": [],
+     "proxy_type": null,
+     "public_tags": [],
+     "reputation": "ok",
+     "watchlist_names": []
+    },
+    "token": {
+     "address_hash": "0xd50c34e56d485468A8B07D1200CeAE695d64d0b5",
+     "circulating_market_cap": null,
+     "circulating_supply": null,
+     "decimals": "18",
+     "exchange_rate": null,
+     "holders_count": "0",
+     "icon_url": null,
+     "name": "\ua4f0\u17b5\u2ca6\u17b5\ua4e7",
+     "reputation": "ok",
+     "symbol": "\ua4f0\u17b5\u2ca6\u17b5\ua4e7",
+     "total_supply": "1000000000000000000000000000000000000",
+     "type": "ERC-20",
+     "volume_24h": null
+    },
+    "token_type": "ERC-20",
+    "total": {
+     "decimals": "18",
+     "value": "8425997679954399336000"
+    },
+    "transaction_hash": "0xde2cc4cc98e1409fc4e20a813b4cc8dca4eeb5b0a264425ee070aa7892969648",
+    "type": "token_transfer"
+   },
+   {
+    "block_hash": "0x51da9a782d12aa2c15ea95159daddea84cc311c6f21e8e8746b9223cbdbeeab6",
+    "block_number": 519514683,
+    "from": {
+     "ens_domain_name": null,
+     "hash": "0x3E2bf1ac6bf0934BBba6456C341c2EcbCED632d5",
+     "implementations": [
+      {
+       "address_hash": "0x63c0c19a282a1B52b07dD5a65b58948A07DAE32B",
+       "name": "EIP7702StatelessDeleGator"
+      }
+     ],
+     "is_contract": true,
+     "is_scam": false,
+     "is_verified": true,
+     "metadata": null,
+     "name": null,
+     "private_tags": [],
+     "proxy_type": "eip7702",
+     "public_tags": [],
+     "reputation": "ok",
+     "watchlist_names": []
+    },
+    "log_index": 0,
+    "method": "0xa9059cbb",
+    "timestamp": "2026-10-30T00:18:20.000000Z",
+    "to": {
+     "ens_domain_name": null,
+     "hash": "0x0000000000000000000000000000000000000DA0",
+     "implementations": [],
+     "is_contract": false,
+     "is_scam": false,
+     "is_verified": false,
+     "metadata": null,
+     "name": null,
+     "private_tags": [],
+     "proxy_type": null,
+     "public_tags": [],
+     "reputation": "ok",
+     "watchlist_names": []
+    },
+    "token": {
+     "address_hash": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+     "circulating_market_cap": "1050868466.3957264",
+     "circulating_supply": null,
+     "decimals": "18",
+     "exchange_rate": "0.152434",
+     "holders_count": "2400909",
+     "icon_url": "https://assets.coingecko.com/coins/images/16547/small/arb.jpg?1721358242",
+     "name": "Arbitrum",
+     "reputation": "ok",
+     "symbol": "ARB",
+     "total_supply": "9999998977610261816650915825",
+     "type": "ERC-20",
+     "volume_24h": "212814567.94598463"
+    },
+    "token_type": "ERC-20",
+    "total": {
+     "decimals": "18",
+     "value": "74559805200000000000000000"
+    },
+    "transaction_hash": "0x75e81a231a86e26a61e22dd2e6521504873a71a7ac1b2143c06e52796ceeedb6",
+    "type": "token_transfer"
+   },
+   {
+    "block_hash": "0x8e9e633e15088ad7b36e270318a09094b3b8ca1076819ce7bc14b7c82dc9d21e",
+    "block_number": 519477782,
+    "from": {
+     "ens_domain_name": null,
+     "hash": "0x5227f603C1eE34CE3C06eFe6477003BDfCCB2f8c",
+     "implementations": [],
+     "is_contract": false,
+     "is_scam": false,
+     "is_verified": false,
+     "metadata": null,
+     "name": null,
+     "private_tags": [],
+     "proxy_type": null,
+     "public_tags": [],
+     "reputation": "ok",
+     "watchlist_names": []
+    },
+    "log_index": 7,
+    "method": "0xa9059cbb",
+    "timestamp": "2026-10-29T21:36:30.000000Z",
+    "to": {
+     "ens_domain_name": null,
+     "hash": "0x3E2bf1ac6bf0934BBba6456C341c2EcbCED632d5",
+     "implementations": [
+      {
+       "address_hash": "0x63c0c19a282a1B52b07dD5a65b58948A07DAE32B",
+       "name": "EIP7702StatelessDeleGator"
+      }
+     ],
+     "is_contract": true,
+     "is_scam": false,
+     "is_verified": true,
+     "metadata": null,
+     "name": null,
+     "private_tags": [],
+     "proxy_type": "eip7702",
+     "public_tags": [],
+     "reputation": "ok",
+     "watchlist_names": []
+    },
+    "token": {
+     "address_hash": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+     "circulating_market_cap": "1050868466.3957264",
+     "circulating_supply": null,
+     "decimals": "18",
+     "exchange_rate": "0.152434",
+     "holders_count": "2400909",
+     "icon_url": "https://assets.coingecko.com/coins/images/16547/small/arb.jpg?1721358242",
+     "name": "Arbitrum",
+     "reputation": "ok",
+     "symbol": "ARB",
+     "total_supply": "9999998977610261816650915825",
+     "type": "ERC-20",
+     "volume_24h": "212814567.94598463"
+    },
+    "token_type": "ERC-20",
+    "total": {
+     "decimals": "18",
+     "value": "74559805200000000000000000"
+    },
+    "transaction_hash": "0x07a5a47ba3cfc61098be74eb462e353fe462cb8ee11a7a7e476fb8672facb6bf",
+    "type": "token_transfer"
+   }
+  ],
+  "next_page_params": null
+ }
+}

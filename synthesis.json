@@ -1,0 +1,245 @@
+{
+ "night": {
+  "title": "Nine numbers that define the first 4.6 hours",
+  "lead": "Everything on this page is a complete topic-level count from LunarCrush, not a sample. Baselines are the mean hour of the seven days before 20:00 UTC on Oct 29.",
+  "tiles": [
+   {
+    "value": "114.2M",
+    "label": "engagements, rolling 24h to 01:00 UTC"
+   },
+   {
+    "value": "95.1M",
+    "label": "engagements, 20:00 to 00:59 UTC (4.6 event hours)"
+   },
+   {
+    "value": "27.8M",
+    "label": "peak hour (00:00 UTC), 27.5x baseline"
+   },
+   {
+    "value": "9,044",
+    "label": "new posts at 21:00 UTC, 21.6x baseline"
+   },
+   {
+    "value": "29,329",
+    "label": "unique creators in 24h, +158% on the prior day"
+   },
+   {
+    "value": "22,330",
+    "label": "first-time posters, 20:00 to 00:59 UTC, 15.2x normal"
+   },
+   {
+    "value": "80 to 53",
+    "label": "sentiment, baseline to the 21:00 UTC low"
+   },
+   {
+    "value": "3.2M",
+    "label": "engagements on CZ's 21:15 post, the night's biggest"
+   },
+   {
+    "value": "96%",
+    "label": "of engagement on X; TikTok 2%, YouTube 2%"
+   }
+  ],
+  "caption": "Binance topic, engagements per hour for the seven days before and the 4.6 hours after the first exploit transaction. The prior week's busiest hour was 1.7M; the event's fourth full hour was 27.8M."
+ },
+ "timeline": {
+  "title": "What happened, on-chain, on X and at Binance",
+  "lead": "Three lanes on one clock. Chain events come from Etherscan labels as reported by CryptoTicker and The Block; posts and their engagements are from LunarCrush; Binance statements are quoted from the posts themselves. Engagements are final counts at the data cut.",
+  "rows": [
+   {
+    "utc": "20:20",
+    "lane": "Chain",
+    "what": "Wallet labeled 'Binance 14' delegated via EIP-7702 to an outside contract (Etherscan, per CryptoTicker).",
+    "eng": ""
+   },
+   {
+    "utc": "20:23",
+    "lane": "X",
+    "what": "@whale_alert posts the 612.7M USDT transfer alert, following its 20:06 XRP and 20:11 SOL alerts; each alert draws 40K to 90K.",
+    "eng": "~1.3M total"
+   },
+   {
+    "utc": "20:24",
+    "lane": "Chain",
+    "what": "167,464 ETH plus 63 other tokens move in one transaction to an address Etherscan tags 'Binance Hot Wallet Exploiter 2'.",
+    "eng": ""
+   },
+   {
+    "utc": "20:32",
+    "lane": "X",
+    "what": "@spreekaway: 'Unconfirmed, but possibly massive binance hack. Entire Binance wallet drained into new EOA.' First human framing as a hack.",
+    "eng": "1.59M"
+   },
+   {
+    "utc": "20:39",
+    "lane": "X",
+    "what": "@TreeNewsFeed 'POTENTIAL BINANCE HACK ONGOING' (570K); @bwenews puts the figure at ~$2.53B in 60+ tokens (177K).",
+    "eng": "747K"
+   },
+   {
+    "utc": "20:39",
+    "lane": "Chain",
+    "what": "~195,460 ETH moved to a second address, where it still sat at the cut. ETH cannot be frozen.",
+    "eng": ""
+   },
+   {
+    "utc": "20:41",
+    "lane": "Chain",
+    "what": "~780M USDC leaves a second linked address.",
+    "eng": ""
+   },
+   {
+    "utc": "20:42",
+    "lane": "X",
+    "what": "@ASVPXILLZ says their own Binance account was drained of ~$3M. Unverified user claim; the first 'it's happening to users' post.",
+    "eng": "664K"
+   },
+   {
+    "utc": "20:50",
+    "lane": "Market",
+    "what": "BNB at $692.32 by 20:50, from $738.90 at 20:15 (CoinMarketCap via CryptoTicker).",
+    "eng": ""
+   },
+   {
+    "utc": "20:54",
+    "lane": "X",
+    "what": "@odysseas_eth explains the EIP-7702 'sweeper' mechanism (218K); @DarkWebInformer '$2.77 Billion' (176K); at 20:56 @officer_secret '~$3.5B across multiple chains' (204K).",
+    "eng": "598K"
+   },
+   {
+    "utc": "21:00",
+    "lane": "Market",
+    "what": "BTC at $78,763 by 21:00, from $80,327 at 20:15. About $628M of leveraged positions closed within an hour, $607M of them longs (CoinGlass via PANews).",
+    "eng": ""
+   },
+   {
+    "utc": "21:05",
+    "lane": "X",
+    "what": "@TreeNewsFeed: 'TETHER FREEZES $971M USDT IN LIKELY BINANCE HACK, WITH NO UPDATE FROM BINANCE STILL'. The freeze reaches the feed before Binance does.",
+    "eng": "1.99M"
+   },
+   {
+    "utc": "21:08",
+    "lane": "X",
+    "what": "@WatcherGuru (21:08) and @KobeissiLetter (21:14) carry the $971M Tether freeze.",
+    "eng": "1.19M"
+   },
+   {
+    "utc": "21:15",
+    "lane": "Binance",
+    "what": "@cz_binance: 'User funds are safe! It does look like a hack on Binance. Appreciate the quick freeze from Tether (~$971m) and Circle (~$823m).' Biggest post of the night.",
+    "eng": "3.19M"
+   },
+   {
+    "utc": "21:15",
+    "lane": "Binance",
+    "what": "@binance posts three near-identical holding statements ('aware of reports of a potential security issue') at 21:15, 21:16 and 21:24.",
+    "eng": "91K avg"
+   },
+   {
+    "utc": "21:18",
+    "lane": "Issuers",
+    "what": "Circle CEO Jeremy Allaire: more than 800M USDC frozen, in coordination with law enforcement (per The Block).",
+    "eng": ""
+   },
+   {
+    "utc": "21:25",
+    "lane": "Issuers",
+    "what": "@paoloardoino: 'Tether froze more than 1.567B USDT related to a potential Binance exchange hack.'",
+    "eng": "1.03M"
+   },
+   {
+    "utc": "21:26",
+    "lane": "X",
+    "what": "@0xngmi: with USDT and USDC frozen, net loss ~$1B against ~$144B under custody, under 1 percent. The counter-narrative.",
+    "eng": "621K"
+   },
+   {
+    "utc": "21:29",
+    "lane": "Binance",
+    "what": "@binance reposts its statement with one added sentence: 'User funds are completely safe.'",
+    "eng": "904K"
+   },
+   {
+    "utc": "21:42",
+    "lane": "X",
+    "what": "@WatcherGuru: 'World's largest crypto exchange Binance hacked with over $5.6 billion stolen'.",
+    "eng": "1.98M"
+   },
+   {
+    "utc": "21:58",
+    "lane": "X",
+    "what": "@KobeissiLetter: outflows of '-$5.7 billion' across Ethereum, Bitcoin and TRON.",
+    "eng": "2.22M"
+   },
+   {
+    "utc": "22:08",
+    "lane": "Binance",
+    "what": "@heyibinance thanks the Ripple team for freezing 'approximately 200 million' (unit not stated in the post); at 22:22 thanks World Liberty Financial for $27M USD1 and 48M WLFI frozen.",
+    "eng": "217K"
+   },
+   {
+    "utc": "22:23",
+    "lane": "Binance",
+    "what": "@cz_binance, replying to the ~$1B net estimate: 'Loss might be a bit higher than that, but will cover.'",
+    "eng": "926K"
+   },
+   {
+    "utc": "22:32",
+    "lane": "Binance",
+    "what": "Per CryptoTicker, some BTC, ETH and USDT withdrawals were being processed at 22:32; Binance's 22:33 notice said withdrawals would resume once the issue was resolved.",
+    "eng": ""
+   },
+   {
+    "utc": "22:33",
+    "lane": "X",
+    "what": "@elonmusk quote-posts the $5.7B figure: 'Everyday is Zeroday'.",
+    "eng": "2.10M"
+   },
+   {
+    "utc": "23:06",
+    "lane": "Binance",
+    "what": "@binance: Binance Alpha trading temporarily suspended as a security measure.",
+    "eng": "243K"
+   },
+   {
+    "utc": "23:22",
+    "lane": "Binance",
+    "what": "@binance addresses 'differing figures circulating publicly regarding the amount frozen, including references to $1.8 billion': verified frozen total $2.54B.",
+    "eng": "529K"
+   },
+   {
+    "utc": "00:04",
+    "lane": "Binance",
+    "what": "@heyibinance: 'User funds are safe. Binance will cover all hacking losses. Deposits and withdrawals are temporarily suspended.' @binance says the same at 00:13.",
+    "eng": "623K"
+   },
+   {
+    "utc": "00:38",
+    "lane": "Market",
+    "what": "BTC $77,160 (-4.9% on 24h), BNB $684.21 (-9.9%) (CoinMarketCap via CryptoTicker).",
+    "eng": ""
+   },
+   {
+    "utc": "00:52",
+    "lane": "Binance",
+    "what": "@binance: 'The current verified total frozen amount is around $3 billion.' Last statement before the data cut.",
+    "eng": "156K"
+   },
+   {
+    "utc": "01:00",
+    "lane": "Data",
+    "what": "LunarCrush pull. Last full hour (00:00 UTC) 27.8M; the partial 01:00 bucket is excluded from every comparison.",
+    "eng": ""
+   }
+  ],
+  "caption": "Engagement figures are LunarCrush totals at the data cut for the specific post named. Chain and market rows carry no engagement figure. Nothing in this table should be read as a confirmed loss amount; Binance had confirmed a frozen total, not a stolen total, at the cut."
+ },
+ "about": {
+  "title": "LunarCrush measures what the internet is paying attention to",
+  "paras": [
+   "LunarCrush is a social intelligence platform for crypto and equities. It ingests tens of millions of posts an hour from X, TikTok, YouTube, Instagram, Reddit and news, scores engagement and sentiment, and rolls them up by asset, topic, creator and keyword into hourly time series and rankings. The same data behind this report powers the LunarCrush app, API, MCP connector and CLI, and is used by funds, exchanges and creators to see attention move before price does.",
+   "This report was built from the public LunarCrush CLI (lunarcrush.ai) in the hours after the event. Every number in it can be re-pulled. Questions, corrections and the underlying data: joe@lunarcrush.com."
+  ]
+ }
+}

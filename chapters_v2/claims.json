@@ -1,0 +1,163 @@
+{
+ "key": "claims",
+ "headline": "Outflow estimates went from $2.53B to $5.57B in 33 minutes; Binance has confirmed none",
+ "dek": "Loss figures were on-chain estimates posted within minutes, and the biggest drew the most engagement. The net-exposure estimate and Binance's frozen-funds figures came later and reached a fraction of the audience.",
+ "key_numbers": [
+  {
+   "value": "33 min",
+   "label": "From $2.53B to $5.57B posted"
+  },
+  {
+   "value": "8.5M",
+   "label": "Engagements on sampled $5.5B+ posts"
+  },
+  {
+   "value": "1.5M",
+   "label": "engagements on the ~$1B net estimate and CZ's reply to it"
+  }
+ ],
+ "narrative": [
+  "Most of the audience saw the largest loss figure in circulation; Binance has confirmed none. In the sampled posts, 81 cited a loss between $5.5B and $5.9B and drew 8.5M engagements. @0xngmi's roughly $1B net-of-freezes estimate drew 621K, and CZ's 22:23 quote of it 926K, about 1.5M together: more than five to one in favor of the bigger numbers.",
+  "The number more than doubled in 33 minutes. At 20:39 UTC @bwenews posted that a Binance hot wallet 'looks to be getting drained for about $2.53B', marked unconfirmed (177K). @DarkWebInformer had $2.77B at 20:54 (176K), @officer_secret about $3.5B 'across multiple chains' at 20:56 (204K), and @WazzCrypto 'at least $5.57B across 3 chains' at 21:12 (226K). Each was an on-chain tally of outflows. Compiled estimates range from about $2.8B on Ethereum alone (CryptoTicker) to $5.8B (Conor Grogan), with @KobeissiLetter's running total reaching about $5.9B at 22:59.",
+  "Reach arrived with the large aggregators. @WatcherGuru's 21:42 'Binance hacked with over $5.6 billion stolen' drew 1.98M; @KobeissiLetter's 21:58 post on '-$5.7 billion' of outflows drew 2.22M and was among the few to add 'if confirmed'. Elon Musk's 22:33 'Everyday is Zeroday' (2.1M) quoted the Kobeissi post, putting $5.7B in front of his audience. The figures were repeated in Arabic (@Eyaaaad, 359K; @AZK_SA, 240K) and Japanese (@coinspace_, 219K).",
+  "The net estimate, which assumes frozen funds are recovered, reached fewer people. At 21:26 @0xngmi posted (621K) that with USDT and USDC frozen 'the total loss now is around ~1bn', about 0.69 percent of Binance's $144B in custody. CZ quoted it at 22:23: 'Loss might be a bit higher than that, but will cover' (926K). It carried no number, and @KobeissiLetter's 22:59 post (244K) folded it into a running total of '~$5.9 billion'.",
+  "Freeze figures drifted the same way. Tether's freeze, first reported by @TreeNewsFeed at ~$971M (21:05), became more than 1.567B USDT per Tether's CEO at 21:25, and posts circulated a combined $1.8B.",
+  "Binance's own numbers came last. At 23:22 it said the 'current verified total frozen is $2.54 billion', addressing the $1.8B figure (529K), 100 minutes after @WatcherGuru's $5.6B post. At 00:52 it said 'around $3 billion' (156K). Together those drew 685K, about 16 percent of the 4.2M on the two largest loss-figure posts. Binance has stated frozen amounts and said it will cover losses; it has not published a loss figure."
+ ],
+ "table": {
+  "title": "The claim ledger: figures by time and source",
+  "columns": [
+   "UTC",
+   "Figure",
+   "Source",
+   "Engagements",
+   "Status"
+  ],
+  "rows": [
+   [
+    "20:39",
+    "~$2.53B, 60+ tokens on Ethereum",
+    "@bwenews",
+    "177K",
+    "On-chain estimate, marked unconfirmed"
+   ],
+   [
+    "20:54",
+    "$2.77B",
+    "@DarkWebInformer",
+    "176K",
+    "Unconfirmed"
+   ],
+   [
+    "20:56",
+    "~$3.5B across chains",
+    "@officer_secret",
+    "204K",
+    "Unconfirmed"
+   ],
+   [
+    "21:12",
+    "At least $5.57B, 3 chains",
+    "@WazzCrypto",
+    "226K",
+    "Unconfirmed"
+   ],
+   [
+    "21:26",
+    "~$1B net after freezes",
+    "@0xngmi",
+    "621K",
+    "Net-exposure estimate"
+   ],
+   [
+    "21:42",
+    "Over $5.6B stolen",
+    "@WatcherGuru",
+    "1.98M",
+    "Unconfirmed"
+   ],
+   [
+    "21:58",
+    "$5.7B outflows",
+    "@KobeissiLetter",
+    "2.22M",
+    "Unconfirmed, 'if confirmed'"
+   ],
+   [
+    "22:23",
+    "'A bit higher than that' (quoting ~$1B)",
+    "@cz_binance",
+    "926K",
+    "No figure stated"
+   ],
+   [
+    "23:22",
+    "$2.54B verified frozen",
+    "@binance",
+    "529K",
+    "Binance statement, frozen not lost"
+   ],
+   [
+    "00:52",
+    "~$3B verified frozen",
+    "@binance",
+    "156K",
+    "Latest Binance statement"
+   ]
+  ]
+ },
+ "callouts": [
+  {
+   "title": "Cite the source and the minute",
+   "body": "Every gross loss figure that night was an outflow estimate, from about $2.5B to $5.9B depending on who counted and when. Gross outflow and net loss after freezes are different numbers. Binance's only stated figures are frozen amounts: $2.54B at 23:22 and around $3B at 00:52."
+  },
+  {
+   "title": "A lower estimate needs its own number",
+   "body": "The net-loss frame peaked with CZ's 22:23 quote, which said only 'a bit higher than that'. Without a figure it was absorbed into larger running totals within 36 minutes. A verified number, posted early, is what competes with the biggest estimate."
+  }
+ ],
+ "receipts": [
+  {
+   "who": "@bwenews",
+   "utc": "20:39",
+   "interactions": "177K",
+   "quote": "BWENEWS: Binance Hot Wallet looks to be getting drained for about $2.53B in 60+ tokens on Ethereum..."
+  },
+  {
+   "who": "@WatcherGuru",
+   "utc": "21:42",
+   "interactions": "1.98M",
+   "quote": "BREAKING: World's largest crypto exchange Binance hacked with over $5.6 billion stolen..."
+  },
+  {
+   "who": "@KobeissiLetter",
+   "utc": "21:58",
+   "interactions": "2.22M",
+   "quote": "...seeing outflows of -$5.7 billion. The hack includes $1.45 billion worth of Bitcoin and $875 million worth of ETH."
+  },
+  {
+   "who": "@0xngmi",
+   "utc": "21:26",
+   "interactions": "621K",
+   "quote": "with USDT and USDC frozen the total loss now is around ~1bn, which is only 0.69% of their total assets under custody"
+  },
+  {
+   "who": "@cz_binance",
+   "utc": "22:23",
+   "interactions": "926K",
+   "quote": "Loss might be a bit higher than that, but will cover."
+  },
+  {
+   "who": "@binance",
+   "utc": "23:22",
+   "interactions": "529K",
+   "quote": "For clarity, the current verified total frozen is $2.54 billion. This figure may continue to increase..."
+  }
+ ],
+ "watch": [
+  "A loss figure from Binance or its post-mortem: the first confirmed number resets this ledger and tests whether corrections travel.",
+  "The $5.6B and $5.7B figures still circulating in non-English posts and video after Binance's $3B frozen update.",
+  "Engagement on Binance's next figure against 1.98M for @WatcherGuru's $5.6B post."
+ ],
+ "caveat": ""
+}

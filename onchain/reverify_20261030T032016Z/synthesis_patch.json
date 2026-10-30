@@ -1,0 +1,27 @@
+{
+ "_note": "Replacement values only. Apply by key path; originals untouched. Values reflect live reads 2026-10-30 03:20:16 to 03:26:49 UTC.",
+ "cover_sub[1]": {
+  "old": "hours before, and where the money sits now. Data cut 01:00 UTC Oct 30; on-chain reads to 04:30 UTC.",
+  "new": "hours before, and where the money sits now. Data cut 01:00 UTC Oct 30; on-chain balances read live 03:20 to 03:27 UTC."
+ },
+ "cover_stats[3]": {
+  "old": [
+   "$2.6B / $2.8B",
+   "frozen or recovered / unfrozen, traced"
+  ],
+  "new": [
+   "$2.7B / $2.8B",
+   "frozen or recovered / unfrozen, traced"
+  ]
+ },
+ "exec.findings[3]": {
+  "old": {
+   "title": "Where the money is now",
+   "body": "We read every chain the Whale Alert transactions pointed to. At 04:30 UTC on Oct 30 about $2.6B was frozen or recovered (USDT and USDC blacklisted at the receiving addresses, verified by calling the token contracts; 312.7M USDT on Tron; Aave collateral immobilised; $30.5M on Arbitrum) and about $2.8B sat unfrozen in traced addresses: 18,270 BTC split into 1,000-BTC parcels, roughly 408,000 ETH plus 29,934 wBETH, 233.5M XRP and 965,455 SOL, almost all of it showing no outgoing transfer. The first transfer to a new wallet was on XRP Ledger at 20:05, sixteen minutes before the Ethereum delegation; Binance has not said whether that leg was its own."
+  },
+  "new": {
+   "title": "Where the money is now",
+   "body": "We read every chain the Whale Alert transactions pointed to, live, between 03:20 and 03:27 UTC on Oct 30. About $2.68B was frozen or recovered: $2.63B in USDT, USDC, USD1 and XAUt that the token contracts themselves report frozen at the receiving addresses on Ethereum and Tron, $30.2M moved out of an Arbitrum address in what @zachxbt reported as the Security Council's recovery, and a $16.2M net Aave position that cannot be withdrawn. About $2.81B sat unfrozen in traced addresses: 18,270 BTC in 19 parcels (17 of exactly 1,000 BTC), about 430,000 ETH plus 29,934 wBETH, 233.5M XRP and 970,545 SOL, none of it moved on from where it landed. The first transfer to a new wallet was on XRP Ledger at 20:05, sixteen minutes before the Ethereum delegation; Binance has not said whether that leg was its own."
+  }
+ }
+}

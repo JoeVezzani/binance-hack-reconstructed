@@ -1,0 +1,24 @@
+{
+ "name": "btc_addr_bc1q42flhayrzy3zh8lkyevw8qcjduurt9a35wlsyx",
+ "utc": "2026-10-30T03:21:05Z",
+ "url": "https://mempool.space/api/address/bc1q42flhayrzy3zh8lkyevw8qcjduurt9a35wlsyx",
+ "request": null,
+ "status": "ok",
+ "response": {
+  "address": "bc1q42flhayrzy3zh8lkyevw8qcjduurt9a35wlsyx",
+  "chain_stats": {
+   "funded_txo_count": 2,
+   "funded_txo_sum": 100000001413,
+   "spent_txo_count": 0,
+   "spent_txo_sum": 0,
+   "tx_count": 2
+  },
+  "mempool_stats": {
+   "funded_txo_count": 0,
+   "funded_txo_sum": 0,
+   "spent_txo_count": 0,
+   "spent_txo_sum": 0,
+   "tx_count": 0
+  }
+ }
+}

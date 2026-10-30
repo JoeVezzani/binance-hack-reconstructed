@@ -1,0 +1,163 @@
+{
+ "key": "firsthour",
+ "headline": "39 posts published before any Binance account spoke went on to reach 100K engagements each",
+ "dek": "The first hour had a clear order: automated transfer alerts, a 39.5K-follower on-chain account naming it a hack, aggregators attaching numbers, and a Tether freeze headline. Binance-linked accounts spoke last.",
+ "key_numbers": [
+  {
+   "value": "+8 min",
+   "label": "First viral post, @spreekaway"
+  },
+  {
+   "value": "39",
+   "label": "Pre-statement posts that reached 100K by the cut"
+  },
+  {
+   "value": "40",
+   "label": "Engagements per follower, @spreekaway"
+  }
+ ],
+ "narrative": [
+  "On-chain watchers broke the story, aggregators packaged it, and a stablecoin freeze hit the feed before Binance said anything. In the sampled posts, 39 published before the first Binance-linked post at 21:15 UTC, 51 minutes after the sweep, each passed 100K engagements by the cut, 13.8M together. None came from an official account: 18 were mid-size accounts (50K to 500K followers), 9 news aggregators, 8 small accounts and 4 large ones.",
+  "The machine signal came first and did not travel. Whale Alert's bot posted transfers out of #Binance from 20:23, including, per its own figures, 7,636 BTC at 20:30 and 780,000,000 USDC at 20:42. Each drew 40K to 90K engagements. At 20:32 (+8 minutes) @spreekaway, an on-chain account with 39.5K followers, wrote \"Unconfirmed\" and \"Entire Binance wallet drained into new EOA\", with a funding detail attached. It drew 1.6M engagements, about 40 per follower.",
+  "From +15 to +34 minutes, aggregators and mid-size accounts turned the alert into a number. @bwenews, @rektober and @crypto_banter repeated a reported \"$2.53B in 60+ tokens\"; @DarkWebInformer posted \"$2.77 Billion\" at +30 and @officer_secret \"around $3.5B\" at +32. At +18, @ASVPXILLZ said their own account had been compromised with about $3M withdrawn, an unverified individual claim, and drew 664K, more than any aggregator post in that window.",
+  "The first pushback came at +25 from @KillaXBT (\"It's just fud\", 238K). The first mechanism thread came at +30 from @odysseas_eth, an 8.7K-follower account whose EIP-7702 explanation drew 218K.",
+  "The freeze reached the feed before the company did. At 21:05 (+41), @TreeNewsFeed posted that Tether had frozen $971M USDT \"WITH NO UPDATE FROM BINANCE STILL\": 2.0M engagements, the largest post before Binance's first statement. @DeItaone (21:06) and @WatcherGuru (21:08, \"No official statement from Binance yet\", 605K) followed. At 21:15 @cz_binance quoted the TreeNewsFeed post and drew 3.2M, the biggest single post of the event; @binance's first statement in the same minute drew 95K.",
+  "By posting time, sampled posts published before CZ's earned 32 percent of the 55.4M engagements on all 686 sampled event-window posts; posts from the first 60 minutes earned 43 percent. The framing (hack, multi-billion figure, issuer freeze, company silence) was set before the first Binance voice appeared."
+ ],
+ "table": {
+  "title": "First-hour sequence: posts that passed 100K engagements",
+  "columns": [
+   "Minutes after 20:24 (UTC)",
+   "Account (followers)",
+   "Class",
+   "Engagements",
+   "What it said"
+  ],
+  "rows": [
+   [
+    "+8 (20:32)",
+    "@spreekaway (39.5K)",
+    "Small",
+    "1.6M",
+    "Possible hack, wallet drained, unconfirmed"
+   ],
+   [
+    "+15 (20:39)",
+    "@TreeNewsFeed (198K)",
+    "Aggregator",
+    "570K",
+    "Potential Binance hack ongoing, on-chain"
+   ],
+   [
+    "+15 (20:39)",
+    "@bwenews (92.3K)",
+    "Aggregator",
+    "177K",
+    "Hot wallet drained for about $2.53B (its estimate), unconfirmed"
+   ],
+   [
+    "+18 (20:42)",
+    "@ASVPXILLZ (54.1K)",
+    "Mid",
+    "664K",
+    "Own account compromised, about $3M (unverified user claim)"
+   ],
+   [
+    "+25 (20:49)",
+    "@KillaXBT (241K)",
+    "Mid",
+    "238K",
+    "\"It's just fud\""
+   ],
+   [
+    "+30 (20:54)",
+    "@odysseas_eth (8.7K)",
+    "Small",
+    "218K",
+    "EIP-7702 mechanism thread"
+   ],
+   [
+    "+32 (20:56)",
+    "@officer_secret (53.9K)",
+    "Mid",
+    "204K",
+    "Around $3.5B across chains (its estimate)"
+   ],
+   [
+    "+41 (21:05)",
+    "@TreeNewsFeed (198K)",
+    "Aggregator",
+    "2.0M",
+    "Tether freezes $971M USDT, no update from Binance"
+   ],
+   [
+    "+44 (21:08)",
+    "@WatcherGuru (4.9M)",
+    "Aggregator",
+    "605K",
+    "Tether freeze, no official statement from Binance yet"
+   ],
+   [
+    "+51 (21:15)",
+    "@cz_binance (13.0M)",
+    "Official",
+    "3.2M",
+    "User funds are safe, does look like a hack"
+   ]
+  ]
+ },
+ "callouts": [
+  {
+   "title": "The 51-minute gap became the headline",
+   "body": "39 posts published before any Binance-linked account spoke passed 100K engagements each. The first institutional fact the crowd received was Tether's freeze, packaged with \"no update from Binance\". The silence was written into the most-engaged pre-statement post (2.0M)."
+  },
+  {
+   "title": "Interpretation traveled, raw alerts did not",
+   "body": "Whale Alert's automated transfer posts were early and drew 40K to 90K engagements each. A 39.5K-follower account calling it a possible hack drew 1.6M. Small on-chain accounts with high engagements per follower were the earliest layer that moved attention."
+  }
+ ],
+ "receipts": [
+  {
+   "who": "@whale_alert",
+   "utc": "20:23",
+   "interactions": "50K",
+   "quote": "612,729,468 $USDT (612,130,218 USD) transferred from #Binance to unknown wallet"
+  },
+  {
+   "who": "@spreekaway",
+   "utc": "20:32",
+   "interactions": "1.6M",
+   "quote": "Entire Binance wallet drained into new EOA. Contract call was funded by Tornado Cash"
+  },
+  {
+   "who": "@ASVPXILLZ",
+   "utc": "20:42",
+   "interactions": "664K",
+   "quote": "My Binance account appears to have been compromised just now, with approximately $3M USD in funds withdrawn without my authorization."
+  },
+  {
+   "who": "@KillaXBT",
+   "utc": "20:49",
+   "interactions": "238K",
+   "quote": "It's just fud. @Binance are good."
+  },
+  {
+   "who": "@odysseas_eth",
+   "utc": "20:54",
+   "interactions": "218K",
+   "quote": "1/4 EIP-7702 can turn the wallet itself into the sweeper."
+  },
+  {
+   "who": "@TreeNewsFeed",
+   "utc": "21:05",
+   "interactions": "2.0M",
+   "quote": "[🌲] TETHER FREEZES $971M USDT IN LIKELY BINANCE HACK, WITH NO UPDATE FROM BINANCE STILL"
+  }
+ ],
+ "watch": [
+  "Binance's post-mortem: whether it confirms or corrects the first-hour EIP-7702 framing, and whether the correction approaches 1.6M engagements.",
+  "More unverified user claims like @ASVPXILLZ's would shift the story from a hot wallet loss to account security.",
+  "The \"EIP7702\" keyword (1 to 27 posts in 24 hours): growth means the vector story is spreading to other wallets."
+ ],
+ "caveat": ""
+}

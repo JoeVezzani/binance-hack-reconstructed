@@ -1,0 +1,98 @@
+{
+ "name": "tron_TG5iBMQPrDzJJAUM8GMVBf1hRaJ1wvzsGi_account",
+ "utc": "2026-10-30T03:21:23Z",
+ "url": "https://api.trongrid.io/v1/accounts/TG5iBMQPrDzJJAUM8GMVBf1hRaJ1wvzsGi",
+ "request": null,
+ "status": "ok",
+ "response": {
+  "data": [
+   {
+    "owner_permission": {
+     "keys": [
+      {
+       "address": "TG5iBMQPrDzJJAUM8GMVBf1hRaJ1wvzsGi",
+       "weight": 1
+      }
+     ],
+     "threshold": 1,
+     "permission_name": "owner"
+    },
+    "account_resource": {
+     "energy_window_optimized": true,
+     "latest_consume_time_for_energy": 1793307366000,
+     "energy_window_size": 28800000
+    },
+    "active_permission": [
+     {
+      "operations": "7fff1fc0033ec30f000000000000000000000000000000000000000000000000",
+      "keys": [
+       {
+        "address": "TG5iBMQPrDzJJAUM8GMVBf1hRaJ1wvzsGi",
+        "weight": 1
+       }
+      ],
+      "threshold": 1,
+      "id": 2,
+      "type": "Active",
+      "permission_name": "active"
+     }
+    ],
+    "address": "41430b9b4a60d18affe500b731a97b5aa622c7863f",
+    "create_time": 1793305197000,
+    "latest_opration_time": 1793318766000,
+    "free_asset_net_usageV2": [
+     {
+      "value": 0,
+      "key": "1005182"
+     },
+     {
+      "value": 0,
+      "key": "1005193"
+     },
+     {
+      "value": 0,
+      "key": "1005092"
+     }
+    ],
+    "free_net_usage": 250,
+    "assetV2": [
+     {
+      "value": 1000000,
+      "key": "1005182"
+     },
+     {
+      "value": 4444444444,
+      "key": "1005193"
+     },
+     {
+      "value": 312729468000000,
+      "key": "1005092"
+     }
+    ],
+    "frozenV2": [
+     {},
+     {
+      "type": "ENERGY"
+     },
+     {
+      "type": "TRON_POWER"
+     }
+    ],
+    "balance": 4,
+    "trc20": [
+     {
+      "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t": "312729468000000"
+     }
+    ],
+    "latest_consume_free_time": 1793306748000,
+    "net_window_size": 28800000,
+    "net_window_optimized": true
+   }
+  ],
+  "success": true,
+  "meta": {
+   "at": 1793330483792,
+   "page_size": 1
+  }
+ }
+}

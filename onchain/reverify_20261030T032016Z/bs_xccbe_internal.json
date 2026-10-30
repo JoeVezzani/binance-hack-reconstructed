@@ -1,0 +1,11 @@
+{
+ "name": "bs_xccbe_internal",
+ "utc": "2026-10-30T03:20:34Z",
+ "url": "https://eth.blockscout.com/api/v2/addresses/0xCcBEF95633ADB5Cd2b5038DB5a38d77E726cA263/internal-transactions",
+ "request": null,
+ "status": "ok",
+ "response": {
+  "items": [],
+  "next_page_params": null
+ }
+}

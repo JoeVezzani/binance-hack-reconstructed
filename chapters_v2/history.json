@@ -1,0 +1,136 @@
+{
+ "key": "history",
+ "headline": "Binance reached 27.5x baseline in four hours, past Bybit's 17.7x peak on twice the base",
+ "dek": "Against the Bybit hack, the FTX collapse and Binance's own 2022 and 2023 crises, this attention shock built faster and larger hour for hour than Bybit's, the only comparison with hourly data. Its sentiment floor, so far, is shallower than any of them.",
+ "key_numbers": [
+  {
+   "value": "27.5x",
+   "label": "Binance peak full hour vs baseline"
+  },
+  {
+   "value": "17.7x",
+   "label": "Bybit hourly peak, Feb 2025"
+  },
+  {
+   "value": "87.2M",
+   "label": "Oct 29 engagements, 3rd biggest day"
+  }
+ ],
+ "narrative": [
+  "Against the Bybit hack, the one comparable with hourly data, the Binance event built faster and reached more than three times the absolute hourly attention. Four hours after onset the Binance topic drew 27.8M engagements in the 00:00 UTC hour, 27.5x its baseline of 1.0M an hour. Bybit's February 2025 hack peaked at 17.7x, six hours after onset.",
+  "The bases differ. Bybit's hourly baseline was 459K; Binance's is 1.0M, 2.2x larger. Bybit's biggest hour drew 8.1M. Aligned to onset, Binance ran 17.2x against Bybit's 5.9x in the first hour and 23.6x against 7.5x in the second.",
+  "On daily figures, FTX's November 2022 collapse peaked at 124.5x on a baseline of only 634K a day; its peak day was 78.9M. Binance's November 2022 stress peaked at 4.9x, and the November 2023 plea and settlement at 5.5x on a 21.7M base, with a 118.1M peak day. Bybit's peak day was 135.6M (8.5x). Those are daily figures; the Binance comparison above is hourly until Oct 30 closes.",
+  "Against Binance's own year, Oct 29 UTC, with about three and a half event hours, closed at 87.2M engagements: the third biggest day of the past 365 and 4.2x the median day of 20.6M. Only Jul 12 (161.3M) and Mar 18 (152.4M) were larger.",
+  "Sentiment is where the event departs from history. On daily scores, Binance's Oct 29 reading of 63 sits above every comparable floor: FTX at 29, Binance at 32 in November 2022, Binance at 41 in November 2023 and Bybit at 48. Hour for hour, Binance bottomed at 53 at 21:00 UTC against Bybit's hourly low of 44. Large accounts called this the biggest hack in crypto history; by gross outflow it would be, if the reported figures are confirmed. @KobeissiLetter's 21:58 post (2.2M) said 'if confirmed'."
+ ],
+ "table": {
+  "title": "Comparables: peak attention and sentiment floor",
+  "columns": [
+   "Event",
+   "Peak multiple",
+   "Peak engagements",
+   "Sentiment floor",
+   "Days above 2x"
+  ],
+  "rows": [
+   [
+    "Binance hack, Oct 2026 (hourly, 5 full hours)",
+    "27.5x at +4h",
+    "27.8M/hour",
+    "53 (hourly)",
+    "Too early"
+   ],
+   [
+    "Bybit hack, Feb 2025 (hourly, first 8 hours)",
+    "17.7x at +6h",
+    "8.1M/hour",
+    "44 (hourly)",
+    "n/a"
+   ],
+   [
+    "Bybit hack, Feb 2025 (daily)",
+    "8.5x",
+    "135.6M/day",
+    "48",
+    "5"
+   ],
+   [
+    "FTX collapse, Nov 2022 (daily)",
+    "124.5x",
+    "78.9M/day",
+    "29",
+    "10"
+   ],
+   [
+    "Binance, Nov 2022 (daily)",
+    "4.9x",
+    "11.8M/day",
+    "32",
+    "8"
+   ],
+   [
+    "Binance plea, Nov 2023 (daily)",
+    "5.5x",
+    "118.1M/day",
+    "41",
+    "9"
+   ],
+   [
+    "Binance 1-year high, Jul 12 2026",
+    "n/a",
+    "161.3M/day",
+    "n/a",
+    "n/a"
+   ],
+   [
+    "Binance, Oct 29 2026 UTC (3.6 event hours)",
+    "4.2x median day",
+    "87.2M/day",
+    "63 (daily)",
+    "n/a"
+   ]
+  ]
+ },
+ "callouts": [
+  {
+   "title": "Compare volumes, not just multiples",
+   "body": "FTX's 124.5x came off 634K engagements a day; Binance's 27.5x comes off 1.0M an hour. The absolute hourly figure, 27.8M against Bybit's 8.1M peak hour, is the cleaner comparison and puts the Binance event well ahead after four hours."
+  },
+  {
+   "title": "The sentiment floor has not broken",
+   "body": "Every comparable crisis took daily sentiment below Binance's Oct 29 daily score of 63: Bybit to 48, Binance 2023 to 41, Binance 2022 to 32, FTX to 29. Hourly, Binance's low of 53 sits above Bybit's 44. A slide toward 30 would match the trust crises, not the hacks."
+  }
+ ],
+ "receipts": [
+  {
+   "who": "@KobeissiLetter",
+   "utc": "21:58",
+   "interactions": "2.2M",
+   "quote": "If confirmed, this would mark the biggest hack in crypto history."
+  },
+  {
+   "who": "@StarPlatinum_",
+   "utc": "20:58",
+   "interactions": "458K",
+   "quote": "Binance just got $2.7 BILLION out in 24 seconds If confirmed this could be the biggest hack of 2026"
+  },
+  {
+   "who": "@BullTheoryio",
+   "utc": "22:15",
+   "interactions": "231K",
+   "quote": "BREAKING: World's biggest crypto exchange Binance was just hacked for $5.6 billion.  The largest hack in crypto history."
+  },
+  {
+   "who": "@KobeissiLetter",
+   "utc": "22:59",
+   "interactions": "244K",
+   "quote": "So far, total outflows as part of this hack are sitting ~$5.9 billion."
+  }
+ ],
+ "watch": [
+  "Whether Oct 30 UTC passes Jul 12's 161.3M; its first full hour was 27.8M.",
+  "Days above 2x baseline: Bybit lasted 5, FTX 10. Past 5 puts this beyond Bybit's shape.",
+  "Hourly sentiment against Bybit's hourly floor of 44: a break below ends the event's main difference from every comparable."
+ ],
+ "caveat": ""
+}

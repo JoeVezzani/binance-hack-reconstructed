@@ -1,0 +1,20 @@
+{
+ "name": "eth_x9749_nonce",
+ "utc": "2026-10-30T03:20:21Z",
+ "url": "https://ethereum-rpc.publicnode.com",
+ "request": {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "eth_getTransactionCount",
+  "params": [
+   "0x9749292d74fd460982d0912ea9515ea24736c762",
+   "latest"
+  ]
+ },
+ "status": "ok",
+ "response": {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": "0xb"
+ }
+}

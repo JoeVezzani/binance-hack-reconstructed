@@ -1,0 +1,153 @@
+{
+ "key": "official",
+ "headline": "Binance's statement saying funds were safe drew 904K; three without that line averaged 91K",
+ "dek": "Binance's founder, co-founder and corporate account each told the story their own way in the first five hours. The founder carried the most reach.",
+ "key_numbers": [
+  {
+   "value": "3.2M",
+   "label": "CZ's 21:15 post, event's biggest"
+  },
+  {
+   "value": "904K",
+   "label": "@binance post with 'User funds are completely safe'"
+  },
+  {
+   "value": "91K",
+   "label": "Average of three earlier statements"
+  }
+ ],
+ "narrative": [
+  "The biggest post of the event came from a founder who says he no longer manages the exchange. At 21:15 UTC @cz_binance wrote that user funds were safe and \"It does look like a hack on Binance\", thanked Tether ($971M) and Circle ($823M), and said that \"as a shareholder\" he expected all user funds to be fully covered. Quoting @TreeNewsFeed's freeze headline, it drew 3.2M engagements.",
+  "In the sampled event-window posts, CZ's 7 drew 6.0M, @binance's 8 drew 2.3M and Yi He's (@heyibinance) 11 drew 1.1M. @binance's last post before the event, at 19:59, was a Write to Earn promotion (225K).",
+  "@binance posted holding statements at 21:15, 21:16 and 21:24 that drew 95K, 93K and 85K, an average of 91K. At 21:29 it added one sentence, \"User funds are completely safe.\" That post drew 904K. The 21:16 version had said \"At this stage, we have not confirmed any impact to user funds\"; @WatcherGuru quoted it at 21:27 and drew 323K, more than three times Binance's own post.",
+  "Timing counted as much as wording. The 21:29 post came after CZ's, and @binance's identical withdrawal notices at 22:15 and 22:33 drew 141K and 351K.",
+  "CZ's replies thanked the issuers: Tether's CEO (21:31, \"life saver\", 671K), Circle (21:36, 426K), the USD1 freeze (22:25, 229K) and Ripple (23:09, 321K). At 22:23 he quoted @0xngmi's estimate of about $1B in net losses after freezes: \"Loss might be a bit higher than that, but will cover\" (926K). The corporate account matched that at 00:13, \"Binance will cover all losses\" (378K), nine minutes after Yi He's \"Binance will cover all hacking losses\" (245K).",
+  "Yi He handled operations and partners. Her 21:17 holding statement drew 329K, more than any of @binance's three. She thanked Ripple at 22:08 for freezing \"approximately 200 million\" (100K) and World Liberty Financial at 22:22 for \"$27m USD1 frozen and 48m (~$2m) WLFI frozen\" (117K). @binance answered \"references to $1.8 billion\" at 23:22 with a verified frozen figure of $2.54 billion (529K), then at 00:52 \"around $3 billion\" (156K).",
+  "Official reach thinned as the audience grew. @binance's updates drew 904K at 21:29, 529K at 23:22, 378K at 00:13 and 156K at 00:52, while the topic rose to 27.5x baseline at 00:00. Its 21:48 notice blaming withdrawal issues on \"a technical error\" drew 5.3K, the night's lowest; by 22:15 the wording was \"security checks\". Official accounts drew 18.8 percent of sampled engagement."
+ ],
+ "table": {
+  "title": "Official post ledger, Oct 29 to 30 (UTC)",
+  "columns": [
+   "UTC",
+   "Account",
+   "What it said",
+   "Engagements"
+  ],
+  "rows": [
+   [
+    "21:15",
+    "@cz_binance",
+    "User funds are safe, does look like a hack; thanks Tether ($971M) and Circle ($823M)",
+    "3.2M"
+   ],
+   [
+    "21:15 to 21:24",
+    "@binance",
+    "Three holding statements, no funds-safe line",
+    "95K / 93K / 85K"
+   ],
+   [
+    "21:17",
+    "@heyibinance",
+    "Aware of reports, actively investigating",
+    "329K"
+   ],
+   [
+    "21:29",
+    "@binance",
+    "Same statement plus \"User funds are completely safe\"",
+    "904K"
+   ],
+   [
+    "22:08 / 22:22",
+    "@heyibinance",
+    "Thanks Ripple (~200 million) and WLFI ($27m USD1) for freezes",
+    "100K / 117K"
+   ],
+   [
+    "22:15 / 22:33",
+    "@binance",
+    "Identical notice: security checks, withdrawals resume when resolved",
+    "141K / 351K"
+   ],
+   [
+    "22:23",
+    "@cz_binance",
+    "Loss might be a bit higher than that, but will cover",
+    "926K"
+   ],
+   [
+    "23:22",
+    "@binance",
+    "Differing figures; verified frozen total $2.54 billion",
+    "529K"
+   ],
+   [
+    "00:04 / 00:13",
+    "@heyibinance / @binance",
+    "Binance will cover all (hacking) losses; deposits and withdrawals suspended",
+    "245K / 378K"
+   ],
+   [
+    "00:52",
+    "@binance",
+    "Verified total frozen around $3 billion",
+    "156K"
+   ]
+  ]
+ },
+ "callouts": [
+  {
+   "title": "The funds line traveled",
+   "body": "The @binance statement adding \"User funds are completely safe\" drew 904K against 91K for three versions without it. It also followed CZ's 3.2M post, and identical later notices varied 2.5x on timing alone. Plain reassurance outperformed hedged holding language."
+  },
+  {
+   "title": "The founder's account outran the company",
+   "body": "@cz_binance drew 6.0M in the sampled event-window posts against 2.3M for @binance, and his thank-you replies (229K to 671K) outdrew most corporate statements. CZ made his commitments \"as a shareholder\"; the corporate \"Binance will cover all losses\" came at 00:13."
+  }
+ ],
+ "receipts": [
+  {
+   "who": "@cz_binance",
+   "utc": "21:15",
+   "interactions": "3.2M",
+   "quote": "It does look like a hack on Binance. Appreciate the quick freeze from Tether (~$971m) and Circle (~$823m)."
+  },
+  {
+   "who": "@binance",
+   "utc": "21:16",
+   "interactions": "93K",
+   "quote": "At this stage, we have not confirmed any impact to user funds."
+  },
+  {
+   "who": "@binance",
+   "utc": "21:29",
+   "interactions": "904K",
+   "quote": "Our teams are aware of reports of a potential security issue and are actively investigating. User funds are completely safe."
+  },
+  {
+   "who": "@cz_binance",
+   "utc": "22:23",
+   "interactions": "926K",
+   "quote": "Loss might be a bit higher than that, but will cover. 🙏"
+  },
+  {
+   "who": "@binance",
+   "utc": "23:22",
+   "interactions": "529K",
+   "quote": "For clarity, the current verified total frozen is $2.54 billion."
+  },
+  {
+   "who": "@binance",
+   "utc": "00:52",
+   "interactions": "156K",
+   "quote": "Update: The current verified total frozen amount is around $3 billion."
+  }
+ ],
+ "watch": [
+  "Binance's full post-mortem: whether it states a loss figure, and whether it approaches the 904K of the 21:29 statement.",
+  "The frozen total, revised from $2.54 billion (23:22) to around $3 billion (00:52): further revisions mean issuers are still freezing.",
+  "@binance notices reopening deposits and withdrawals, measured against the 378K of the 00:13 suspension post."
+ ],
+ "caveat": ""
+}

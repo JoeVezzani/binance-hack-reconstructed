@@ -1,0 +1,23 @@
+{
+ "name": "eth_usd1_frozen_x5227",
+ "utc": "2026-10-30T03:26:49Z",
+ "url": "https://ethereum-rpc.publicnode.com",
+ "request": {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "eth_call",
+  "params": [
+   {
+    "to": "0x8d0D000Ee44948FC98c9B98A4FA4921476f08B0d",
+    "data": "0xd05166500000000000000000000000005227f603c1ee34ce3c06efe6477003bdfccb2f8c"
+   },
+   "latest"
+  ]
+ },
+ "status": "ok",
+ "response": {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": "0x0000000000000000000000000000000000000000000000000000000000000001"
+ }
+}

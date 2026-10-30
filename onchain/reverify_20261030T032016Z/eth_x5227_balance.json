@@ -1,0 +1,20 @@
+{
+ "name": "eth_x5227_balance",
+ "utc": "2026-10-30T03:20:16Z",
+ "url": "https://ethereum-rpc.publicnode.com",
+ "request": {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "eth_getBalance",
+  "params": [
+   "0x5227f603C1eE34CE3C06eFe6477003BDfCCB2f8c",
+   "latest"
+  ]
+ },
+ "status": "ok",
+ "response": {
+  "jsonrpc": "2.0",
+  "result": "0x37e8c5c5ad8683c9a40",
+  "id": 1
+ }
+}

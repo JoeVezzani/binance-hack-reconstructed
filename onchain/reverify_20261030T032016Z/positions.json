@@ -1,0 +1,196 @@
+{
+ "read_window_utc": "2026-10-30 03:20:16 to 03:26:49 UTC",
+ "cut_utc": "03:20 to 03:27 UTC Oct 30",
+ "prices_utc": "2026-10-30 03:22:05 UTC (CoinGecko simple/price)",
+ "prices": {
+  "BTC": 77253,
+  "ETH": 2209.99,
+  "XRP": 1.23,
+  "SOL": 95.55,
+  "XAUT": 3986.22,
+  "WBETH": 2447.0,
+  "ARB": 0.155823
+ },
+ "stablecoin_pricing": "USDT, USDC and USD1 at face value ($1)",
+ "held": [
+  {
+   "chain": "Bitcoin",
+   "asset": "BTC",
+   "amount": 18270.2,
+   "usd": 1411.4,
+   "where": "19 fresh addresses (17 x 1,000 BTC, 832.5, 437.7)",
+   "status": "Unfrozen, no outgoing spend",
+   "read_utc": "03:20:38 to 03:21:20"
+  },
+  {
+   "chain": "Ethereum",
+   "asset": "ETH",
+   "amount": 197460.0,
+   "usd": 436.4,
+   "where": "0x8532fa14",
+   "status": "Unfrozen, nonce 0 (never sent)",
+   "read_utc": "03:20:17"
+  },
+  {
+   "chain": "Ethereum",
+   "asset": "ETH",
+   "amount": 137602.0,
+   "usd": 304.1,
+   "where": "0xc887af69",
+   "status": "Unfrozen, nonce 0 (never sent)",
+   "read_utc": "03:20:18"
+  },
+  {
+   "chain": "Ethereum",
+   "asset": "ETH",
+   "amount": 78415.3,
+   "usd": 173.3,
+   "where": "0x897C80d1",
+   "status": "Unfrozen, nonce 0; 57,892 via 0xCcBEF956 and 0xb171cA86",
+   "read_utc": "03:24:13"
+  },
+  {
+   "chain": "Ethereum",
+   "asset": "ETH",
+   "amount": 16501.5,
+   "usd": 36.5,
+   "where": "0x5227 (main receiver)",
+   "status": "Unfrozen, still swapping tokens to ETH",
+   "read_utc": "03:20:16"
+  },
+  {
+   "chain": "XRP Ledger",
+   "asset": "XRP",
+   "amount": 233461943.1,
+   "usd": 287.2,
+   "where": "rK21t6nG",
+   "status": "Unfrozen, no outgoing transaction",
+   "read_utc": "03:21:56"
+  },
+  {
+   "chain": "Solana",
+   "asset": "SOL",
+   "amount": 970545.3,
+   "usd": 92.7,
+   "where": "AffzFDKZ",
+   "status": "Unfrozen, balance above amount received",
+   "read_utc": "03:22:00"
+  },
+  {
+   "chain": "Ethereum",
+   "asset": "wBETH",
+   "amount": 29934.0,
+   "usd": 73.2,
+   "where": "0x7f9dc988",
+   "status": "Unfrozen",
+   "read_utc": "03:20:28"
+  }
+ ],
+ "frozen": [
+  {
+   "chain": "Ethereum",
+   "asset": "USDT",
+   "amount": 1175464712.8,
+   "usd": 1175.5,
+   "where": "0x5227",
+   "how": "isBlackListed = true (Tether contract)",
+   "read_utc": "03:20:17"
+  },
+  {
+   "chain": "Ethereum",
+   "asset": "USDC",
+   "amount": 823000000.0,
+   "usd": 823.0,
+   "where": "0x5227",
+   "how": "isBlacklisted = true (Circle contract)",
+   "read_utc": "03:20:17"
+  },
+  {
+   "chain": "Tron",
+   "asset": "USDT",
+   "amount": 312729468.0,
+   "usd": 312.7,
+   "where": "TG5iBMQP",
+   "how": "isBlackListed = true (TRC-20 USDT)",
+   "read_utc": "03:22:28"
+  },
+  {
+   "chain": "Ethereum",
+   "asset": "USDT",
+   "amount": 174999872.3,
+   "usd": 175.0,
+   "where": "0xAa246BF6",
+   "how": "isBlackListed = true",
+   "read_utc": "03:20:20"
+  },
+  {
+   "chain": "Tron",
+   "asset": "USDT",
+   "amount": 65990000.0,
+   "usd": 65.99,
+   "where": "TCzBTkqn",
+   "how": "isBlackListed = true (TRC-20 USDT)",
+   "read_utc": "03:25"
+  },
+  {
+   "chain": "Ethereum",
+   "asset": "XAUt",
+   "amount": 12574.05,
+   "usd": 50.1,
+   "where": "0x5227",
+   "how": "isBlocked = true (Tether Gold contract)",
+   "read_utc": "03:20:28"
+  },
+  {
+   "chain": "Arbitrum",
+   "asset": "ETH + ARB",
+   "amount": null,
+   "usd": 30.2,
+   "where": "0x3E2bf1ac",
+   "how": "8,426 ETH and 74.56M ARB moved out 00:18:20 UTC by L1-originated (type 0x65) txs; recovery per @zachxbt / Arbitrum Security Council",
+   "read_utc": "03:20:35"
+  },
+  {
+   "chain": "Ethereum",
+   "asset": "USD1",
+   "amount": 27824039.9,
+   "usd": 27.8,
+   "where": "0x5227",
+   "how": "frozen = true (USD1 contract)",
+   "read_utc": "03:26:49"
+  },
+  {
+   "chain": "Ethereum",
+   "asset": "aUSDT (Aave), net",
+   "amount": 60002066.5,
+   "usd": 16.2,
+   "where": "0x8d539036",
+   "how": "collateral immobilised (holder blacklisted, Aave USDT reserve isFrozen = true); gross 60.0M aUSDT less 19,762.7 WETH debt",
+   "read_utc": "03:20:29"
+  }
+ ],
+ "totals": {
+  "held_unfrozen_usd_m": 2814.8,
+  "frozen_or_recovered_usd_m": 2676.5,
+  "frozen_by_contract_call_usd_m": 2630.1,
+  "gross_usd_m": 5491.3
+ },
+ "chart_sources_usd_m": {
+  "Ethereum": 3291.1,
+  "Bitcoin": 1411.4,
+  "Tron": 378.7,
+  "XRP Ledger": 287.2,
+  "Solana": 92.7,
+  "Arbitrum": 30.2
+ },
+ "chart_flows_usd_m": {
+  "Bitcoin|Unfrozen, traced": 1411.4,
+  "Ethereum|Unfrozen, traced": 1023.5,
+  "XRP Ledger|Unfrozen, traced": 287.2,
+  "Solana|Unfrozen, traced": 92.7,
+  "Ethereum|Frozen or recovered": 2267.6,
+  "Tron|Frozen or recovered": 378.7,
+  "Arbitrum|Frozen or recovered": 30.2
+ },
+ "note": "Chart data for g_flow (chart_sources_usd_m, chart_flows_usd_m, totals) and g_positions (held + frozen). Replaces onchain/flow_summary.json, whose cut_utc '04:30 UTC' was never a real read time."
+}

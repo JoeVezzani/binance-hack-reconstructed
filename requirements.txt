@@ -1,0 +1,7 @@
+# PDF + charts
+reportlab>=4.4
+matplotlib>=3.11
+numpy>=2.0
+pillow>=10.0
+# datasets (CSV + Parquet)
+pyarrow>=15

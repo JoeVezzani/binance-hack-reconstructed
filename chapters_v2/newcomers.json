@@ -1,0 +1,129 @@
+{
+  "key": "newcomers",
+  "headline": "At 21:00, 49 percent of active Binance posters were first-timers: 6,538 vs 293 a normal hour",
+  "dek": "First-time posters are accounts posting about Binance for the first time in LunarCrush's lookback. In the first full hour they were nearly half of everyone active on the topic, and by 00:00 the spam share had halved.",
+  "key_numbers": [
+    {
+      "value": "22.3x",
+      "label": "first-time posters at 21:00 vs baseline"
+    },
+    {
+      "value": "49%",
+      "label": "first-time share of active creators, 21:00"
+    },
+    {
+      "value": "5.4%",
+      "label": "spam share at 00:00, from 10.7%"
+    }
+  ],
+  "narrative": [
+    "The first hour was written largely by people who had never posted about Binance before. In a normal hour 293 accounts post on the topic for the first time in LunarCrush's lookback, about 5 percent of 5,697 active creators. At 21:00 UTC there were 6,538 first-time posters, 22.3 times baseline, of 13,449 active creators: 49 percent. From 20:00 to 00:59 UTC, 22,330 first-time posters joined, 15.2 times the baseline rate (the 20:00 hour includes 24 pre-exploit minutes).",
+    "Arrivals were front-loaded. First-time posters fell each hour, from 6,538 to 5,629, 4,662 and 3,726, while active creators rose from 13,449 to 17,471, 20,248 and 22,735, and the first-time share slid from 49 to 16 percent. An account counts as first-time only once, so part of that is mechanical; the rest is a standing crowd that kept engaging as hourly engagements climbed to 27.8M at 00:00.",
+    "Over 24 hours 29,329 accounts posted on Binance, up 158 percent from 11,361, and LunarCrush's 24-hour count of first-time posters reached 23,581, 3.7 times the prior day's 6,303: 80 percent of creators against 55 percent a day earlier. That 24-hour figure is a separate measure from the hourly counts above, which total 22,330 for 20:00 to 00:59. Oct 29 UTC, with 3.6 event hours, logged 26,626 active creators, more than Binance's two bigger-engagement days of the year (17,448 on Mar 18, 9,752 on Jul 12) and about twice the 13,314 on Bybit's peak day in Feb 2025.",
+    "The newcomers came for the exchange and its stablecoin rails: first-time posters on Tether rose 6.5 times (261 to 1,694), while BNB (4,039 to 4,966) and Bitcoin (23,231 to 27,786) rose about 20 percent.",
+    "Spam did not keep up. In a normal hour 1,024 spam-flagged posts make up 10.7 percent of active Binance posts. Spam roughly doubled to 2,014 at 00:00, but active posts rose from about 9,600 an hour to 37,092, so the flagged share fell steadily to 5.4 percent. This window was cleaner than an ordinary Binance hour.",
+    "Small accounts held the floor. In the sampled posts, 239 from accounts under 50K followers drew 6.6M engagements, and 15 passed 100K. @spreekaway (39.5K followers) supplied the first viral alert at 20:32 (1.6M); @NPC_68 (3.2K followers) explained at 21:06 why frozen stablecoins mattered (253K); @inno_sol asked whether Binance was \"SAFE or HACKED\" (177K); @digitalbuzzfab told Spanish-speaking readers to take their money out (454K). Loss estimates then ran from $2.53B (per @bwenews at 20:39) to $5.7B (per @KobeissiLetter at 21:58)."
+  ],
+  "table": {
+    "title": "First-time posters and spam on the Binance topic, by hour",
+    "columns": [
+      "Hour (UTC)",
+      "First-time posters",
+      "Active creators",
+      "First-time share",
+      "Spam share"
+    ],
+    "rows": [
+      [
+        "Baseline (avg hour)",
+        "293",
+        "5,697",
+        "5.2%",
+        "10.7%"
+      ],
+      [
+        "Oct 29 20:00",
+        "1,775",
+        "8,256",
+        "21.5%",
+        "8.2%"
+      ],
+      [
+        "Oct 29 21:00",
+        "6,538",
+        "13,449",
+        "48.6%",
+        "6.3%"
+      ],
+      [
+        "Oct 29 22:00",
+        "5,629",
+        "17,471",
+        "32.2%",
+        "5.8%"
+      ],
+      [
+        "Oct 29 23:00",
+        "4,662",
+        "20,248",
+        "23.0%",
+        "5.6%"
+      ],
+      [
+        "Oct 30 00:00",
+        "3,726",
+        "22,735",
+        "16.4%",
+        "5.4%"
+      ]
+    ]
+  },
+  "callouts": [
+    {
+      "title": "A new audience, unanchored",
+      "body": "Nearly half the accounts active on Binance at 21:00 had never posted about it. They arrived while loss figures ran from $2.53B (per @bwenews) to $5.7B (per @KobeissiLetter), none confirmed by Binance."
+    },
+    {
+      "title": "The surge was organic",
+      "body": "Spam-flagged posts doubled in absolute terms, yet their share of active Binance posts fell from 10.7 percent to 5.4 percent by 00:00. Post and creator counts from this window are less distorted than in a normal Binance hour."
+    }
+  ],
+  "receipts": [
+    {
+      "who": "@spreekaway",
+      "utc": "20:32",
+      "interactions": "1.6M",
+      "quote": "Entire Binance wallet drained into new EOA. Contract call was funded by Tornado Cash"
+    },
+    {
+      "who": "@NPC_68",
+      "utc": "21:06",
+      "interactions": "253K",
+      "quote": "The Binance hacker is depositing stolen $USDT on Aave and borrowing $ETH against it. ... USDT can be frozen by Tether. ETH can’t."
+    },
+    {
+      "who": "@inno_sol",
+      "utc": "21:10",
+      "interactions": "177K",
+      "quote": "im confused ... is Binance SAFE or HACKED??"
+    },
+    {
+      "who": "@digitalbuzzfab",
+      "utc": "21:31",
+      "interactions": "454K",
+      "quote": "SACA TU DINERO DE BINANCE"
+    },
+    {
+      "who": "@odysseas_eth",
+      "utc": "20:54",
+      "interactions": "218K",
+      "quote": "A Binance-labeled wallet moved 167,464 ETH + 63 tokens, including 1.615B USDT, just 3m24s after a signed delegation was installed."
+    }
+  ],
+  "watch": [
+    "First-time posters per hour: falling toward 293 by +24h fits a short shock; a second spike marks a new wave.",
+    "Active creators (22,735 at 00:00) holding above 10,000 an hour after first-timers fade means the new audience stayed.",
+    "Spam share above the 10.7 percent baseline would mean opportunist accounts catching up."
+  ],
+  "caveat": ""
+}

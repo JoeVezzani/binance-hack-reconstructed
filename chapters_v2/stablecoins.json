@@ -1,0 +1,141 @@
+{
+ "key": "stablecoins",
+ "headline": "Tether's engagements hit 79.8x baseline, nearly 3x Binance's own peak, as freezes took over",
+ "dek": "Within 41 minutes of the sweep, the story was also about what stablecoin issuers could stop. The freeze became the night's second-largest theme and the main thing official accounts had to say.",
+ "key_numbers": [
+  {
+   "value": "79.8x",
+   "label": "Tether topic, 22:00 UTC vs baseline"
+  },
+  {
+   "value": "21.2M",
+   "label": "engagements on freeze posts (sample)"
+  },
+  {
+   "value": "1.03M",
+   "label": "Paolo Ardoino's single freeze post"
+  }
+ ],
+ "narrative": [
+  "The issuers' freezes turned a wallet drain into a second story. Tether's topic, normally about 33.4K engagements an hour, reached 2.7M in the 22:00 UTC hour: 79.8 times baseline, the highest multiple of the topics tracked and nearly three times Binance's 27.5x peak. USDC rose 14.0x by 00:00, to 5.1M an hour; Tether's base is small, and in absolute terms USDC added more per hour.",
+  "The freeze figures arrived before Binance spoke. @TreeNewsFeed posted \"TETHER FREEZES $971M USDT\" at 21:05 (2.0M), @WatcherGuru repeated it at 21:08 (605K), Whale Alert logged an address holding 971,149,299 USDT as frozen at 21:11, and WatcherGuru reported Circle freezing $823M of USDC at 21:13 (326K). Binance's first post came at 21:15.",
+  "The figure climbed by source. @WazzCrypto put the combined total at $1.8B at 21:12; Tether CEO Paolo Ardoino said at 21:25 that Tether \"froze more than 1.567B USDT\" (1.03M); Binance said at 23:22 that \"the current verified total frozen is $2.54 billion\" (529K), and at 00:52 \"around $3 billion\" (156K).",
+  "In the 686 sampled posts, the freeze theme drew 188 posts and 21.2M engagements, second only to \"hack / drained\" (43.4M) and ahead of \"largest ever\" (12.2M) and \"SAFU / funds safe\" (9.5M); 103 of the 188 landed in the 21:00 hour.",
+  "The freeze gave the official accounts their script. CZ's 21:15 post (3.2M) thanked Tether ($971M) and Circle ($823M) in its second sentence. Yi He (@heyibinance) thanked Tether at 21:26 and 21:36, Ripple for freezing \"approximately 200 million\" at 22:08 (99.7K) and World Liberty Financial for $27M of USD1 at 22:22 (117K). @ZachWitkoff's USD1 freeze note reached 264K.",
+  "A counter-narrative ran alongside. @NPC_68 (253K on a 3.2K-follower account) wrote at 21:06 that the attacker was borrowing ETH on Aave against USDT: \"USDT can be frozen by Tether. ETH can't.\" @BalaiBB made the same point at 22:09 (451K). Per on-chain checks reported by CryptoTicker, about 195,460 ETH sat untouched in a separate address as of 01:11 UTC and roughly 700M USDT moved before the freeze; Aave froze its USDT market (per @WatcherGuru, 21:52, 222K).",
+  "Tether's audience and tone shifted most. Over 24 hours its active creators rose from 486 to 1,985 and first-time posters from 261 to 1,694; from 20:00 to 00:59 UTC first-time posters ran 27.3x baseline. Tether's sentiment fell from 83 to 59 at 22:00 and was 65 at 00:00; USDC's moved from 85 to between 71 and 78. Over 24 hours USDT's price slipped 0.1 percent; USDC's was flat."
+ ],
+ "table": {
+  "title": "Stablecoin topics vs Binance, event hours (UTC)",
+  "columns": [
+   "Metric",
+   "Tether (USDT)",
+   "USDC",
+   "Binance"
+  ],
+  "rows": [
+   [
+    "Baseline engagements per hour",
+    "33.4K",
+    "363K",
+    "1.0M"
+   ],
+   [
+    "Peak hour multiple (hour)",
+    "79.8x (22:00)",
+    "14.0x (00:00)",
+    "27.5x (00:00)"
+   ],
+   [
+    "Peak hour engagements",
+    "2.7M",
+    "5.1M",
+    "27.8M"
+   ],
+   [
+    "New posts, 5 event hours vs baseline",
+    "15.8x",
+    "3.7x",
+    "14.0x"
+   ],
+   [
+    "First-time posters, 5 event hours vs baseline",
+    "27.3x",
+    "4.6x",
+    "15.2x"
+   ],
+   [
+    "Sentiment baseline to 00:00",
+    "83 to 65",
+    "85 to 71",
+    "80 to 57"
+   ],
+   [
+    "Active creators, prior 24h to 24h",
+    "486 to 1,985",
+    "6,969 to 10,274",
+    "11,361 to 29,329"
+   ],
+   [
+    "24h price change",
+    "-0.1%",
+    "0.0%",
+    "n/a"
+   ]
+  ]
+ },
+ "callouts": [
+  {
+   "title": "The freeze headline beat the exchange",
+   "body": "Tether's $971M freeze was on X at 21:05, ten minutes before Binance posted, and drew 2.0M engagements. Binance and CZ adopted the freeze in their own messaging within minutes. Issuers acted as first responders in the public record."
+  },
+  {
+   "title": "Frozen totals are not one number",
+   "body": "The frozen figure moved from $971M (21:05) to $1.8B combined (21:12), 1.567B USDT from Tether alone (21:25), Binance's $2.54B (23:22) and then about $3B (00:52), each from a different source and scope."
+  }
+ ],
+ "receipts": [
+  {
+   "who": "@TreeNewsFeed",
+   "utc": "21:05",
+   "interactions": "2.0M",
+   "quote": "TETHER FREEZES $971M USDT IN LIKELY BINANCE HACK, WITH NO UPDATE FROM BINANCE STILL"
+  },
+  {
+   "who": "@paoloardoino",
+   "utc": "21:25",
+   "interactions": "1.03M",
+   "quote": "Tether froze more than 1.567B USDT related to a potential Binance exchange hack."
+  },
+  {
+   "who": "@NPC_68",
+   "utc": "21:06",
+   "interactions": "253K",
+   "quote": "USDT can be frozen by Tether. ETH can’t."
+  },
+  {
+   "who": "@heyibinance",
+   "utc": "22:08",
+   "interactions": "99.7K",
+   "quote": "Thanks to the Ripple team for promptly freezing approximately 200 million. User Funds are SAFU."
+  },
+  {
+   "who": "@ZachWitkoff",
+   "utc": "22:15",
+   "interactions": "264K",
+   "quote": "USD1 has taken proactive steps to freeze the $27 million in USD1 associated with the @binance hack."
+  },
+  {
+   "who": "@binance",
+   "utc": "23:22",
+   "interactions": "529K",
+   "quote": "...including references to $1.8 billion. For clarity, the current verified total frozen is $2.54 billion."
+  }
+ ],
+ "watch": [
+  "Tether or Circle confirming totals that match Binance's ~$3B frozen figure; a mismatch restarts the numbers argument.",
+  "Tether sentiment, 65 at 00:00 against 83 baseline: above 75 within 72h means the freeze reads as protection.",
+  "Movement from the address holding about 195,460 ETH; ETH cannot be frozen."
+ ],
+ "caveat": ""
+}

@@ -1,0 +1,11 @@
+{
+ "name": "bs_x897c_internal",
+ "utc": "2026-10-30T03:25:16Z",
+ "url": "https://eth.blockscout.com/api/v2/addresses/0x897C80d1a9729E94460e2Bd93178bD5215158DF3/internal-transactions",
+ "request": null,
+ "status": "ok",
+ "response": {
+  "items": [],
+  "next_page_params": null
+ }
+}

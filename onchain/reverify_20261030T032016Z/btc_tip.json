@@ -1,0 +1,8 @@
+{
+ "name": "btc_tip",
+ "utc": "2026-10-30T03:20:38Z",
+ "url": "https://mempool.space/api/blocks/tip/height",
+ "request": null,
+ "status": "ok",
+ "response": 973766
+}

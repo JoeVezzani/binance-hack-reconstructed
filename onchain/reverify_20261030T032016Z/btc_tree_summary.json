@@ -1,0 +1,262 @@
+{
+ "bc1q0mtc2f5agpkvlq6hhahmfr3hlr55kyfjhl2mnm": {
+  "depth": 0,
+  "bal": 0.0,
+  "mempool_delta": 0.0,
+  "tx_count": 17,
+  "outs": {
+   "bc1qxg0l4p6xc50zuv9cl5f0l0wmaxjpg8wcy7s9ra": 437.69998739,
+   "bc1qrsrh56k4rpal88w0xpjuul0m78ud62akcwue5e": 142.699993,
+   "bc1qnq6jj9jmlf3945m3l8s0kxnqehrsga300k8t3s": 1000.0,
+   "bc1q96qkjsye5qruf9yksqdqg09lzdmur7wau2ga6u": 409.499995,
+   "bc1qxrxujwxfnvz040jw76d26zhjdg5jura7hs968s": 1000.0,
+   "bc1qs3aej5tmcdz0vctz8y9rjcxtxg8v5385577s56": 1000.0,
+   "bc1qn43ejagzgxgle394ynmv5sv3f9ydc48qme7t02": 1946.899995,
+   "bc1qjwdw6vrzq4vf6hckutvx4ucj86awwv99mxnz7w": 1000.0,
+   "bc1qt8mrl9uchasf7pqhwlz6ezm9g44x7xj0vs6zqz": 6636.799995,
+   "bc1q0ts8gaf9ht0rr4u02hr56f8thndqsc4kmkmfv3": 1000.0,
+   "bc1qhuq4genel5cuj00p7ggn30dwnzzjsw8mz3z2je": 3696.599995
+  }
+ },
+ "bc1qxg0l4p6xc50zuv9cl5f0l0wmaxjpg8wcy7s9ra": {
+  "depth": 1,
+  "bal": 437.70000454,
+  "mempool_delta": 0.0,
+  "tx_count": 3,
+  "outs": {}
+ },
+ "bc1qrsrh56k4rpal88w0xpjuul0m78ud62akcwue5e": {
+  "depth": 1,
+  "bal": 0.0,
+  "mempool_delta": 0.0,
+  "tx_count": 7,
+  "outs": {
+   "bc1qrg025e2pgx0rwya2kpgtj30972p64jt0hn6zyt": 832.49990088,
+   "bc1qn43ejagzgxgle394ynmv5sv3f9ydc48qme7t02": 52.999951,
+   "bc1qepc70u3u476vgvg3hfcwjgu4mecxe2uchs4lag": 1000.0,
+   "bc1qs6xnmhar38z44g2za93pv8ygdcwurrh8l87w3v": 1000.0,
+   "bc1qk8kpt0suefus8zz3fp78w8993frc5x97w423wl": 2636.799975
+  }
+ },
+ "bc1qnq6jj9jmlf3945m3l8s0kxnqehrsga300k8t3s": {
+  "depth": 1,
+  "bal": 1000.00002407,
+  "mempool_delta": 0.0,
+  "tx_count": 3,
+  "outs": {}
+ },
+ "bc1q96qkjsye5qruf9yksqdqg09lzdmur7wau2ga6u": {
+  "depth": 1,
+  "bal": 0.0,
+  "mempool_delta": 0.0,
+  "tx_count": 4,
+  "outs": {
+   "bc1qn43ejagzgxgle394ynmv5sv3f9ydc48qme7t02": 52.999951,
+   "bc1qepc70u3u476vgvg3hfcwjgu4mecxe2uchs4lag": 1000.0,
+   "bc1qalwnl7dtaa73fsq5tyn0ghfy3fgfpqkt69tca8": 1000.0,
+   "bc1qdyy9q2lrnn5qh3ju996pgt95eesvc38lppdewn": 1696.599985
+  }
+ },
+ "bc1qxrxujwxfnvz040jw76d26zhjdg5jura7hs968s": {
+  "depth": 1,
+  "bal": 1000.00002407,
+  "mempool_delta": 0.0,
+  "tx_count": 3,
+  "outs": {}
+ },
+ "bc1qs3aej5tmcdz0vctz8y9rjcxtxg8v5385577s56": {
+  "depth": 1,
+  "bal": 1000.0000031,
+  "mempool_delta": 0.0,
+  "tx_count": 2,
+  "outs": {}
+ },
+ "bc1qn43ejagzgxgle394ynmv5sv3f9ydc48qme7t02": {
+  "depth": 1,
+  "bal": 0.0,
+  "mempool_delta": 0.0,
+  "tx_count": 4,
+  "outs": {
+   "bc1qrg025e2pgx0rwya2kpgtj30972p64jt0hn6zyt": 832.49990088,
+   "bc1qk8kpt0suefus8zz3fp78w8993frc5x97w423wl": 946.89999,
+   "bc1qm2j6v3247khlwzxl7p9vqnfkghcllyhv9wjaat": 1000.0
+  }
+ },
+ "bc1qjwdw6vrzq4vf6hckutvx4ucj86awwv99mxnz7w": {
+  "depth": 1,
+  "bal": 1000.0,
+  "mempool_delta": 0.0,
+  "tx_count": 1,
+  "outs": {}
+ },
+ "bc1qt8mrl9uchasf7pqhwlz6ezm9g44x7xj0vs6zqz": {
+  "depth": 1,
+  "bal": 0.0,
+  "mempool_delta": 0.0,
+  "tx_count": 2,
+  "outs": {
+   "bc1qdfhmlrdvg4tm87zjl0vyf0xflp5ql50q3g88gw": 1000.0,
+   "bc1qsmvvvvya6ak2gmsjcxc06ns7yrsx7q4x492vf2": 5636.79999
+  }
+ },
+ "bc1q0ts8gaf9ht0rr4u02hr56f8thndqsc4kmkmfv3": {
+  "depth": 1,
+  "bal": 1000.0,
+  "mempool_delta": 0.0,
+  "tx_count": 1,
+  "outs": {}
+ },
+ "bc1qhuq4genel5cuj00p7ggn30dwnzzjsw8mz3z2je": {
+  "depth": 1,
+  "bal": 0.0,
+  "mempool_delta": 0.0,
+  "tx_count": 2,
+  "outs": {
+   "bc1q2wvz0kcsn4hqmajwtey30ud27fl25w8pveznn6": 1000.0,
+   "bc1q96qkjsye5qruf9yksqdqg09lzdmur7wau2ga6u": 2696.59999
+  }
+ },
+ "bc1qrg025e2pgx0rwya2kpgtj30972p64jt0hn6zyt": {
+  "depth": 2,
+  "bal": 832.499915,
+  "mempool_delta": 0.0,
+  "tx_count": 2,
+  "outs": {}
+ },
+ "bc1qepc70u3u476vgvg3hfcwjgu4mecxe2uchs4lag": {
+  "depth": 2,
+  "bal": 1000.00002409,
+  "mempool_delta": 0.0,
+  "tx_count": 3,
+  "outs": {}
+ },
+ "bc1qs6xnmhar38z44g2za93pv8ygdcwurrh8l87w3v": {
+  "depth": 2,
+  "bal": 1000.0,
+  "mempool_delta": 0.0,
+  "tx_count": 1,
+  "outs": {}
+ },
+ "bc1qk8kpt0suefus8zz3fp78w8993frc5x97w423wl": {
+  "depth": 2,
+  "bal": 0.0,
+  "mempool_delta": 0.0,
+  "tx_count": 5,
+  "outs": {
+   "bc1qrsrh56k4rpal88w0xpjuul0m78ud62akcwue5e": 1280.299928,
+   "bc1qg3nrzpuvq2pxqx74tcrywr09dc208ze96n3t53": 1000.0,
+   "bc1q42flhayrzy3zh8lkyevw8qcjduurt9a35wlsyx": 1000.0,
+   "bc1qm8v88m5fy6kuq9myva2eemwycxqd3e0zcrs2l8": 1000.0
+  }
+ },
+ "bc1qalwnl7dtaa73fsq5tyn0ghfy3fgfpqkt69tca8": {
+  "depth": 2,
+  "bal": 1000.0,
+  "mempool_delta": 0.0,
+  "tx_count": 1,
+  "outs": {}
+ },
+ "bc1qdyy9q2lrnn5qh3ju996pgt95eesvc38lppdewn": {
+  "depth": 2,
+  "bal": 0.0,
+  "mempool_delta": 0.0,
+  "tx_count": 2,
+  "outs": {
+   "bc1q66l8z9htj4cd7pf8nnlc6mrxyssudm6hyg7a2a": 696.59998,
+   "bc1qf5cyvv9w50tx9xx9s3xwsne0z87wvjj9l8a35u": 1000.0
+  }
+ },
+ "bc1qm2j6v3247khlwzxl7p9vqnfkghcllyhv9wjaat": {
+  "depth": 2,
+  "bal": 1000.0,
+  "mempool_delta": 0.0,
+  "tx_count": 1,
+  "outs": {}
+ },
+ "bc1qdfhmlrdvg4tm87zjl0vyf0xflp5ql50q3g88gw": {
+  "depth": 2,
+  "bal": 1000.00002407,
+  "mempool_delta": 0.0,
+  "tx_count": 3,
+  "outs": {}
+ },
+ "bc1qsmvvvvya6ak2gmsjcxc06ns7yrsx7q4x492vf2": {
+  "depth": 2,
+  "bal": 0.0,
+  "mempool_delta": 0.0,
+  "tx_count": 2,
+  "outs": {
+   "bc1qz8hdwv8gmml0u96dsvnzsagz6krjyzxmgxupdp": 1000.0,
+   "bc1qvws6kh5vjf7apg7f82wd5av8w2gmfj2zxkm8jc": 4636.799985
+  }
+ },
+ "bc1q2wvz0kcsn4hqmajwtey30ud27fl25w8pveznn6": {
+  "depth": 2,
+  "bal": 1000.0,
+  "mempool_delta": 0.0,
+  "tx_count": 1,
+  "outs": {}
+ },
+ "bc1qg3nrzpuvq2pxqx74tcrywr09dc208ze96n3t53": {
+  "depth": 3,
+  "bal": 1000.0,
+  "mempool_delta": 0.0,
+  "tx_count": 1,
+  "outs": {}
+ },
+ "bc1q42flhayrzy3zh8lkyevw8qcjduurt9a35wlsyx": {
+  "depth": 3,
+  "bal": 1000.00001413,
+  "mempool_delta": 0.0,
+  "tx_count": 2,
+  "outs": {}
+ },
+ "bc1qm8v88m5fy6kuq9myva2eemwycxqd3e0zcrs2l8": {
+  "depth": 3,
+  "bal": 1000.0,
+  "mempool_delta": 0.0,
+  "tx_count": 1,
+  "outs": {}
+ },
+ "bc1q66l8z9htj4cd7pf8nnlc6mrxyssudm6hyg7a2a": {
+  "depth": 3,
+  "bal": 0.0,
+  "mempool_delta": 0.0,
+  "tx_count": 2,
+  "outs": {
+   "bc1qrsrh56k4rpal88w0xpjuul0m78ud62akcwue5e": 643.499963,
+   "bc1qg3nrzpuvq2pxqx74tcrywr09dc208ze96n3t53": 1000.0
+  }
+ },
+ "bc1qf5cyvv9w50tx9xx9s3xwsne0z87wvjj9l8a35u": {
+  "depth": 3,
+  "bal": 1000.0,
+  "mempool_delta": 0.0,
+  "tx_count": 1,
+  "outs": {}
+ },
+ "bc1qz8hdwv8gmml0u96dsvnzsagz6krjyzxmgxupdp": {
+  "depth": 3,
+  "bal": 1000.00001719,
+  "mempool_delta": 0.0,
+  "tx_count": 3,
+  "outs": {}
+ },
+ "bc1qvws6kh5vjf7apg7f82wd5av8w2gmfj2zxkm8jc": {
+  "depth": 3,
+  "bal": 0.0,
+  "mempool_delta": 0.0,
+  "tx_count": 2,
+  "outs": {
+   "bc1q63qrfrpsg5hh0zzn3kp2xx9vljl7dq7tatsjxp": 1000.0,
+   "bc1qrsrh56k4rpal88w0xpjuul0m78ud62akcwue5e": 3636.79998
+  }
+ },
+ "bc1q63qrfrpsg5hh0zzn3kp2xx9vljl7dq7tatsjxp": {
+  "depth": 4,
+  "bal": 1000.00001409,
+  "mempool_delta": 0.0,
+  "tx_count": 2,
+  "outs": {}
+ }
+}

@@ -1,0 +1,163 @@
+{
+ "key": "reach",
+ "headline": "Mid and small accounts drew 37 percent of sampled engagement, twice the official accounts",
+ "dek": "Official accounts posted the single biggest posts of the night, but the volume of attention moved through news aggregators and the crowd. Follower count was a poor guide to who traveled furthest.",
+ "key_numbers": [
+  {
+   "value": "37.0%",
+   "label": "Mid and small accounts' share, sampled"
+  },
+  {
+   "value": "18.8%",
+   "label": "Official accounts' share, sampled"
+  },
+  {
+   "value": "14.9",
+   "label": "Engagements per follower, @TreeNewsFeed"
+  }
+ ],
+ "narrative": [
+  "The story traveled through aggregators and the crowd more than through institutions. Of 55.4M engagements on 686 sampled event-window posts, news aggregators took 29.0 percent (16.1M on 103 posts) and mid-size accounts with 50K to 500K followers 25.0 percent (13.9M on 245). Official accounts (Binance, CZ, Yi He, Tether's CEO and other company accounts) took 18.8 percent (10.5M on 28).",
+  "Small accounts under 50K followers took 12.0 percent (6.6M on 239), large accounts over 500K 9.9 percent (5.5M on 69), and Elon Musk 5.4 percent (3.0M on two posts). Mid and small accounts together drew 37.0 percent, about twice the official share. Per post the order flips: official posts averaged 373K, aggregators 156K, large accounts 80K, mid 57K and small 28K.",
+  "@cz_binance led the event window with 6.0M on 7 posts, then @WatcherGuru (4.9M on 10) and @KobeissiLetter (4.0M on 8). Over 24 hours @binance was the largest creator at 12.9M across 148 posts, including routine posts before the event: 11.3 percent of the topic's 114.2M. The top 10 creators held 39.2 percent; 60.8 percent came from everyone else.",
+  "@TreeNewsFeed, with 198K followers, drew 3.0M on 3 posts: 14.9 per follower. @spreekaway drew 40.4, @ASVPXILLZ 12.3 and @0xQuit 6.0 across its four posts. @cz_binance drew 0.46, @binance 0.14 on its eight sampled posts and Elon Musk, with 241.5M followers, 0.01. Large accounts sat near or below 1.",
+  "The crowd carried both the calm and the alarm. @0xngmi (197K followers) put losses net of the USDT and USDC freezes at \"around ~1bn\" against $144B of assets under custody (621K); @cz_binance quoted it at 22:23 with \"Loss might be a bit higher than that, but will cover\" (926K). @digitalbuzzfab, a 20.7K-follower account, posted \"SACA TU DINERO DE BINANCE\" at 21:31 and drew 454K, 21.9 per follower. @coinbase's \"Coinbase is safe and secure\" drew 329K at 22:43.",
+  "Aggregators also reframed. Elon Musk's \"Everyday is Zeroday\" at 22:33 (2.1M) quoted @KobeissiLetter's $5.7B post. Thirteen minutes later @WatcherGuru reposted it as \"Elon Musk says 'everyday is zeroday' following Binance hack\" (401K), turning an ambiguous post into a hack headline."
+ ],
+ "table": {
+  "title": "Top 10 creators in the event window (sampled posts)",
+  "columns": [
+   "Creator (class)",
+   "Engagements (posts)",
+   "Followers",
+   "Eng. per follower",
+   "First post UTC"
+  ],
+  "rows": [
+   [
+    "@cz_binance (official)",
+    "6.0M (7)",
+    "13.0M",
+    "0.46",
+    "21:15"
+   ],
+   [
+    "@WatcherGuru (aggregator)",
+    "4.9M (10)",
+    "4.9M",
+    "0.99",
+    "21:08"
+   ],
+   [
+    "@KobeissiLetter (aggregator)",
+    "4.0M (8)",
+    "2.7M",
+    "1.49",
+    "21:14"
+   ],
+   [
+    "@elonmusk (individual)",
+    "3.0M (2)",
+    "241.5M",
+    "0.01",
+    "22:33"
+   ],
+   [
+    "@TreeNewsFeed (aggregator)",
+    "3.0M (3)",
+    "198K",
+    "14.94",
+    "20:39"
+   ],
+   [
+    "@binance (official)",
+    "2.3M (8)",
+    "16.1M",
+    "0.14",
+    "21:15"
+   ],
+   [
+    "@spreekaway (small)",
+    "1.6M (1)",
+    "39.5K",
+    "40.41",
+    "20:32"
+   ],
+   [
+    "@whale_alert (aggregator)",
+    "1.3M (26)",
+    "2.8M",
+    "0.47",
+    "20:23"
+   ],
+   [
+    "@heyibinance (official)",
+    "1.1M (11)",
+    "653K",
+    "1.63",
+    "21:17"
+   ],
+   [
+    "@paoloardoino (official)",
+    "1.0M (1)",
+    "362K",
+    "2.84",
+    "21:25"
+   ]
+  ]
+ },
+ "callouts": [
+  {
+   "title": "Aggregators acted as the wire",
+   "body": "News aggregators drew 29.0 percent of sampled engagement; @WatcherGuru, @KobeissiLetter and @TreeNewsFeed drew 11.9M between them. Their dollar figures became the night's reference numbers, ahead of the on-chain sources and company statements behind them."
+  },
+  {
+   "title": "Follower count did not predict reach",
+   "body": "@binance, with 16.1M followers, drew 0.14 engagements per follower on its sampled event-window posts; @spreekaway, with 39.5K, drew 40.4. Ranking accounts by engagements per follower on recent posts surfaces the first-hour framers a follower-count list misses."
+  }
+ ],
+ "receipts": [
+  {
+   "who": "@spreekaway",
+   "utc": "20:32",
+   "interactions": "1.6M",
+   "quote": "Entire Binance wallet drained into new EOA. Contract call was funded by Tornado Cash"
+  },
+  {
+   "who": "@TreeNewsFeed",
+   "utc": "21:05",
+   "interactions": "2.0M",
+   "quote": "[🌲] TETHER FREEZES $971M USDT IN LIKELY BINANCE HACK, WITH NO UPDATE FROM BINANCE STILL"
+  },
+  {
+   "who": "@0xngmi",
+   "utc": "21:26",
+   "interactions": "621K",
+   "quote": "...with USDT and USDC frozen the total loss now is around ~1bn, which is only 0.69% of their total assets under custody"
+  },
+  {
+   "who": "@digitalbuzzfab",
+   "utc": "21:31",
+   "interactions": "454K",
+   "quote": "TAKE YOUR MONEY OUT OF BINANCE [translated from Spanish]"
+  },
+  {
+   "who": "@coinbase",
+   "utc": "22:43",
+   "interactions": "329K",
+   "quote": "Coinbase is safe and secure. We’re actively monitoring the Binance situation, and have reached out to their team to offer our support."
+  },
+  {
+   "who": "@WatcherGuru",
+   "utc": "22:46",
+   "interactions": "401K",
+   "quote": "JUST IN: Elon Musk says \"everyday is zeroday\" following Binance hack."
+  }
+ ],
+ "watch": [
+  "Top-10 creator concentration (39.2 percent of 24h engagement): rising means officials and aggregators are taking over; falling means the crowd.",
+  "Engagement per @binance update, down from 904K (21:29) to 156K (00:52): a recovery means readers are returning to the source.",
+  "Small-account withdrawal calls like \"SACA TU DINERO DE BINANCE\", especially in other languages, as withdrawals reopen."
+ ],
+ "caveat": ""
+}

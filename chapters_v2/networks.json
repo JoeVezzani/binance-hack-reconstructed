@@ -1,0 +1,129 @@
+{
+ "key": "networks",
+ "headline": "X carried 96 percent of 114.2M engagements; on TikTok, Russian and Spanish beat English",
+ "dek": "Almost the entire first night happened on X, where on-chain trackers and aggregators work in real time. Median video posting times ran 39 to 60 minutes behind X, and when they did, much of the audience was not English-speaking.",
+ "key_numbers": [
+  {
+   "value": "109.8M",
+   "label": "X engagements in 24h, of 114.2M"
+  },
+  {
+   "value": "+8 min",
+   "label": "first human hack claim on X"
+  },
+  {
+   "value": "12",
+   "label": "news articles indexed in 24h"
+  }
+ ],
+ "narrative": [
+  "The Binance story lived on X. Of the topic's 114.2M engagements in the 24 hours to the 01:00 UTC cut, 109.8M (96.1 percent) came from X, along with 48,977 of 53,181 posts (92.1 percent). TikTok added 2.5M, YouTube 1.9M, Reddit 35K, Instagram 9K, and news, which counts published articles, 46.7K across 12 articles.",
+  "X was first because chain readers post there. Whale Alert's bot posted a pre-sweep transfer alert at 20:23, 612.7M USDT moving \"from #Binance to unknown wallet\", and a run of BTC outflow alerts from 20:30 to 20:33. The first human claim in the sample was @spreekaway at +8 minutes (1.6M on a 39.5K-follower account), then TreeNewsFeed and bwenews at +15. About half of the 442 hack-related X posts sampled after 20:24 (227) landed in the 21:00 hour; the median came 79 minutes after 20:24.",
+  "Video and forums ran slower. The first hack-related TikTok in the sample came at +19 minutes, the first YouTube video at +28 (@cryptobymathieu) and the first Reddit thread at +46. Median lags were 118 minutes for TikTok, 101 for Reddit and 139 for YouTube, against 79 for X. YouTube was still publishing at 00:00 (19 of 91 sampled videos) when X had dropped to 10 sampled posts.",
+  "The video networks reached a different audience. Among the event-window Binance TikToks, six Russian-language posts drew about 454K and 14 Spanish-language posts about 424K, against about 261K for 10 English posts. The biggest was @lorennews2's Russian post at 21:36 (209K), headlined that more than 3 billion had left the exchange. Among the 686 sampled posts, six in Arabic script drew 655K, more than eight in Chinese (438K).",
+  "YouTube's top video was a German live stream (40.1K) whose title was edited after the stream began to carry a dollar figure that appeared only later in the evening.",
+  "Reddit was the slowest text network and the most negative, at 51 over 24 hours: its first thread, at 21:09 (+46 minutes), was a one-line all-caps question asking whether Binance had been hacked. Reddit and Instagram counts were low (121 and 82 posts)."
+ ],
+ "table": {
+  "title": "Binance topic by network, 24h to 01:00 UTC Oct 30",
+  "columns": [
+   "Network",
+   "Posts / engagements (24h)",
+   "Share of engagements",
+   "Sentiment (24h)",
+   "First hack post / median (sample)"
+  ],
+  "rows": [
+   [
+    "X",
+    "48,977 / 109.8M",
+    "96.1%",
+    "67",
+    "+8 min / 79 min"
+   ],
+   [
+    "TikTok",
+    "1,476 / 2.5M",
+    "2.2%",
+    "67",
+    "+19 min / 118 min"
+   ],
+   [
+    "YouTube",
+    "2,513 / 1.9M",
+    "1.6%",
+    "70",
+    "+28 min / 139 min"
+   ],
+   [
+    "News",
+    "12 / 46.7K",
+    "0.04%",
+    "61",
+    "none in sample"
+   ],
+   [
+    "Reddit",
+    "121 / 35K",
+    "0.03%",
+    "51",
+    "+46 min / 101 min"
+   ],
+   [
+    "Instagram",
+    "82 / 9K",
+    "0.01%",
+    "76",
+    "none in sample"
+   ]
+  ]
+ },
+ "callouts": [
+  {
+   "title": "X for speed, video for spread",
+   "body": "In the sample, the first 19 minutes were visible only on X, in bot alerts and on-chain posts. The second wave, an hour or two later, ran on TikTok and YouTube, led by Russian- and Spanish-language posts and mostly carrying the biggest loss figures."
+  },
+  {
+   "title": "News coverage lagged the social record",
+   "body": "By the 01:00 UTC cut, LunarCrush had indexed 12 news articles worth 46.7K engagements, against 109.8M on X, for a story four and a half hours old and past its peak publishing hour."
+  }
+ ],
+ "receipts": [
+  {
+   "who": "@whale_alert",
+   "utc": "20:23",
+   "interactions": "50.5K",
+   "quote": "612,729,468 $USDT (612,130,218 USD) transferred from #Binance to unknown wallet"
+  },
+  {
+   "who": "@spreekaway",
+   "utc": "20:32",
+   "interactions": "1.6M",
+   "quote": "Entire Binance wallet drained into new EOA. Contract call was funded by Tornado Cash"
+  },
+  {
+   "who": "@lorennews2 (TikTok)",
+   "utc": "21:36",
+   "interactions": "209K",
+   "quote": "MORE THAN 3 BILLION LEFT THE EXCHANGE [translated from Russian]"
+  },
+  {
+   "who": "@franciscofrias.oficial (TikTok)",
+   "utc": "22:22",
+   "interactions": "130K",
+   "quote": "Billions of dollars left wallets linked to Binance, setting off alarms over a historic hack. [translated from Spanish]"
+  },
+  {
+   "who": "@masdak_trading (TikTok)",
+   "utc": "23:15",
+   "interactions": "70.3K",
+   "quote": "The biggest crypto hack in history? $5.7 billion at stake [translated from French]"
+  }
+ ],
+ "watch": [
+  "Binance news article count, 12 in 24h: past 100 means newsrooms have caught up.",
+  "Non-English TikTok and YouTube posts still citing $5.6B to $5.8B after Binance's ~$3B frozen update: if they keep appearing, the gross estimates are outliving Binance's own figures.",
+  "Reddit sentiment, 51 and lowest: staying near 50 while X recovers means the slower crowd is not buying the reassurance."
+ ],
+ "caveat": ""
+}

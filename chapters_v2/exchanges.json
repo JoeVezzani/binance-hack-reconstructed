@@ -1,0 +1,129 @@
+{
+ "key": "exchanges",
+ "headline": "Bybit fell from 75 to 47 as posts compared the hacks; Kraken and OKX rose, Coinbase slipped",
+ "dek": "First-night distrust stayed with Binance and the exchange it was most often compared to. Elsewhere in the category, the biggest movers had their own news that day, before the exploit.",
+ "key_numbers": [
+  {
+   "value": "37.7%",
+   "label": "Binance share of exchange conversation, 24h"
+  },
+  {
+   "value": "75 to 47",
+   "label": "Bybit sentiment, baseline to 22:00 UTC"
+  },
+  {
+   "value": "6.5x",
+   "label": "Hyperliquid at 20:00, before Binance moved"
+  }
+ ],
+ "narrative": [
+  "Distrust did not spread across centralized exchanges on the first night. It stayed on Binance and on Bybit, venue of the last comparable hack. Across the five hourly buckets from 20:00 UTC, Bybit's new posts ran 8.4 times baseline and its first-time posters 9.2 times; its sentiment fell from 75 to 50 at 21:00 and 47 at 22:00. Its engagements peaked at 4.7x (1.5M an hour at 23:00). \"Bybit hack\" went from 19 posts to 163 in 24 hours.",
+  "Bybit was pulled in by comparison. Posts set the night's estimates beside its Feb 2025 loss of about $1.5B: @3orovik at 21:43 (88.6K), @TedPillows at 22:33 (66.1K) and Cointelegraph's \"if confirmed\" ranking at 22:33 (59.1K). One list post at 21:11 (315K) claimed Bybit and Bitget had also been hacked \"today\"; nothing in our sources supports that, and Bitget's 24h sentiment was 94. Bybit's Reddit sentiment was 48, its lowest network.",
+  "Kraken and OKX improved; Coinbase slipped slightly. Kraken's sentiment rose from 81 to between 90 and 92 in event hours and OKX's from 77 to between 79 and 81, while Coinbase's slipped to 75 to 76 from 78. OKX engagements peaked at 1.9x. Coinbase posted at 22:43 that it was \"safe and secure\" and had offered Binance support (329K).",
+  "Kraken was already at 3.9x in the 20:00 hour, which includes 36 minutes after the sweep, when Binance itself was at 1.7x. Coinbase was at 2.1x after its Q3 earnings landed shortly after 20:00 UTC, with a post on insider 10b5-1 sale plans drawing 261K at 20:13; its 2.9x peak mixes earnings and Binance.",
+  "Hyperliquid's move predates the event. It was at 6.5x in the 20:00 hour and peaked within the event window at 7.4x at 00:00, but its busiest hour of the full day was 16:00 UTC, four hours before the exploit. Posts point to same-day news: Stan Druckenmiller and Elon Musk discussing it, an ICE and trade[XYZ] partnership, and @smileycapital's 20:57 \"USA fully adopts Hyperliquid\" (44.9K). Its 24h posts rose from 7,854 to 24,382 and its price 12.2 percent, per LunarCrush.",
+  "Over 24 hours Binance held 37.7 percent of exchange conversation (114M engagements), Hyperliquid 12.2 percent (36.7M in the exchanges category; 42.3M for its coin topic), MEXC 8.2, Bitget 4.7, Coinbase 4.5, Bybit 4.3, OKX 3.2 and Kraken 2.1. Binance's 24h sentiment of 67 was second lowest of 12 exchanges, above eToro (66); in the category's 24-hour scores Kraken read 97, MEXC 98, Bitget 94 and OKX 90."
+ ],
+ "table": {
+  "title": "Exchange topics: pre-event signal, peak, tone, volume",
+  "columns": [
+   "Exchange",
+   "20:00 / peak multiple (UTC)",
+   "Sentiment baseline to event-hour low",
+   "Posts, prior 24h to 24h",
+   "Share of exchange voice (24h)"
+  ],
+  "rows": [
+   [
+    "Binance",
+    "1.7x / 27.5x (00:00)",
+    "80 to 53",
+    "21,913 to 53,181",
+    "37.7%"
+   ],
+   [
+    "Hyperliquid (pre-elevated)",
+    "6.5x / 7.4x (00:00)",
+    "79 to 83",
+    "7,854 to 24,382",
+    "12.2%"
+   ],
+   [
+    "Coinbase (earnings ~20:00)",
+    "2.1x / 2.9x (00:00)",
+    "78 to 75",
+    "10,067 to 13,222",
+    "4.5%"
+   ],
+   [
+    "Bybit",
+    "1.4x / 4.7x (23:00)",
+    "75 to 47",
+    "2,704 to 4,534",
+    "4.3%"
+   ],
+   [
+    "OKX",
+    "1.7x / 1.9x (00:00)",
+    "77 to 79",
+    "4,870 to 6,840",
+    "3.2%"
+   ],
+   [
+    "Kraken (pre-elevated)",
+    "3.9x / 5.2x (21:00)",
+    "81 to 90",
+    "1,893 to 2,415",
+    "2.1%"
+   ]
+  ]
+ },
+ "callouts": [
+  {
+   "title": "Bybit drew comparisons, not contagion",
+   "body": "Bybit's sentiment drop coincided with posts measuring the night's figures against its Feb 2025 hack and with one unsupported 'Bybit hacked today' list post (315K). Kraken and OKX rose and Coinbase slipped only slightly: no category-wide flight narrative on the first night."
+  },
+  {
+   "title": "Two exchanges were elevated in the 20:00 hour",
+   "body": "Hyperliquid (6.5x) and Kraken (3.9x) were already elevated in the 20:00 UTC hour, which includes 36 minutes after the sweep, when Binance itself was at 1.7x. Hyperliquid had its own news that day; Coinbase, at 2.1x, was reporting earnings."
+  }
+ ],
+ "receipts": [
+  {
+   "who": "@coinbase",
+   "utc": "22:43",
+   "interactions": "329K",
+   "quote": "Coinbase is safe and secure. We’re actively monitoring the Binance situation, and have reached out to their team to offer our support."
+  },
+  {
+   "who": "@3orovik",
+   "utc": "21:43",
+   "interactions": "88.6K",
+   "quote": "The largest hack before today was Bybit, for $1.5 billion last year..."
+  },
+  {
+   "who": "@TedPillows",
+   "utc": "22:33",
+   "interactions": "66.1K",
+   "quote": "Here's how it compares to the Bybit hack last year."
+  },
+  {
+   "who": "@smileycapital",
+   "utc": "20:57",
+   "interactions": "44.9K",
+   "quote": "interesting timing for Binance hack, right as USA fully adopts Hyperliquid"
+  },
+  {
+   "who": "@tradfi",
+   "utc": "20:13",
+   "interactions": "261K",
+   "quote": "COINBASE (COIN) CEO BRIAN ARMSTRONG ADOPTS 10B5-1 PLAN TO SELL UP TO 8.17M SHARES"
+  }
+ ],
+ "watch": [
+  "Bybit sentiment, 47 to 50 in event hours: back above 70 by +24h confirms the hit was comparison.",
+  "Claims that other exchanges were hacked: one unsupported list reached 315K; a second claim with on-chain evidence changes the picture.",
+  "Binance's 37.7% share of exchange voice against Hyperliquid's 12.2% while Binance withdrawals stay paused."
+ ],
+ "caveat": ""
+}

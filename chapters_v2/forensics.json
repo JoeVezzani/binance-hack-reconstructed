@@ -1,0 +1,176 @@
+{
+ "key": "forensics",
+ "headline": "Two mainnet rehearsals, then attacker code ran on Binance 14 for 3 hours 49 minutes",
+ "dek": "LunarCrush checked every transaction cited in posts against Ethereum mainnet through public nodes and Blockscout. The chain shows an eighteen-hour build-up, one valid authorization out of fifty, and a delegation that kept sweeping for nearly four hours.",
+ "key_notes": "",
+ "key_numbers": [
+  {
+   "value": "02:28 UTC",
+   "label": "sweeper v1 deployed, 18 hours before the drain"
+  },
+  {
+   "value": "2",
+   "label": "rehearsals on the attacker's own wallets (13:51, 16:20)"
+  },
+  {
+   "value": "3h 49m",
+   "label": "Binance 14 under attacker code until 00:10 UTC"
+  }
+ ],
+ "narrative": [
+  "The operator address, 0x7C86…5CA0, has a history that fits on one screen. Three withdrawals from the Tornado Cash 0.1 ETH pool funded it: Oct 28 at 07:39 and 08:53 UTC, and Oct 29 at 08:23. Two sibling wallets were funded the same way in the same 31 hours: 0xFD41 (0.1 ETH at 01:15 Oct 29) and 0xe4F9 (0.1 ETH at 07:08, then 0.994 ETH from the 1 ETH pool at 14:54). About 1.49 ETH from the mixer funded the whole operation.",
+  "@spreekaway's first post at 20:32 said the contract call 'was funded by Tornado Cash'. That was correct, and it was the detail that led on-chain readers to treat the move as hostile rather than housekeeping.",
+  "The preparation was public for eighteen hours. At 02:28:59 UTC on Oct 29 the operator deployed a first sweeper contract (0x19be…f2bf, never verified). At 13:51 it sent two type-4 (EIP-7702) transactions delegating two fresh wallets it controlled, 0x8378 and 0x9C29, to that contract. From 13:57, 0xFD41 funded them with 0.001 and 0.002 ETH and seeded them with a few dollars of USDT and USDC. At 14:19:59 and 14:24:11 the operator swept both; the internal calls touched DAI, USDC and USDT.",
+  "Posts reconstructed the rehearsal 67 minutes after the sweep: @MetaFinancialAI had the timeline by 21:31, @danupsher summarized it at 21:47 ('rehearsed this afternoon on 2.54 USDT'), and @Aytunc described the test addresses at 22:06.",
+  "At 15:59:11 the operator deployed the contract it would use, 0x63e8…6fAe. Its code lets only 0x7C86 call sweep, withdraw or an execute passthrough, and its sweep leaves exactly 1 ETH behind.",
+  "From 16:20 it ran the full sequence on a third test wallet, 0x43AE: delegate (16:20:47 and 16:25:59), fund with 1.01 ETH from 0xe4F9 (16:24), sweep (16:30:11, 0.01 ETH out), withdraw (16:47:23, 1.0 ETH back to 0xe4F9). At 18:20:47, 0xe4F9 sent the operator 1.082 ETH, funding for the real run. @0xQuit's 21:09 reconstruction (492K engagements) had the deploy time and four-step sequence right; @blockaid_ posted the contract address and hardcoded operator at 21:25.",
+  "The delegation is transaction 0xad99…298b at 20:20:59 UTC: a type-4 transaction from the operator to Binance 14 (0x28C6…1d60) carrying 50 authorizations. Decoded from a public node, all 50 point to the same delegate on chain 1, their nonces run in sequence, and every signature recovers to Binance 14's key.",
+  "An EIP-7702 authorization applies only if its nonce equals the signer's current nonce. Binance 14 was sending several transactions a block, and its live nonce when the tuples were processed was 18914809. That tuple applied and the other 49 were skipped. Binance 14's next own transaction, at 20:21:11, carried 18914810. Exactly one authorization took effect.",
+  "An authorization signs a different message from a transaction, so these fifty could not have been harvested from the wallet's withdrawal traffic; they were produced as authorizations. @0xQuit reached a related conclusion at 21:21 ('likely the attacker collected all 50 over some period of time'), as did @blockaid_ at 21:50 ('the hot wallet was still firing. One nonce in that window landed'). A stolen key, a compromised signing service and a deceived signing step all fit the record.",
+  "Seventeen blocks later, at 20:24:23, the operator called sweep on Binance 14. The receipt holds 63 Transfer events from 63 token contracts plus the ETH move, matching the '167,464 ETH + 63 tokens' @odysseas_eth posted at 20:54. Everything went to 0x5227…2f8c, which Etherscan later labeled 'Binance Hot Wallet Exploiter 2'. The ten largest lines the explorer shows for this first sweep: 1.615B USDT, 62.6M RLUSD, 29,934 wBETH, 11,372 XAUt, 6.19M UNI, 27.8M USD1, 198M ENA, 7.18T PEPE, 2.26M LINK and 128K AAVE.",
+  "The sweep cost 0.000414 ETH (2,455,349 gas at 0.17 gwei), about $0.93. At 20:41:23 the operator used the execute passthrough to send a call from Binance 14 to 0xEe7a…4055, an ERC-1967 proxy that posts called 'Hot Wallet 34'. It already trusted Binance 14 as a permitted caller and released 780M USDC to 0x5227; @kethcode had the owner relationship by 22:08. At 20:59:47 another 43M USDC came the same way.",
+  "The code stayed on Binance 14 for 3 hours 49 minutes, until 00:10:35 on Oct 30, when the account signed its own authorization pointing at the zero address. That clears the code; it does not rotate the key or revoke token allowances, and it holds until another valid authorization is included on-chain; clearing the code does not invalidate authorizations already signed. Throughout the window Binance 14 kept sending its own transactions (its own transactions ran from nonce 18914810 to 18914903): the key holder kept control, and the account also ran the attacker's code.",
+  "The attacker swept again at 21:04 (3.9M USDT plus dust), at 21:44 (200.4M USDT, 6,591 LINK, 7,008 UNI and others) and at 22:39 (POL, GRT, SKY, SENT, ENSO, XUSD, STRK, FF, CAKE and SYN, at least $7.5M on the ten largest lines the explorer lists) to a second receiver, 0xA97b. Six more sweeps between 23:36 and 23:56 returned nothing.",
+  "Value kept arriving. Blockscout records 533 incoming token transfers to Binance 14 between 20:24 and 00:10, including 205.7M USDT, 180B PEPE and 859M SHIB. The 1 ETH floor in the sweep logic paid gas for the wallet's own outgoing transactions, so Binance 14 kept transacting and looked normal. @uttam_singhk described it at 22:00: 'The wallet stayed operational and kept receiving deposits the attacker could take again.'",
+  "After the revocation, Binance 14's own outgoing transfers of USDT, SingularityNET, PlayDapp and WLFI between 00:47 and 01:53 failed with status 'error' and no revert reason."
+ ],
+ "table": {
+  "title": "The operator's day, from the chain (0x7C86, Ethereum mainnet, UTC)",
+  "columns": [
+   "Time",
+   "Nonce",
+   "What the chain shows",
+   "First public mention"
+  ],
+  "rows": [
+   [
+    "Oct 28 07:39, 08:53",
+    "funding",
+    "Two 0.1 ETH withdrawals from Tornado Cash to the operator; a third at 08:23 Oct 29. Sibling wallets 0xFD41 and 0xe4F9 funded the same way (01:15, 07:08, 14:54 Oct 29)",
+    "@spreekaway 20:32, 8 min after the sweep"
+   ],
+   [
+    "Oct 29 02:28:59",
+    "0",
+    "Deploys sweeper v1 (0x19be…f2bf)",
+    "@MetaFinancialAI 21:31"
+   ],
+   [
+    "13:51:35, 13:51:59",
+    "1, 2",
+    "Type-4 delegations of two own test wallets to sweeper v1",
+    "@MetaFinancialAI 21:31; @Aytunc 22:06 ('tested the setup on other addresses')"
+   ],
+   [
+    "13:57 to 14:06",
+    "(0xFD41)",
+    "Test wallets funded with 0.001 and 0.002 ETH, then seeded with a few dollars of USDT and USDC",
+    "@danupsher 21:47 ('rehearsed on 2.54 USDT')"
+   ],
+   [
+    "14:19:59, 14:24:11",
+    "3, 4",
+    "sweep() called on both test wallets; internal calls to DAI, USDC, USDT",
+    "@MetaFinancialAI 21:31"
+   ],
+   [
+    "15:59:11",
+    "5",
+    "Deploys sweeper v2 (0x63e8…6fAe), hardcoded operator, leaves 1 ETH",
+    "@0xQuit 21:09; @blockaid_ 21:25"
+   ],
+   [
+    "16:20 to 16:47",
+    "6 to 9",
+    "Third test wallet delegated, funded 1.01 ETH, swept (0.01 ETH out), then withdraw() returns 1.0 ETH",
+    "@MetaFinancialAI 21:31"
+   ],
+   [
+    "18:20:47",
+    "(0xe4F9)",
+    "Operator receives 1.082 ETH, funding for the real run",
+    "not cited in any post"
+   ],
+   [
+    "20:20:59",
+    "10",
+    "Type-4 tx to Binance 14 with 50 authorizations signed by Binance 14, nonces 18914775 to 18914824; one lands (block 26300753)",
+    "@odysseas_eth 20:54; @0xQuit 21:21; @blockaid_ 21:50"
+   ],
+   [
+    "20:24:23",
+    "11",
+    "sweep(): 63 tokens + 167,464 ETH to 0x5227 (block 26300770), gas $0.93",
+    "@spreekaway 20:32; @TreeNewsFeed 20:39"
+   ],
+   [
+    "20:41:23, 20:59:47",
+    "12, 13",
+    "callExecute as owner of Hot Wallet 34: 780M then 43M USDC to 0x5227",
+    "@0xfoobar 20:48 ('another $780M USDC clip'); @kethcode 22:08"
+   ],
+   [
+    "21:04, 21:44, 22:39",
+    "14 to 16",
+    "Re-sweeps: 3.9M USDT; 200.4M USDT and alts; a long-tail basket to a second receiver",
+    "@uttam_singhk 22:00 on the mechanism; no sampled post on the 22:39 sweep"
+   ],
+   [
+    "23:36 to 23:56",
+    "17 to 22",
+    "Six empty sweeps",
+    "none"
+   ],
+   [
+    "Oct 30 00:10:35",
+    "(Binance 14)",
+    "Binance 14 signs a type-4 revocation to the zero address (nonce 18914904)",
+    "ChainCatcher report, 00:44 UTC Oct 30"
+   ]
+  ]
+ },
+ "callouts": [
+  {
+   "title": "The posts were right, and early",
+   "body": "Every on-chain claim checked in the sampled posts held up, and fast: the sweep was public in 8 minutes, the 780M USDC pull in 7, the delegation in 33 and the fifty authorizations in 60. Only the totals varied."
+  }
+ ],
+ "receipts": [
+  {
+   "who": "@blockaid_",
+   "utc": "21:50",
+   "interactions": "159K",
+   "quote": "The attacker didn't know Binance 14's live nonce. So they sprayed 50 EIP-7702 auths (18914775-18914824) in one type-4 tx. Only 1 of 50 was a hit."
+  },
+  {
+   "who": "@danupsher",
+   "utc": "21:47",
+   "interactions": "3.9K",
+   "quote": "...was rehearsed this afternoon on 2.54 USDT. Same operator EOA. Same sweep() selector. Same drainer kit."
+  },
+  {
+   "who": "@uttam_singhk",
+   "utc": "22:00",
+   "interactions": "36K",
+   "quote": "The attacker left Binance wallet exactly 1.00 ETH after every sweep... The wallet stayed operational and kept receiving deposits the attacker could take again"
+  },
+  {
+   "who": "@kethcode",
+   "utc": "22:08",
+   "interactions": "12K",
+   "quote": "Binance 14 was the owner of Hot Wallet 34. once the sweeper could run as Binance 14, it could use that existing permission to pull another $823m USDC out of wallet 34."
+  },
+  {
+   "who": "@odysseas_eth",
+   "utc": "20:55",
+   "interactions": "19K",
+   "quote": "20:20:59 UTC: delegation installed. 20:24:23: another address calls sweep(). 7702 lets a normal wallet execute delegated code."
+  }
+ ],
+ "watch": [
+  "Binance's post-mortem on how fifty authorizations came to be signed by Binance 14's key.",
+  "The receivers 0x5227 and 0xA97b: at 03:20 UTC 0x5227 held 16,501 ETH and was still swapping long-tail tokens into ETH.",
+  "Binance 14's failed transfers after 00:47 UTC (USDT, SingularityNET, PlayDapp, WLFI): whether they become user-facing withdrawal delays."
+ ],
+ "caveat": ""
+}

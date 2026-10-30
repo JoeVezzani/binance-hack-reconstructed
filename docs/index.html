@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Binance Hack, Reconstructed | LunarCrush Research</title>
+<meta name="description" content="Every step of the October 29, 2026 Binance hot-wallet hack, rebuilt from the Ethereum record and 53,181 social posts. 77-page report, open data and code.">
+<link rel="canonical" href="https://joevezzani.github.io/binance-hack-reconstructed/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="LunarCrush Research">
+<meta property="og:title" content="The Binance Hack, Reconstructed">
+<meta property="og:description" content="Rehearsed on mainnet, one sweep for $0.93 in gas, attacker code live for 3h 49m. Every step from the chain and the public record. 77-page report, open data and code.">
+<meta property="og:url" content="https://joevezzani.github.io/binance-hack-reconstructed/">
+<meta property="og:image" content="https://joevezzani.github.io/binance-hack-reconstructed/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The Binance Hack, Reconstructed, step by step. 6h 29m from the first rehearsal to the delegation; 1 of 50 signed authorizations took effect; attacker code live 3h 49m; 8 minutes from the sweep to the first public post.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Binance Hack, Reconstructed">
+<meta name="twitter:description" content="Every step of the Binance hack, from the chain and the public record. 77-page report, open data and code.">
+<meta name="twitter:image" content="https://joevezzani.github.io/binance-hack-reconstructed/og-image.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@300;400&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Report","name":"The Binance Hack, Reconstructed","author":{"@type":"Organization","name":"LunarCrush","url":"https://lunarcrush.com"},"datePublished":"2026-10-30","image":"https://joevezzani.github.io/binance-hack-reconstructed/og-image.png","description":"A step-by-step reconstruction of the October 29, 2026 Binance hot-wallet hack from the Ethereum record and social data.","license":"https://creativecommons.org/licenses/by/4.0/"}</script>
+<style>
+  :root { --bg:#0b121e; --card:#0e1625; --line:rgba(255,255,255,.07); --line2:rgba(255,255,255,.13); --ink:#fff; --body:#b4b9c8; --muted:#6e7690; --green:#14b881; --blue:#6ea6f8; --red:#ff7a7a; --eo:cubic-bezier(.23,1,.32,1); }
+  * { box-sizing:border-box; } html { scroll-behavior:smooth; }
+  body { margin:0; background:var(--bg); color:var(--body); font:400 17px/1.65 'Plus Jakarta Sans',system-ui,sans-serif; -webkit-font-smoothing:antialiased; font-variant-ligatures:no-contextual; }
+  body::before { content:''; position:fixed; inset:0; pointer-events:none; background:radial-gradient(900px 520px at 82% 18%, rgba(20,184,129,.12), transparent 70%), radial-gradient(700px 420px at 0% 0%, rgba(110,166,248,.06), transparent 70%); }
+  .wrap { position:relative; max-width:1080px; margin:0 auto; padding:0 28px; }
+  header { display:flex; justify-content:space-between; align-items:center; padding:28px 0; font-size:13px; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); font-weight:700; }
+  header b { color:var(--ink); letter-spacing:.02em; text-transform:none; font-size:17px; font-weight:600; }
+  .kick { color:var(--green); font-size:12.5px; font-weight:700; letter-spacing:.18em; text-transform:uppercase; margin:72px 0 18px; }
+  h1 { font-family:'Cormorant Garamond',serif; font-weight:300; color:var(--ink); font-size:clamp(52px,8vw,96px); line-height:.98; letter-spacing:-.01em; margin:0; }
+  h1 em { display:block; font-style:normal; color:#d9dde7; font-size:.48em; margin-top:14px; }
+  .lead { max-width:720px; font-size:19px; color:#cdd2de; margin:28px 0 36px; }
+  .cta { display:flex; flex-wrap:wrap; gap:12px; }
+  .btn { display:inline-flex; align-items:center; gap:10px; padding:13px 22px; border-radius:999px; font-weight:600; font-size:15px; text-decoration:none; transition:transform .25s var(--eo), background .25s var(--eo), border-color .25s var(--eo); }
+  .btn.primary { background:var(--green); color:#04140d; } .btn.primary:hover { transform:translateY(-2px); }
+  .btn.ghost { border:1px solid var(--line2); color:var(--ink); } .btn.ghost:hover { border-color:rgba(20,184,129,.5); transform:translateY(-2px); }
+  .stats { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin:56px 0 0; }
+  .stat { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:18px 20px; }
+  .stat b { display:block; color:var(--ink); font-size:30px; font-weight:800; letter-spacing:-.02em; font-variant-numeric:tabular-nums; }
+  .stat span { font-size:13px; color:var(--muted); }
+  section { padding:72px 0 0; }
+  h2 { font-family:'Cormorant Garamond',serif; font-weight:400; color:var(--ink); font-size:clamp(32px,4.4vw,46px); line-height:1.1; margin:0 0 12px; }
+  .sk { color:var(--blue); font-size:12px; font-weight:700; letter-spacing:.18em; text-transform:uppercase; margin-bottom:10px; }
+  figure { margin:22px 0 0; background:var(--card); border:1px solid var(--line); border-radius:16px; padding:18px; }
+  figure img { display:block; width:100%; height:auto; border-radius:8px; }
+  figcaption { font-size:13px; color:var(--muted); margin-top:12px; }
+  .acts { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin-top:22px; }
+  .act { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:18px 20px; }
+  .act i { font-family:'Cormorant Garamond',serif; font-style:normal; color:var(--green); font-size:28px; line-height:1; }
+  .act b { display:block; color:var(--ink); font-weight:600; margin:6px 0 2px; } .act small { color:var(--muted); font-size:12px; letter-spacing:.04em; } .act p { margin:6px 0 0; font-size:14.5px; }
+  table { width:100%; border-collapse:collapse; margin-top:18px; font-size:14.5px; }
+  th { text-align:left; color:var(--muted); font-size:11.5px; letter-spacing:.1em; text-transform:uppercase; font-weight:700; padding:10px 12px; border-bottom:1px solid var(--line2); }
+  td { padding:12px; border-bottom:1px solid var(--line); vertical-align:top; } td b { color:var(--ink); font-weight:600; }
+  td a { color:var(--blue); text-decoration:none; margin-right:12px; white-space:nowrap; } td a:hover { text-decoration:underline; }
+  code { font:500 13.5px/1.6 ui-monospace,'SF Mono',Menlo,monospace; color:#e3e6ee; }
+  pre { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px 20px; overflow-x:auto; margin:18px 0 0; }
+  .method p { max-width:820px; }
+  footer { margin:88px 0 0; padding:28px 0 48px; border-top:1px solid var(--line); display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; font-size:13px; color:var(--muted); }
+  footer a { color:var(--body); text-decoration:none; }
+  .rv { opacity:0; transform:translateY(10px); transition:opacity .8s var(--eo), transform .8s var(--eo); } .rv.in { opacity:1; transform:none; }
+  @media (max-width:820px) { .stats { grid-template-columns:repeat(2,1fr); } .acts { grid-template-columns:1fr; } .kick { margin-top:40px; } table { font-size:13.5px; } }
+  @media (prefers-reduced-motion:reduce) { .rv { opacity:1; transform:none; transition:none; } .btn { transition:none; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><b>LunarCrush</b><span>Research · October 2026</span></header>
+
+  <div class="kick">Reconstruction · October 28 to 30, 2026</div>
+  <h1>The Binance Hack<em>Reconstructed, step by step</em></h1>
+  <p class="lead">On October 29 a wallet funded only through Tornado Cash attached its own code to Binance 14, one of the exchange's main Ethereum hot wallets, and swept it in a single transaction. Every step had been rehearsed on mainnet that afternoon. This report rebuilds the whole attack from the Ethereum record and 53,181 posts, step by step.</p>
+  <div class="cta">
+    <a class="btn primary" href="https://github.com/JoeVezzani/binance-hack-reconstructed/releases/latest/download/LunarCrush-Binance-Hack-Reconstructed.pdf">Download the report · PDF, 77 pages</a>
+    <a class="btn ghost" href="https://github.com/JoeVezzani/binance-hack-reconstructed">Data and code on GitHub</a>
+  </div>
+
+  <div class="stats rv">
+    <div class="stat"><b>6h 29m</b><span>from the first rehearsal to the delegation</span></div>
+    <div class="stat"><b>1 of 50</b><span>signed authorizations took effect</span></div>
+    <div class="stat"><b>3h 49m</b><span>attacker code live on Binance 14</span></div>
+    <div class="stat"><b>8 min</b><span>from the sweep to the first public post</span></div>
+  </div>
+
+  <section class="rv">
+    <div class="sk">The whole hack on one page</div>
+    <h2>Forty hours, six lanes, one clock</h2>
+    <figure><img src="timeline.png" alt="Gantt chart of the Binance hack: funding, rehearsals, the attack on Binance 14, issuer freezes, Binance statements and social posts, October 28 to 30, 2026" loading="lazy"><figcaption>Left: the setup, Oct 28 06:00 to Oct 29 20:00. Right: the attack night at about 9.5 times the scale. Every mark is a verified transaction or a timestamped public statement.</figcaption></figure>
+  </section>
+
+  <section class="rv">
+    <div class="sk">Inside the report</div>
+    <h2>Six acts, then the public record</h2>
+    <div class="acts">
+      <div class="act"><i>I</i><b>The setup</b><small>Oct 28 07:39 to Oct 29 18:20</small><p>Mixer funding, two sweeper contracts, two full rehearsals.</p></div>
+      <div class="act"><i>II</i><b>The drain</b><small>20:05 to 21:00</small><p>Delegation, one sweep, 823M USDC through a trusted wallet.</p></div>
+      <div class="act"><i>III</i><b>The open door</b><small>20:24 to 00:10</small><p>Re-sweeps, 533 incoming transfers, then revocation.</p></div>
+      <div class="act"><i>IV</i><b>The response</b><small>21:05 to 00:52</small><p>Issuer freezes, Binance statements, withdrawals paused.</p></div>
+      <div class="act"><i>V</i><b>The money</b><small>read live, 03:20 UTC Oct 30</small><p>About $2.66B frozen or recovered; about $2.83B unfrozen in traced addresses.</p></div>
+      <div class="act"><i>VI</i><b>The public record</b><small>20:32 onward</small><p>How posts reconstructed each step, and how fast.</p></div>
+    </div>
+    <figure><img src="flow.png" alt="Flow of traced funds by chain into frozen or unfrozen status" loading="lazy"><figcaption>Where the funds went. US dollars at CoinGecko spot, 03:22 UTC Oct 30. The BTC, Tron, XRP and SOL legs are attributed to Binance by Whale Alert labels.</figcaption></figure>
+  </section>
+
+  <section class="rv">
+    <div class="sk">Open data</div>
+    <h2>Every table behind the report</h2>
+    <table>
+      <thead><tr><th>Dataset</th><th>What it holds</th><th>Download</th></tr></thead>
+      <tbody>
+        <tr><td><b>Timeline events</b></td><td>Every event on the timelines: time, lane, detail, first public post.</td><td><a href="https://github.com/JoeVezzani/binance-hack-reconstructed/raw/main/data/lc_binance_hack_events.parquet">Parquet</a><a href="https://github.com/JoeVezzani/binance-hack-reconstructed/raw/main/data/lc_binance_hack_events.csv">CSV</a></td></tr>
+        <tr><td><b>Step-by-step acts</b></td><td>The six acts as timestamped steps.</td><td><a href="https://github.com/JoeVezzani/binance-hack-reconstructed/raw/main/data/lc_binance_hack_timeline.parquet">Parquet</a><a href="https://github.com/JoeVezzani/binance-hack-reconstructed/raw/main/data/lc_binance_hack_timeline.csv">CSV</a></td></tr>
+        <tr><td><b>Verified positions</b></td><td>Every traced balance, read live on six chains, with freeze status.</td><td><a href="https://github.com/JoeVezzani/binance-hack-reconstructed/raw/main/data/lc_binance_hack_positions.parquet">Parquet</a><a href="https://github.com/JoeVezzani/binance-hack-reconstructed/raw/main/data/lc_binance_hack_positions.csv">CSV</a></td></tr>
+        <tr><td><b>Top posts and accounts</b></td><td>The most-engaged posts of the event window: account, network, followers, engagements, link.</td><td><a href="https://github.com/JoeVezzani/binance-hack-reconstructed/raw/main/data/lc_binance_hack_top_posts.parquet">Parquet</a><a href="https://github.com/JoeVezzani/binance-hack-reconstructed/raw/main/data/lc_binance_hack_top_posts.csv">CSV</a></td></tr>
+        <tr><td><b>Raw on-chain reads</b></td><td>About 220 requests and responses, each with its UTC time, replayable.</td><td><a href="https://github.com/JoeVezzani/binance-hack-reconstructed/tree/main/onchain">Browse</a></td></tr>
+        <tr><td><b>AI guide</b></td><td>Schemas, key facts and quoting rules for assistants and analysts.</td><td><a href="https://github.com/JoeVezzani/binance-hack-reconstructed/raw/main/data/lc_binance_hack_ai_guide.md">.md</a></td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="rv method">
+    <div class="sk">How we built it</div>
+    <h2>Every number traces to a transaction, a live read or a post</h2>
+    <p>Ethereum transactions, receipts, contract code and the 50 authorizations were decoded from a public JSON-RPC node, with address histories from the Blockscout API. Balances were read live between 03:20 and 03:27 UTC on October 30 on Ethereum, Bitcoin, Tron, XRP Ledger, Solana and Arbitrum, and freeze status was read from each token contract. Social data comes from LunarCrush across X, TikTok, YouTube, Instagram, Reddit and news; each on-chain step is matched to the first public post that described it.</p>
+    <pre><code>git clone https://github.com/JoeVezzani/binance-hack-reconstructed
+cd binance-hack-reconstructed
+python3 verify/replay_reads.py          # replay every on-chain read
+pip install -r requirements.txt
+cd build &amp;&amp; python3 build_report_v2.py   # rebuild the PDF</code></pre>
+  </section>
+
+  <footer><span>LunarCrush Research · <a href="https://lunarcrush.com">lunarcrush.com</a></span><span>Report and data CC BY 4.0 · code MIT</span></footer>
+</div>
+<script>
+  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: .12 });
+  document.querySelectorAll('.rv').forEach(el => io.observe(el));
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+The Binance Hack, Reconstructed. Copyright (c) 2026 LunarCrush.
+
+Report, text, charts and data (the PDF, data/, onchain/, chapters_v2/, part1.json, synthesis.json,
+analysis.json, docs/): Creative Commons Attribution 4.0 International (CC BY 4.0).
+https://creativecommons.org/licenses/by/4.0/  Credit: "LunarCrush Research".
+
+Code (build/*.py, social/*.py, verify/*.py): MIT License.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of the code and associated
+documentation files, to deal in the code without restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell copies, subject to the following condition:
+the above copyright notice and this permission notice shall be included in all copies or substantial portions.
+THE CODE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS
+OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE CODE OR ITS USE.
+
+Plus Jakarta Sans (build/fonts) is licensed under the SIL Open Font License 1.1.

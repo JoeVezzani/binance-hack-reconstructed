@@ -1,0 +1,20 @@
+{
+ "name": "eth_x7aa4_balance",
+ "utc": "2026-10-30T03:20:25Z",
+ "url": "https://ethereum-rpc.publicnode.com",
+ "request": {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "method": "eth_getBalance",
+  "params": [
+   "0x7Aa4D3029e4C6A8E916300014Ad95B6d6C03BFd1",
+   "latest"
+  ]
+ },
+ "status": "ok",
+ "response": {
+  "jsonrpc": "2.0",
+  "id": 1,
+  "result": "0x9c7d54107aff1d"
+ }
+}
